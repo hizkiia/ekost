@@ -201,7 +201,6 @@
                                 <h2>TENTANG EUFORIAHOME</h2>
                             </div>
                             <p class="main_description a_left">Kost "EuphoriaHome" adalah tempat tinggal eksklusif yang menawarkan pengalaman hunian yang luar biasa. Dengan desain modern dan fasilitas berkualitas, EuphoriaHome memadukan kenyamanan, gaya hidup mewah, dan kesenangan dalam satu tempat.</p>
-
                             <p> Di EuphoriaHome, Anda akan menemukan kamar-kamar yang dirancang dengan sempurna untuk memberikan ruang pribadi yang nyaman. Setiap kamar dilengkapi dengan furnitur berkualitas tinggi, tempat tidur yang nyaman, meja kerja, dan area penyimpanan yang luas. Desain interior yang elegan menciptakan suasana yang menyenangkan dan menenangkan bagi para penghuni.</p>
                         </div>
                     </div>
