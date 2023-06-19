@@ -70,12 +70,12 @@
                     <ul class="nav navbar-nav">
                         <li class="mobile_menu_title" style="display:none;">MENU</li>
                         <li class="dropdown simple_menu active">
-                            <a href="home.php" class="" data-toggle="dropdown">HOME <b class="caret"></b></a>
+                            <a href="home/home.php" class="" data-toggle="dropdown">HOME <b class="caret"></b></a>
                             <a href=""></a>
 
                         </li>
                         <li class="dropdown simple_menu">
-                            <a href="rooms.php" class="" data-toggle="dropdown">ROOMS <b class="caret"></b></a>
+                            <a href="home/rooms.php" class="" data-toggle="dropdown">ROOMS <b class="caret"></b></a>
                         </li>
                         <li class="dropdown mega_menu mega_menu_fullwidth"><a href="#" data-toggle="dropdown" class="" aria-expanded="true">ABOUT <b class="caret"></b></a>
                         <li><a href="contact.html">CONTACT US</a></li>
