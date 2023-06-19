@@ -17,7 +17,7 @@
                     <a href="/">HOME</a>
                 </li>
                 <li>
-                    <a href="#">ROOMS</a>
+                    <a href="/rooms">ROOMS</a>
                 </li>
                 <li class="dropdown simple_menu"><a href="#" data-toggle="dropdown" class="dropdown-toggle" aria-expanded="true">Dashboard <b class="caret"></b></a>
                     <ul class="dropdown-menu">

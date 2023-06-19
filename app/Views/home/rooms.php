@@ -17,6 +17,13 @@
     <!-- =========== MAIN ========== -->
     <main id="rooms_list">
         <div class="container">
+            <div class="text-center ">
+                <form action="/search" method="post">
+                    <?= csrf_field() ?>
+                    <input type="text" name="key" placeholder="Masukkan No Kamar" class=" form-control "><br>
+                    <input type="submit" name="submit" value="Search" class="btn btn-primary">
+                </form>
+            </div>
             <!-- ITEM -->
             <?php foreach ($list as $l) : ?>
                 <article class="room_list">

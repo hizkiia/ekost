@@ -1,6 +1,7 @@
 <?php
 
 namespace Config;
+
 use Config\Services;
 
 // Create a new instance of our RouteCollection class.
@@ -29,12 +30,15 @@ $routes->set404Override();
  */
 
 use App\Controllers\KelolaKamar;
+use App\Controllers\LihatKamar;
+
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
 $routes->match(['get', 'post'], '/input', [KelolaKamar::class, 'input']);
 $routes->match(['get', 'post'], '/update', [KelolaKamar::class, 'update']);
 $routes->match(['get', 'post'], '/delete', [KelolaKamar::class, 'delete']);
+$routes->match(['get', 'post'], '/search', [LihatKamar::class, 'search']);
 
 $routes->get('/pay', 'Transaksi::pembayaran');
 $routes->get('/rooms', 'LihatKamar::showAll');
@@ -43,7 +47,7 @@ $routes->get('/bookingform', 'Pemesanan::booking');
 $routes->get('login/login', 'LoginController::login');
 $routes->post('/login/check', 'LoginController::check');
 $routes->get('/login/home', 'LoginController::index');
-$routes->get('login/home', 'LoginController::home');
+$routes->get('login/logout', 'LoginController::logout');
 
 /*
  * --------------------------------------------------------------------

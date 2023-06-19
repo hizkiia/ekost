@@ -52,4 +52,10 @@ class LoginController extends BaseController
 
         return view('login/login');
     }
+    public function logout()
+    {
+        $session = session();
+        $session->remove('pengguna');
+        return view('login/login');
+    }
 }

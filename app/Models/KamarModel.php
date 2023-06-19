@@ -28,8 +28,8 @@ class KamarModel extends Model
         ]);
     }
 
-    // public function ambil($nim)
-    // {
-    //     return $this->where(['NIM' => $nim])->first();
-    // }
+    public function ambil($id)
+    {
+        return $this->where(['kamar_id' => $id])->first();
+    }
 }

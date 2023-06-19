@@ -16,4 +16,24 @@ class LihatKamar extends BaseController
             . view('home/rooms') .
             view('layout/footer');
     }
+    public function search()
+    {
+        // $session = session();
+        // if ($session->has('pengguna')) {
+        if (!$this->request->is('post')) {
+            return view('home/rooms');
+        }
+        $id = $this->request->getPost(['key']);
+
+        $model = model(KamarModel::class);
+        $kamar = $model->ambil($id['key']);
+
+        $data = ['hasil' => $kamar, 'title' => 'Cari Kamar'];
+        return view('layout/header', $data) . view('layout/navbarGuest')
+            . view('home/search')
+            . view("layout/footer");
+        // } else {
+        //     return view('login/loginpage');
+        // }
+    }
 }
