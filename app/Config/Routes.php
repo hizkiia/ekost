@@ -1,6 +1,7 @@
 <?php
 
 namespace Config;
+use Config\Services;
 
 // Create a new instance of our RouteCollection class.
 $routes = Services::routes();
@@ -37,7 +38,11 @@ $routes->get('/delete', 'KelolaKamar::delete');
 $routes->get('/pay', 'Transaksi::pembayaran');
 $routes->get('/rooms', 'LihatKamar::showAll');
 $routes->get('/bookingform', 'Pemesanan::booking');
-$routes->get('/login', 'LoginControl::index');
+
+$routes->get('login/login', 'LoginController::login');
+$routes->post('/login/check', 'LoginController::check');
+$routes->get('/login/home', 'LoginController::index');
+$routes->get('login/home', 'LoginController::home');
 
 /*
  * --------------------------------------------------------------------

@@ -321,13 +321,14 @@
     <main class="login">
         <div class="main-login">
 
-            <form>
+            <form action="/login/check" method="post">
+                <?= csrf_field() ?>
                 <h1>Login Page</h1>
-                <input class="usr put" placeholder="Username" type="text">
+                <input class="usr" placeholder="Username" type="text">
                 <br>
-                <input id="pass" class="pss put" placeholder="Password" type="password"><button id="bhde" onclick="show()" class="shw" type="button">show</button>
-                <a class="pass" href="">Forgot Password</a>
-                <input value="Sign In" id="btn" class="sub" type="submit">
+                <input id="pwd" class="pwd" placeholder="Password" type="password"><button id="bhde" onclick="show()" class="shw" type="button">show</button>
+                <a class="pwd" href="">Forgot Password</a>
+                <input value="Login" id="btn" class="sub" type="submit">
                 <div class="lines">
                     <div style="background-color: #a5a5a5;" class="line"></div>
                     <p style="color: #a5a5a5;" class="p-b">or</p>
