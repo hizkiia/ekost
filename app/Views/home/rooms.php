@@ -1,35 +1,6 @@
 <div id="smoothpage" class="wrapper">
 
 
-
-    <!-- ========== HEADER ========== -->
-    <header class="fixed">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle mobile_menu_btn" data-toggle="collapse" data-target=".mobile_menu" aria-expanded="false">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index2.html">
-                    <img src="images/logo.svg" height="32" alt="Logo">
-                </a>
-            </div>
-            <nav id="main_menu" class="mobile_menu navbar-collapse">
-                <ul class="nav navbar-nav">
-                    <li class="mobile_menu_title" style="display:none;">MENU</li>
-                    <li><a href="home.html">HOME</a></li>
-                    <li><a href="room.html">ROOMS</a></li>
-                    <li><a href="blog.html">ABOUT</a></li>
-                    <li><a href="contact.html">CONTACT US</a></li>
-                    <li class="menu_button">
-                        <a href="booking-form.html" class="button  btn_yellow"><i class="fa fa-calendar"></i>REGISTER</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
     <!-- =========== PAGE TITLE ========== -->
     <div class="page_title gradient_overlay" style="background: url(images/page_title_bg.jpg);">
         <div class="container">
@@ -60,7 +31,8 @@
                         <div class="col-lg-8 col-md-7 col-sm-12">
                             <div class="room_details row-flex">
                                 <div class="col-md-9 col-sm-9 col-xs-12 room_desc">
-                                    <h3><a href="room.html"> <?= esc($l['nama']) ?> </a></h3>
+                                    <h5>No: <?= esc($l['kamar_id']) ?></h5><br>
+                                    <h3><a href="/bookingform"> <?= esc($l['nama']) ?> </a></h3>
                                     <p>
                                         <?= esc($l['deskripsi']) ?>
                                     </p>

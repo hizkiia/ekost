@@ -2,18 +2,24 @@
 
 namespace App\Controllers;
 
+use App\Models\KamarModel;
+
 class KelolaKamar extends BaseController
 {
     public function input()
     {
-        $data = ['title' => 'Tambah Kamar'];
+        $model = model(KamarModel::class);
+        $data = [
+            'list' => $model->getKamar(),
+            'title' => 'Tambah Kamar'
+        ];
 
         // $session = session();
         // if ($session->has('pengguna')) {
         helper('form');
         // Memeriksa apakah melakukan submit data atau tidak.
         if (!$this->request->is('post')) {
-            return view('layout/header', $data)
+            return view('layout/header', $data) . view('layout/navbarAdmin')
                 . view('kelola/input')
                 . view("layout/footer");
         }
@@ -37,7 +43,7 @@ class KelolaKamar extends BaseController
         // Mengakses Model untuk menyimpan data
         $model = model(KamarModel::class);
         $model->simpan($post);
-        return view('layout/header', $data)
+        return view('layout/header', $data) . view('layout/navbarAdmin')
             . view('home/rooms')
             . view("layout/footer");
         // } else {
@@ -54,10 +60,36 @@ class KelolaKamar extends BaseController
     }
     public function delete()
     {
-        $data = ['title' => 'Hapus Kamar'];
-
+        $model = model(KamarModel::class);
+        $data = [
+            'list' => $model->getKamar(),
+            'title' => 'Hapus Kamar'
+        ];
+        // $session = session();
+        // if ($session->has('pengguna')) {
+        $db = \Config\Database::connect();
+        $builder = $db->table('kamar');
+        helper('form');
+        if (!$this->request->is('post')) {
+            return view('layout/header', $data)
+                . view('layout/navbarAdmin')
+                . view('kelola/delete')
+                . view('layout/footer');
+        }
+        $post = $this->request->getPost([
+            'idKamar'
+        ]);
+        $builder->where('kamar_id', $post);
+        $builder->delete();
         return view('layout/header', $data)
-            . view('kelola/delete') .
-            view('layout/footer');
+            . view('layout/navbarAdmin')
+            . view('home/rooms')
+            . view("layout/footer");
+        // } else {
+        //     return view('login/loginpage');
+        // }
+
+
+
     }
 }
