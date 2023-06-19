@@ -221,9 +221,9 @@
                                 <div class="col-md-4">
                                     <article class="room">
                                         <figure>
-                                            <div class="price">€89 <span>/ night</span></div>
+                                            <div class="price">500K <span>/ Mounthly</span></div>
                                             <a class="hover_effect h_blue h_link" href="room.html">
-                                                <img src="images/rooms/single-room.jpg" class="img-responsive" alt="Image">
+                                                <img src="images/single.jpg" class="img-responsive" alt="Image">
                                             </a>
                                             <figcaption>
                                                 <h5><a href="room.html">Single Room</a></h5>
@@ -235,9 +235,9 @@
                                 <div class="col-md-4">
                                     <article class="room">
                                         <figure>
-                                            <div class="price">€129 <span>/ night</span></div>
+                                            <div class="price">900K <span>/ Mounthly</span></div>
                                             <a class="hover_effect h_blue h_link" href="room.html">
-                                                <img src="images/rooms/double-room.jpg" class="img-responsive" alt="Image">
+                                                <img src="images/double1.jpg" class="img-responsive" alt="Image">
                                             </a>
                                             <figcaption>
                                                 <h5><a href="room.html">Double Room</a></h5>
@@ -249,12 +249,12 @@
                                 <div class="col-md-4">
                                     <article class="room">
                                         <figure>
-                                            <div class="price"> € 189 <span>/ night</span></div>
+                                            <div class="price">1300k<span>/ Mounthly</span></div>
                                             <a class="hover_effect h_blue h_link" href="room.html">
-                                                <img src="images/rooms/deluxe-room.jpg" class="img-responsive" alt="Image">
+                                                <img src="images/delux.jpg" class="img-responsive" alt="Image">
                                             </a>
                                             <figcaption>
-                                                <h5><a href="room.html">Delux Room</a></h5>
+                                                <h5><a href="room.html">Air Conditioned Room</a></h5>
                                                 <span class="f_right"><a href="room.html" class="button btn_xs btn_blue">VIEW DETAILS</a></span>
                                             </figcaption>
                                         </figure>
@@ -280,21 +280,21 @@
                 <!-- ITEM -->
                 <div class="item">
                     <a class="hover_effect h_yellow h_lightbox" href="images/gallery/gallery1.jpg">
-                        <img src="images/gallery/gallery1.jpg" alt="Image">
+                        <img src="images/single.jpg" alt="Image">
                     </a>
                     <div class="gallery_item_info">
-                        <h4>Rooms Service</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing</p>
+                        <h4>Single</h4>
+                        <p></p>
                     </div>
                 </div>
                 <!-- ITEM -->
                 <div class="item">
                     <a class="hover_effect h_yellow h_lightbox" href="images/gallery/gallery2.jpg">
-                        <img src="images/gallery/gallery2.jpg" alt="Image">
+                        <img src="images/double1.jpg" alt="Image">
                     </a>
                     <div class="gallery_item_info">
-                        <h4>Rooms Service</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing</p>
+                        <h4>Double</h4>
+                        <p></p>
                     </div>
                 </div>
                 <!-- ITEM -->
@@ -386,15 +386,16 @@
                                     <i class="fa fa-star" aria-hidden="true"></i>
                                     <i class="fa fa-star" aria-hidden="true"></i>
                                     <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
                                 </div>
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </p>
+                                <p>
+                                Saya dengan sepenuh hati merekomendasikan Kost "EuforiaHome" kepada siapa pun yang mencari tempat tinggal yang menakjubkan. Dari lingkungan yang menyegarkan hingga fasilitas yang mewah, Kost ini memberikan pengalaman tak terlupakan. Kebersihan yang tiada tanding dan pemeliharaan yang luar biasa menjadikan tempat ini nyaman dan menenangkan. Sistem keamanan yang canggih memberikan rasa aman dan ketenangan. Fasilitas yang lengkap, seperti AC modern, tempat tidur yang nyaman</p>
                             </div>
                             <div class="review_author">
-                                <img src="images/users/user1.jpg" alt="Image">
+                                <img src="images/Hizkia.png" alt="Image">
                                 <div class="author_info">
-                                    <h5>John Doe</h5>
-                                    <span class="place">Athens, Greece</span>
+                                    <h5>Hizkia</h5>
+                                    <span class="place">Perumnas, Yogyakarta</span>
                                 </div>
                             </div>
                         </div>
@@ -411,13 +412,13 @@
                                     <i class="fa fa-star" aria-hidden="true"></i>
                                     <i class="fa fa-star" aria-hidden="true"></i>
                                 </div>
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </p>
+                                <p>Saya dengan tulus merekomendasikan Kost "EuforiaHome" kepada siapa pun yang mencari tempat tinggal yang nyaman, aman, dan dilengkapi dengan fasilitas yang luar biasa. Suasana lingkungannya yang bersih dan terawat dengan baik menciptakan kenyamanan yang tak tertandingi, sementara sistem keamanan yang canggih memberikan rasa aman yang tak tergoyahkan. Kost "EuforiaHome" menyediakan fasilitas lengkap, seperti AC yang menyegarkan, tempat tidur yang nyaman</p>
                             </div>
                             <div class="review_author">
-                                <img src="images/users/user2.jpg" alt="Image">
+                                <img src="images/Geri.png" alt="Image">
                                 <div class="author_info">
-                                    <h5>Ina Aldrich</h5>
-                                    <span class="place">Athens, Greece</span>
+                                    <h5>Geri</h5>
+                                    <span class="place">Perumnas, Yogyakarta</span>
                                 </div>
                             </div>
                         </div>
@@ -432,15 +433,15 @@
                                     <i class="fa fa-star" aria-hidden="true"></i>
                                     <i class="fa fa-star" aria-hidden="true"></i>
                                     <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
                                 </div>
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </p>
+                                <p>Saya dengan senang hati merekomendasikan Kost "EuforiaHome" kepada siapa pun yang mencari tempat tinggal yang luar biasa. Kost ini menawarkan lingkungan yang bersih, nyaman, dan terawat dengan baik. Fasilitas lengkap seperti AC, tempat tidur yang nyaman, dan dapur lengkap memenuhi kebutuhan sehari-hari. Pelayanan yang baik dari manajemen dan staf yang responsif menjadi nilai tambah. Terletak strategis, Kost "EuforiaHome" memberikan kemudahan akses ke berbagai fasilitas umum.</p>
                             </div>
                             <div class="review_author">
-                                <img src="images/users/user3.jpg" alt="Image">
+                                <img src="images/Teddy.png" alt="Image">
                                 <div class="author_info">
-                                    <h5>William W.</h5>
-                                    <span class="place">Athens, Greece</span>
+                                    <h5>Teddy</h5>
+                                    <span class="place">Perumnas, Yogyakarta</span>
                                 </div>
                             </div>
                         </div>
