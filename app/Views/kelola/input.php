@@ -69,19 +69,30 @@
                     <aside class="widget">
                         <div class="vbf">
                             <h2 class="form_title"><i class="fa"></i>Input Kamar</h2>
-                            <form id="booking-form" class="inner">
+                            <form method="post" action="/input" class="inner" enctype="multipart/form-data">
+                                <?= csrf_field() ?>
+
                                 <div class="form-group">
-                                    <input class="form-control" name="booking-name" placeholder="Masukkan ID Kamar" type="text">
+                                    <input class="form-control" name="idKamar" placeholder="Masukkan ID Kamar" type="text">
                                 </div>
                                 <div class="form-group">
-                                    <input class="form-control" name="booking-email" placeholder="Masukkan Fasilitas Kamar" type="text">
+                                    <input class="form-control" name="namaKamar" placeholder="Masukkan Nama Kamar" type="text">
                                 </div>
                                 <div class="form-group">
-                                    <input class="form-control" name="booking-phone" placeholder="Masukkan Harga Kamar" type="number">
+                                    <input class="form-control" name="deskripsi" placeholder="Masukkan Deskripsi Kamar" type="text">
                                 </div>
-                                <button class="button btn_lg btn_blue btn_full" type="button" data-toggle="modal" data-target="#myModal">Input Data
+                                <div class="form-group">
+                                    <input class="form-control" name="fasilitas" placeholder="Masukkan Fasilitas Kamar" type="text">
+                                </div>
+                                <div class="form-group">
+                                    <input class="form-control" name="gambar" type="file">
+                                </div>
+                                <div class="form-group">
+                                    <input class="form-control" name="harga" placeholder="Masukkan Harga Kamar" type="number">
+                                </div>
+                                <button class="button btn_lg btn_blue btn_full" type="submit">Input Data
                                     Kamar</button>
-                                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                                <!-- <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                                     <div class="modal-dialog" role="document">
                                         <div class="modal-content">
                                             <div class="modal-header">
@@ -93,14 +104,14 @@
                                             </div>
                                             <div class="modal-footer">
                                                 <button type="button" class="btn btn-default" data-dismiss="modal">Tidak</button>
-                                                <button type="button" class="btn btn-primary">Ya</button>
+                                                <button type="submit" class="btn btn-primary">Ya</button>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="a_center mt10">
+                                </div> -->
+                                <!-- <div class="a_center mt10">
                                     <a href="booking-form.html" class="a_b_f"></a>
-                                </div>
+                                </div> -->
                             </form>
                         </div>
                     </aside>
