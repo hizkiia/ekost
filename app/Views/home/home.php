@@ -270,7 +270,7 @@
                 <div class="main_title mt_wave mt_white a_center">
                     <h2>EUFORIAHOME GALLERY PHOTOS</h2>
                 </div>
-                <p class="main_description md_white a_center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit.</p>
+                <p class="main_description md_white a_center">Ini merupakan beberapa foto dari fasilitas yang kami tawarkan dari kost kami</p>
             </div>
             <div id="gallery_slider" class="owl-carousel image-gallery">
                 <!-- ITEM -->
@@ -343,7 +343,7 @@
                 <div class="main_title mt_wave a_center">
                     <h2>WHAT PEOPLE SAY ABOUT US</h2>
                 </div>
-                <p class="main_description a_center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit.</p>
+                <p class="main_description a_center">"Kost "EuforiaHome" adalah surga bagi para pencari tempat tinggal yang tak terlupakan! Dengan sentuhan elegan dan fasilitas mewah, Kost ini berhasil menciptakan pengalaman tinggal yang tak tertandingi. Begitu saya melangkah ke dalam, saya disambut oleh lingkungan yang modern, bersih, dan terawat dengan sempurna. Kamar-kamar yang dilengkapi dengan perabotan yang modern dan desain yang estetis memberikan kenyamanan sejati</p>
                 <div class="row">
                     <!-- ITEM -->
                     <div class="col-md-4">
