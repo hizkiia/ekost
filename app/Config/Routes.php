@@ -36,7 +36,7 @@ $routes->get('/update', 'KelolaKamar::update');
 $routes->get('/delete', 'KelolaKamar::delete');
 $routes->get('/pay', 'Transaksi::pembayaran');
 $routes->get('/rooms', 'LihatKamar::showAll');
-$routes->get('/rooms/pesan', 'Pemesanan::booking');
+$routes->get('/bookingform', 'Pemesanan::booking');
 
 /*
  * --------------------------------------------------------------------
