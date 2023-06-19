@@ -1,6 +1,7 @@
 <?php
 
 namespace Config;
+
 use Config\Services;
 
 // Create a new instance of our RouteCollection class.
@@ -42,8 +43,8 @@ $routes->get('/bookingform', 'Pemesanan::booking');
 
 $routes->get('login/login', 'LoginController::login');
 $routes->post('/login/check', 'LoginController::check');
-$routes->get('/login/home', 'LoginController::index');
-$routes->get('login/home', 'LoginController::home');
+$routes->get('/home/home', 'LoginController::index');
+$routes->get('home/home', 'LoginController::home');
 
 /*
  * --------------------------------------------------------------------

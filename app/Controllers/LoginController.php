@@ -26,7 +26,7 @@ class LoginController extends BaseController
         if ($post['usr'] == $loginuser['pelanggan_id'] && $post['pwd'] == $loginuser['password']) {
             $session = session();
             $session->set('pengguna', $post['usr']);
-            return view('login/home');
+            return view('home/home');
         } else {
             return view('login/fail');
         }
@@ -39,7 +39,7 @@ class LoginController extends BaseController
         if ($session->has('pengguna')) {
             $item = $session->get('pengguna');
             if ($item == $model->ambil($key['usr'])) {
-                return view('login/home');
+                return view('home/home');
             } else {
                 return view('login/login');
             }
