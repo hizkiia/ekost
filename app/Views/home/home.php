@@ -389,7 +389,7 @@
                                     <i class="fa fa-star" aria-hidden="true"></i>
                                 </div>
                                 <p>
-                                Saya dengan sepenuh hati merekomendasikan Kost "EuforiaHome" kepada siapa pun yang mencari tempat tinggal yang menakjubkan. Dari lingkungan yang menyegarkan hingga fasilitas yang mewah, Kost ini memberikan pengalaman tak terlupakan. Kebersihan yang tiada tanding dan pemeliharaan yang luar biasa menjadikan tempat ini nyaman dan menenangkan. Sistem keamanan yang canggih memberikan rasa aman dan ketenangan. Fasilitas yang lengkap, seperti AC modern, tempat tidur yang nyaman</p>
+                                    Saya dengan sepenuh hati merekomendasikan Kost "EuforiaHome" kepada siapa pun yang mencari tempat tinggal yang menakjubkan. Dari lingkungan yang menyegarkan hingga fasilitas yang mewah, Kost ini memberikan pengalaman tak terlupakan. Kebersihan yang tiada tanding dan pemeliharaan yang luar biasa menjadikan tempat ini nyaman dan menenangkan. Sistem keamanan yang canggih memberikan rasa aman dan ketenangan. Fasilitas yang lengkap, seperti AC modern, tempat tidur yang nyaman</p>
                             </div>
                             <div class="review_author">
                                 <img src="images/Hizkia.png" alt="Image">
