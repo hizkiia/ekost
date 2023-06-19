@@ -51,9 +51,9 @@
                                 <div class="form-group">
                                     <input class="form-control" name="harga" placeholder="Masukkan Harga Kamar" type="number">
                                 </div>
-                                <button class="button btn_lg btn_blue btn_full" type="submit">Input Data
+                                <button class="button btn_lg btn_blue btn_full" type="button" data-toggle="modal" data-target="#myModal">Input Data
                                     Kamar</button>
-                                <!-- <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                                     <div class="modal-dialog" role="document">
                                         <div class="modal-content">
                                             <div class="modal-header">
@@ -69,10 +69,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div> -->
-                                <!-- <div class="a_center mt10">
+                                </div>
+                                <div class="a_center mt10">
                                     <a href="booking-form.html" class="a_b_f"></a>
-                                </div> -->
+                                </div>
                             </form>
                         </div>
                     </aside>

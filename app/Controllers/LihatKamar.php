@@ -12,7 +12,7 @@ class LihatKamar extends BaseController
             'title' => 'EuforiaHome - Rooms List View'
         ];
 
-        return view('layout/header', $data)
+        return view('layout/header', $data) . view('layout/navbarGuest')
             . view('home/rooms') .
             view('layout/footer');
     }

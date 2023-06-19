@@ -75,7 +75,7 @@
 
                         </li>
                         <li class="dropdown simple_menu">
-                            <a href="home/rooms.php" class="" data-toggle="dropdown">ROOMS <b class="caret"></b></a>
+                            <a href="/rooms" class="" data-toggle="dropdown">ROOMS <b class="caret"></b></a>
                         </li>
                         <li class="dropdown mega_menu mega_menu_fullwidth"><a href="#" data-toggle="dropdown" class="" aria-expanded="true">ABOUT <b class="caret"></b></a>
                         <li><a href="contact.html">CONTACT US</a></li>
@@ -333,7 +333,7 @@
                         <p></p>
                     </div>
                 </div>
-                
+
                 <!-- END ITEM -->
         </section>
 

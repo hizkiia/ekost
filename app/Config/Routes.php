@@ -32,8 +32,9 @@ use App\Controllers\KelolaKamar;
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
 $routes->match(['get', 'post'], '/input', [KelolaKamar::class, 'input']);
-$routes->get('/update', 'KelolaKamar::update');
-$routes->get('/delete', 'KelolaKamar::delete');
+$routes->match(['get', 'post'], '/update', [KelolaKamar::class, 'update']);
+$routes->match(['get', 'post'], '/delete', [KelolaKamar::class, 'delete']);
+
 $routes->get('/pay', 'Transaksi::pembayaran');
 $routes->get('/rooms', 'LihatKamar::showAll');
 $routes->get('/bookingform', 'Pemesanan::booking');
