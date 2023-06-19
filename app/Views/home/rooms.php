@@ -38,7 +38,6 @@
                 <ol class="breadcrumb">
                     <li><a href="index.html">Home</a></li>
                     <li>Room List View </li>
-                    <li>sdbadajsdadbajdajdj</li>
                 </ol>
             </div>
         </div>
