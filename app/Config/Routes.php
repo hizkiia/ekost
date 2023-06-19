@@ -46,8 +46,13 @@ $routes->get('/bookingform', 'Pemesanan::booking');
 
 $routes->get('login/login', 'LoginController::login');
 $routes->post('/login/check', 'LoginController::check');
+<<<<<<< HEAD
 $routes->get('/login/home', 'LoginController::index');
 $routes->get('login/logout', 'LoginController::logout');
+=======
+$routes->get('/home/home', 'LoginController::index');
+$routes->get('home/home', 'LoginController::home');
+>>>>>>> b1896b1fb6cf0189005000c43ced4dac933c1d43
 
 /*
  * --------------------------------------------------------------------
