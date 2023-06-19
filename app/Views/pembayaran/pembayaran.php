@@ -79,6 +79,18 @@
                             <td>Hizkia Pratama</td>
                         </tr>
                         <tr>
+                            <td>Email</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>No HP</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Masa Berlaku</td>
+                            <td></td>
+                        </tr>
+                        <tr>
                             <td>Metode Pembayaran</td>
                             <td><select class="form-control" id="sel1">
                                     <option>Dana</option>

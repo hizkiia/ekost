@@ -180,8 +180,8 @@
                             <h2>ABOUT Single Rooms</h2>
                         </div>
                         <p>
-                              Single room adalah tempat tinggal yang ideal bagi individu yang menginginkan privasi dan kenyamanan pribadi. Kamar ini dilengkapi dengan tempat tidur nyaman, meja kecil, dan lemari pakaian. Beberapa single room juga memiliki fasilitas tambahan seperti meja kerja, TV, atau kulkas mini. Dalam kamar tunggal, Anda dapat menikmati ruang pribadi yang tenang dan fokus untuk bekerja, belajar, atau beristirahat. Dengan privasi yang terjaga, Anda dapat menciptakan suasana yang sesuai dengan kebutuhan Anda. Single room memberikan kebebasan dan kenyamanan dalam gaya hidup sehari-hari, menjadikannya pilihan yang populer di kalangan mahasiswa, pekerja, dan individu yang menghargai privasi.
-                             </p>
+                            Single room adalah tempat tinggal yang ideal bagi individu yang menginginkan privasi dan kenyamanan pribadi. Kamar ini dilengkapi dengan tempat tidur nyaman, meja kecil, dan lemari pakaian. Beberapa single room juga memiliki fasilitas tambahan seperti meja kerja, TV, atau kulkas mini. Dalam kamar tunggal, Anda dapat menikmati ruang pribadi yang tenang dan fokus untuk bekerja, belajar, atau beristirahat. Dengan privasi yang terjaga, Anda dapat menciptakan suasana yang sesuai dengan kebutuhan Anda. Single room memberikan kebebasan dan kenyamanan dalam gaya hidup sehari-hari, menjadikannya pilihan yang populer di kalangan mahasiswa, pekerja, dan individu yang menghargai privasi.
+                        </p>
                         <div class="main_title t_style a_left s_title mt50">
                             <div class="c_inner">
                                 <h2 class="c_title">ROOM SERVICES</h2>
@@ -233,8 +233,12 @@
                                         </div>
                                         <div class="form-group col-md-6 col-sm-6 col-xs-12 nopadding">
                                             <div class="input-group">
-                                                <div class="form_date">
-                                                    <input type="text" class="datepicker form-control md_noborder_right" name="booking-checkin" placeholder="Arrival Date" readonly>
+                                                
+                                                <div class='input-group date' id='datetimepicker3'>
+                                                    <input type='text' class="form-control" />
+                                                    <span class="input-group-addon">
+                                                        <span class="glyphicon glyphicon-time"></span>
+                                                    </span>
                                                 </div>
                                             </div>
                                         </div>
@@ -247,10 +251,10 @@
                                                     <option value="2 Year">2 Year</option>
                                                 </select>
                                             </div>
-                                            
+
                                         </div>
                                         <button class="button btn_lg btn_blue btn_full" type="submit">BOOK A ROOM NOW</button>
-                                        
+
                                     </form>
                                 </div>
                             </aside>
@@ -268,34 +272,35 @@
             </div>
         </main>
 
-    <!-- ========== BACK TO TOP ========== -->
-    <div id="back_to_top">
-        <i class="fa fa-angle-up" aria-hidden="true"></i>
-    </div>
+        <!-- ========== BACK TO TOP ========== -->
+        <div id="back_to_top">
+            <i class="fa fa-angle-up" aria-hidden="true"></i>
+        </div>
 
-    <!-- ========== NOTIFICATION ========== -->
-    <div id="notification"></div>
+        <!-- ========== NOTIFICATION ========== -->
+        <div id="notification"></div>
 
-    <!-- ========== JAVASCRIPT ========== -->
-    <script type="text/javascript" src="js/jquery.min.js"></script>
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap-datepicker.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap-select.min.js"></script>
-    <script type="text/javascript" src="js/jquery.smoothState.js"></script>
-    <script type="text/javascript" src="js/moment.min.js"></script>
-    <script type="text/javascript" src="js/morphext.min.js"></script>
-    <script type="text/javascript" src="js/wow.min.js"></script>
-    <script type="text/javascript" src="js/jquery.easing.min.js"></script>
-    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
-    <script type="text/javascript" src="js/owl.carousel.thumbs.min.js"></script>
-    <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
-    <script type="text/javascript" src="js/jPushMenu.js"></script>
-    <script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
-    <script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
-    <script type="text/javascript" src="js/countUp.min.js"></script>
-    <script type="text/javascript" src="js/jquery.countdown.min.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
+        <!-- ========== JAVASCRIPT ========== -->
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap-datepicker.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap-select.min.js"></script>
+        <script type="text/javascript" src="js/jquery.smoothState.js"></script>
+        <script type="text/javascript" src="js/moment.min.js"></script>
+        <script type="text/javascript" src="js/morphext.min.js"></script>
+        <script type="text/javascript" src="js/wow.min.js"></script>
+        <script type="text/javascript" src="js/jquery.easing.min.js"></script>
+        <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+        <script type="text/javascript" src="js/owl.carousel.thumbs.min.js"></script>
+        <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+        <script type="text/javascript" src="js/jPushMenu.js"></script>
+        <script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
+        <script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
+        <script type="text/javascript" src="js/countUp.min.js"></script>
+        <script type="text/javascript" src="js/jquery.countdown.min.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
 
 </body>
+
 </html>
