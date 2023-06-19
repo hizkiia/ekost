@@ -190,111 +190,6 @@
             </ul>
         </div>
 
-        <!-- ========== HORIZONTAL BOOKING FORM ========== -->
-        <div class="hbf">
-            <div class="container">
-                <div class="inner">
-                    <form id="booking-form">
-
-                        <div class="col-md-2 md_pr5">
-                            <div class="form-group">
-                                <label>Your Email
-                                    <a href="#" title="Your Email" data-toggle="popover" data-placement="top" data-trigger="hover" data-content="Please Type Your Email"> <i class="label_icon_info fa fa-info-circle"></i></a>
-                                </label>
-                                <input class="form-control" name="booking-email" type="email" placeholder="Your Email Address">
-                            </div>
-                        </div>
-                        <div class="col-md-2 md_p5">
-                            <div class="form-group">
-                                <label>Room Type
-                                    <a href="#" title="Room Type" data-toggle="popover" data-placement="top" data-trigger="hover" data-content="Please Select Room Type: Single Room, Double Room or Deluxe Room"> <i class="label_icon_info fa fa-info-circle"></i></a>
-                                </label>
-                                <div class="form_select">
-                                    <select name="booking-roomtype" class="form-control" title="Select Room Type" data-header="Room Type">
-                                        <option value="Single">Single Room</option>
-                                        <option value="Double">Double Room</option>
-                                        <option value="Deluxe">Deluxe Room</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-3">
-                            <div class="row">
-
-                                <div class="col-md-6 col-sm-6 arrival_date md_pl5 md_nopadding_right">
-                                    <div class="form-group">
-                                        <label>Arrival
-                                            <a href="#" title="Arrival" data-toggle="popover" data-placement="top" data-trigger="hover" data-content="Check In from 11:00 am"> <i class="label_icon_info fa fa-info-circle"></i></a>
-                                        </label>
-
-                                        <div class="form_date">
-                                            <input type="text" class="datepicker form-control md_noborder_right" name="booking-checkin" placeholder="Arrival Date" readonly>
-                                        </div>
-
-                                    </div>
-                                </div>
-
-                                <div class="col-md-6 col-sm-6 departure_date md_pr5 md_nopadding_left">
-                                    <div class="form-group">
-                                        <label>Departure
-                                            <a href="#" title="Departure" data-toggle="popover" data-placement="top" data-trigger="hover" data-content="Check Out from 12:00 am"> <i class="label_icon_info fa fa-info-circle"></i></a>
-                                        </label>
-                                        <div class="form_date departure">
-                                            <input type="text" class="datepicker form-control" name="booking-checkout" placeholder="Departure Date" readonly>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <div class="col-md-3">
-                            <div class="row">
-
-                                <div class="col-md-6 col-sm-6 adults md_pl5 md_nopadding_right">
-                                    <div class="form-group">
-                                        <label>Adults
-                                            <a href="#" title="Adults" data-toggle="popover" data-placement="top" data-trigger="hover" data-content="+18 years"> <i class="label_icon_info fa fa-info-circle"></i></a>
-                                        </label>
-                                        <div class="form_select">
-                                            <select name="booking-adults" class="form-control md_noborder_right" title="Adults" data-header="Adults">
-                                                <option value="0">0</option>
-                                                <option value="1">1</option>
-                                                <option value="2">2</option>
-                                                <option value="3">3</option>
-                                                <option value="4">4</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 col-sm-6 children md_pr5 md_nopadding_left">
-                                    <div class="form-group">
-                                        <label>Children
-                                            <a href="#" title="Children" data-toggle="popover" data-placement="top" data-trigger="hover" data-content="0-18 years"> <i class="label_icon_info fa fa-info-circle"></i></a>
-                                        </label>
-                                        <div class="form_select children_select">
-                                            <select name="booking-children" class="form-control" title="Children" data-header="Children">
-                                                <option value="0">0</option>
-                                                <option value="1">1</option>
-                                                <option value="2">2</option>
-                                                <option value="3">3</option>
-                                                <option value="4">4</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-2 md_pl5">
-                            <button type="submit" class="button  btn_blue btn_full">BOOK A ROOM</button>
-                            <div class="advanced_form_link"> <a href="booking-form.html"> Advanced Booking Form </a> </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-
         <!-- ========== ABOUT & ROOMS ========== -->
         <section id="about_rooms">
             <div class="container">
@@ -303,7 +198,7 @@
                     <div class="col-md-4">
                         <div id="about">
                             <div class="main_title mt_wave a_left">
-                                <h2>ABOUT EUFORIAHOME</h2>
+                                <h2>TENTANG EUFORIAHOME</h2>
                             </div>
                             <p class="main_description a_left">Kost "EuphoriaHome" adalah tempat tinggal eksklusif yang menawarkan pengalaman hunian yang luar biasa. Dengan desain modern dan fasilitas berkualitas, EuphoriaHome memadukan kenyamanan, gaya hidup mewah, dan kesenangan dalam satu tempat.</p>
 
@@ -314,9 +209,14 @@
                     <div class="col-md-8">
                         <div id="rooms">
                             <div class="main_title mt_wave a_left">
-                                <h2>OUR FAVORITE ROOMS</h2>
+                                <h2>KAMAR FAVORIT KAMI</h2>
                             </div>
-                            <p class="main_description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit.</p>
+                            <p class="main_description">
+                                Kamar favorit kami menawarkan tiga tipe kamar yang berbeda untuk memenuhi kebutuhan dan preferensi tamu. Pertama, kami memiliki single room yang ideal untuk tamu yang menginap sendirian. Dengan desain yang efisien, kamar ini memberikan privasi dan kenyamanan dengan luas yang cukup untuk beristirahat. Tempat tidur tunggal yang nyaman, meja kerja, dan lemari yang memadai akan memenuhi kebutuhan tamu. Kamar mandi pribadi dengan perlengkapan modern juga tersedia, memberikan kenyamanan ekstra.
+                                Kemudian, kami juga memiliki double room yang luas dan sempurna untuk tamu yang datang berdua. Dengan desain elegan dan modern, kamar ini menawarkan tempat tidur ganda yang lembut dan nyaman sebagai pusat perhatian. Selain itu, ada juga meja kerja yang luas, sofa nyaman, dan ruang penyimpanan yang mencukupi. Kamar mandi pribadi dengan shower dan perlengkapan mandi lengkap menambahkan kenyamanan tamu.
+                                Terakhir, kami memiliki full facilities room yang menyediakan pengalaman menginap mewah dan lengkap. Ruangan ini dilengkapi dengan fasilitas terbaik dan luas, mencakup tempat tidur nyaman, area duduk yang luas, dan meja kerja lengkap dengan perlengkapan modern. Kamar mandi pribadi yang luas dilengkapi dengan bak mandi jacuzzi, shower terpisah, dan perlengkapan mandi mewah. Tamu juga dapat menikmati fasilitas tambahan seperti mini bar, televisi layar datar, akses Wi-Fi gratis, dan layanan kamar 24 jam.
+                                Kamar-kamar favorit kami menawarkan pengalaman menginap yang nyaman dan memenuhi kebutuhan setiap tamu. Dari ruang pribadi untuk tamu yang bepergian sendirian, hingga ruangan yang luas untuk tamu yang datang berdua, dan pengalaman mewah dengan fasilitas lengkap, kami berkomitmen untuk memberikan kenyamanan dan layanan terbaik kepada tamu kami.
+                            </p>
                             <div class="row">
                                 <div class="col-md-4">
                                     <article class="room">
