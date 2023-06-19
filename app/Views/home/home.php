@@ -111,12 +111,9 @@
                     <div class="tp-caption tp-shape tp-shapewrapper tp-resizeme" data-x="center" data-hoffset="170" data-y="418" data-voffset="" data-responsive_offset="on" data-width="['100']" data-height="['4']" data-transform_idle="o:1;" data-transform_in="x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;s:1500;e:Power3.easeOut;" data-transform_out="opacity:0;s:500;" data-mask_in="x:[100%];y:0;s:inherit;e:inherit;" data-start="2100" style="z-index: 7;background: url(images/icons/wave_white.svg);">
                     </div>
                     <!-- LAYER NR. 7 -->
-                    <a class="tp-caption button btn_blue" href="booking-form.html" data-x="center" data-hoffset="-100" data-y="480" data-voffset="" data-responsive_offset="on" data-fontsize="14" data-whitespace="nowrap" data-frames='[{"delay":2400,"speed":1500,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeInOut"},{"delay":"wait","speed":500,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' style="z-index: 11;"><i class="fa fa-calendar"></i>REGISTERS
+                    <a class="tp-caption button btn_blue" href="booking-form.html" data-x="center" data-hoffset="0" data-y="480" data-voffset="" data-responsive_offset="on" data-fontsize="14" data-whitespace="nowrap" data-frames='[{"delay":2400,"speed":1500,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeInOut"},{"delay":"wait","speed":500,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' style="z-index: 11;"><i class="fa fa-calendar"></i>REGISTERS
                     </a>
                     <!-- LAYER NR. 8 -->
-                    <a class="tp-caption button btn_yellow " href="contact.html" data-x="center" data-hoffset="108" data-y="480" data-voffset="" data-responsive_offset="on" data-fontsize="14" data-whitespace="nowrap" data-frames='[{"delay":2400,"speed":1500,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeInOut"},{"delay":"wait","speed":500,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' style="z-index: 11;"><i class="fa fa-envelope-o" aria-hidden="true"></i>CONTACT US NOW
-                    </a>
-                    <!-- LAYER NR. 9 -->
                     <div class="tp-caption tp_m_title tp-resizeme" data-x="center" data-hoffset="" data-y="200" data-voffset="" data-responsive_offset="on" data-fontsize="['18','18','16','16']" data-lineheight="['18','18','16','16']" data-whitespace="nowrap" data-frames='[{"delay":1800,"speed":1500,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeInOut"},{"delay":"wait","speed":500,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'>
                         <i class="fa fa-star-o"></i>
                         <i class="fa fa-star-o"></i>
@@ -220,7 +217,7 @@
                                 <div class="col-md-4">
                                     <article class="room">
                                         <figure>
-                                            <div class="price">500K <span>/ Mounthly</span></div>
+                                            <div class="price">500K <span>/ Mothly</span></div>
                                             <a class="hover_effect h_blue h_link" href="room.html">
                                                 <img src="images/single.jpg" class="img-responsive" alt="Image">
                                             </a>
@@ -234,7 +231,7 @@
                                 <div class="col-md-4">
                                     <article class="room">
                                         <figure>
-                                            <div class="price">900K <span>/ Mounthly</span></div>
+                                            <div class="price">900K <span>/ Monthly</span></div>
                                             <a class="hover_effect h_blue h_link" href="room.html">
                                                 <img src="images/double1.jpg" class="img-responsive" alt="Image">
                                             </a>
@@ -248,7 +245,7 @@
                                 <div class="col-md-4">
                                     <article class="room">
                                         <figure>
-                                            <div class="price">1300k<span>/ Mounthly</span></div>
+                                            <div class="price">1300k<span>/ Monthly</span></div>
                                             <a class="hover_effect h_blue h_link" href="room.html">
                                                 <img src="images/delux.jpg" class="img-responsive" alt="Image">
                                             </a>
@@ -299,31 +296,31 @@
                 <!-- ITEM -->
                 <div class="item">
                     <a class="hover_effect h_yellow h_lightbox" href="images/gallery/gallery3.jpg">
-                        <img src="images/gallery/gallery3.jpg" alt="Image">
+                        <img src="images/delux.jpg" alt="Image">
                     </a>
                     <div class="gallery_item_info">
-                        <h4>Rooms Service</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing</p>
+                        <h4>AC Room</h4>
+                        <p></p>
                     </div>
                 </div>
                 <!-- ITEM -->
                 <div class="item">
                     <a class="hover_effect h_yellow h_lightbox" href="images/gallery/gallery4.jpg">
-                        <img src="images/gallery/gallery4.jpg" alt="Image">
+                        <img src="images/family.jpg" alt="Image">
                     </a>
                     <div class="gallery_item_info">
-                        <h4>Rooms Service</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing</p>
+                        <h4>Full facilities Room</h4>
+                        <p></p>
                     </div>
                 </div>
                 <!-- ITEM -->
                 <div class="item">
                     <a class="hover_effect h_yellow h_lightbox" href="images/gallery/gallery5.jpg">
-                        <img src="images/gallery/gallery5.jpg" alt="Image">
+                        <img src="images/honeymoon.jpg" alt="Image">
                     </a>
                     <div class="gallery_item_info">
-                        <h4>Rooms Service</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing</p>
+                        <h4>Non-AC Room</h4>
+                        <p></p>
                     </div>
                 </div>
                 <!-- ITEM -->
@@ -332,39 +329,12 @@
                         <img src="images/gallery/gallery6.jpg" alt="Image">
                     </a>
                     <div class="gallery_item_info">
-                        <h4>Rooms Service</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing</p>
+                        <h4>Inside Bathroom</h4>
+                        <p></p>
                     </div>
                 </div>
-                <!-- ITEM -->
-                <div class="item">
-                    <a class="hover_effect h_yellow h_lightbox" href="images/gallery/gallery7.jpg">
-                        <img src="images/gallery/gallery7.jpg" alt="Image">
-                    </a>
-                    <div class="gallery_item_info">
-                        <h4>Rooms Service</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing</p>
-                    </div>
-                </div>
-                <!-- ITEM -->
-                <div class="item">
-                    <a class="hover_effect h_yellow h_lightbox" href="images/gallery/gallery8.jpg">
-                        <img src="images/gallery/gallery8.jpg" alt="Image">
-                    </a>
-                    <div class="gallery_item_info">
-                        <h4>Rooms Service</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing</p>
-                    </div>
-                </div>
+                
                 <!-- END ITEM -->
-            </div>
-
-            <div class="container">
-                <div class="mt40 a_center">
-                    <a class="button btn_sm btn_dark upper" href="gallery.html">View Full Gallery</a>
-                </div>
-            </div>
-
         </section>
 
         <!-- ========== TESTIMONIALS ========== -->
@@ -496,7 +466,7 @@
                     <div class="row">
                         <div class="col-md-6 col-sm-6">
                             <div class="copyrights">
-                                Copyright 2021 <a href="index.html">Hotel Zante</a> All Rights Reserved.
+                                Copyright 2021 <a href="index.html">EUFORIAHOME</a> All Rights Reserved.
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-6">
