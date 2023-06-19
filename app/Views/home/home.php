@@ -78,7 +78,6 @@
                             <a href="/rooms" class="" data-toggle="dropdown">ROOMS <b class="caret"></b></a>
                         </li>
                         <li class="dropdown mega_menu mega_menu_fullwidth"><a href="#" data-toggle="dropdown" class="" aria-expanded="true">ABOUT <b class="caret"></b></a>
-                        <li><a href="contact.html">CONTACT US</a></li>
                         <li><a href="blog.html">SIGN IN</a></li>
                         <li class="menu_button">
                             <a href="booking-form.html" class="button  btn_yellow"><i class="fa fa-calendar"></i>REGISTERS</a>
@@ -150,10 +149,7 @@
                     <div class="tp-caption tp-shape tp-shapewrapper tp-resizeme" data-x="center" data-hoffset="134" data-y="418" data-voffset="" data-width="['100']" data-height="['4']" data-transform_idle="o:1;" data-transform_in="x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;s:1500;e:Power3.easeOut;" data-transform_out="opacity:0;s:300;" data-mask_in="x:[100%];y:0;s:inherit;e:inherit;" data-start="2100" data-responsive_offset="on" style="z-index: 10;background: url(images/icons/wave_white.svg);">
                     </div>
                     <!-- LAYER NR. 7 -->
-                    <a class="tp-caption button btn_yellow" href="booking-form.html" data-x="center" data-hoffset="-100" data-y="480" data-voffset="" data-responsive_offset="on" data-fontsize="14" data-whitespace="nowrap" data-frames='[{"delay":2400,"speed":1500,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeInOut"},{"delay":"wait","speed":500,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' style="z-index: 11;"><i class="fa fa-calendar"></i>REGISTERS
-                    </a>
-                    <!-- LAYER NR. 8 -->
-                    <a class="tp-caption button btn_yellow " href="contact.html" data-x="center" data-hoffset="108" data-y="480" data-voffset="" data-responsive_offset="on" data-fontsize="14" data-frames='[{"delay":2400,"speed":1500,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeInOut"},{"delay":"wait","speed":500,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' style="z-index: 11;"><i class="fa fa-envelope-o" aria-hidden="true"></i>CONTACT US NOW
+                    <a class="tp-caption button btn_blue" href="booking-form.html" data-x="center" data-hoffset="0" data-y="480" data-voffset="" data-responsive_offset="on" data-fontsize="14" data-whitespace="nowrap" data-frames='[{"delay":2400,"speed":1500,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeInOut"},{"delay":"wait","speed":500,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' style="z-index: 11;"><i class="fa fa-calendar"></i>REGISTERS
                     </a>
                     <!-- LAYER NR. 9 -->
                     <div class="tp-caption tp-resizeme" data-x="center" data-hoffset="" data-y="200" data-voffset="" data-responsive_offset="on" data-frames='[{"delay":1800,"speed":1500,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeInOut"},{"delay":"wait","speed":500,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' style="z-index: 12;"><img src="images/logo_light.svg" width="200" alt="Image">
@@ -349,7 +345,7 @@
                     <div class="col-md-4">
                         <div class="review_item">
                             <div class="review_content">
-                                <h3>Excellent! </h3>
+                                <h3>Perfect! </h3>
                                 <div class="review_rating">
                                     <i class="fa fa-star" aria-hidden="true"></i>
                                     <i class="fa fa-star" aria-hidden="true"></i>
@@ -358,13 +354,13 @@
                                     <i class="fa fa-star" aria-hidden="true"></i>
                                 </div>
                                 <p>
-                                    Saya dengan sepenuh hati merekomendasikan Kost "EuforiaHome" kepada siapa pun yang mencari tempat tinggal yang menakjubkan. Dari lingkungan yang menyegarkan hingga fasilitas yang mewah, Kost ini memberikan pengalaman tak terlupakan. Kebersihan yang tiada tanding dan pemeliharaan yang luar biasa menjadikan tempat ini nyaman dan menenangkan. Sistem keamanan yang canggih memberikan rasa aman dan ketenangan. Fasilitas yang lengkap, seperti AC modern, tempat tidur yang nyaman</p>
+                                    Saya dengan sepenuh hati merekomendasikan Kost "EuforiaHome" kepada siapa pun yang menginginkan pengalaman tinggal yang luar biasa. Dari lingkungan yang menyegarkan hingga fasilitas yang mewah, Kost ini memberikan nuansa yang benar-benar memikat. Kebersihan yang tak tertandingi dan pemeliharaan yang luar biasa menjadikan tempat ini sebagai surga pribadi yang nyaman dan menenangkan. Dengan sistem keamanan yang canggih, Anda dapat merasakan kenyamanan dan ketenangan tanpa batas. Ditambah lagi, fasilitas yang lengkap, seperti AC modern dan tempat tidur yang lembut, akan menghadirkan pengalaman tinggal yang tak terlupakan.</p>
                             </div>
                             <div class="review_author">
                                 <img src="images/Hizkia.png" alt="Image">
                                 <div class="author_info">
                                     <h5>Hizkia</h5>
-                                    <span class="place">Perumnas, Yogyakarta</span>
+                                    <span class="place">Kulon Progo, Yogyakarta</span>
                                 </div>
                             </div>
                         </div>
@@ -373,7 +369,7 @@
                     <div class="col-md-4">
                         <div class="review_item">
                             <div class="review_content">
-                                <h3>Excellent! </h3>
+                                <h3>Great! </h3>
                                 <div class="review_rating">
                                     <i class="fa fa-star" aria-hidden="true"></i>
                                     <i class="fa fa-star" aria-hidden="true"></i>
@@ -387,7 +383,7 @@
                                 <img src="images/Geri.png" alt="Image">
                                 <div class="author_info">
                                     <h5>Geri</h5>
-                                    <span class="place">Perumnas, Yogyakarta</span>
+                                    <span class="place">Selokan Mataram, Yogyakarta</span>
                                 </div>
                             </div>
                         </div>
@@ -404,13 +400,13 @@
                                     <i class="fa fa-star" aria-hidden="true"></i>
                                     <i class="fa fa-star" aria-hidden="true"></i>
                                 </div>
-                                <p>Saya dengan senang hati merekomendasikan Kost "EuforiaHome" kepada siapa pun yang mencari tempat tinggal yang luar biasa. Kost ini menawarkan lingkungan yang bersih, nyaman, dan terawat dengan baik. Fasilitas lengkap seperti AC, tempat tidur yang nyaman, dan dapur lengkap memenuhi kebutuhan sehari-hari. Pelayanan yang baik dari manajemen dan staf yang responsif menjadi nilai tambah. Terletak strategis, Kost "EuforiaHome" memberikan kemudahan akses ke berbagai fasilitas umum.</p>
+                                <p>Dengan senang hati, saya merekomendasikan Kost "EuforiaHome" kepada siapa pun yang tengah mencari pengalaman tinggal yang luar biasa. Dari suasana yang menyegarkan hingga fasilitas yang mengagumkan, Kost ini sungguh memberikan kenangan tak terlupakan. Kebersihan yang tak tertandingi dan pemeliharaan yang luar biasa menjadikan tempat ini nyaman serta menenangkan. Sistem keamanan yang canggih memberikan perasaan aman dan ketenangan yang tak tergantikan. Fasilitas lengkap, seperti AC modern dan tempat tidur yang begitu nyaman, akan memanjakan Anda dalam tinggal di sini.</p>
                             </div>
                             <div class="review_author">
                                 <img src="images/Teddy.png" alt="Image">
                                 <div class="author_info">
                                     <h5>Teddy</h5>
-                                    <span class="place">Perumnas, Yogyakarta</span>
+                                    <span class="place">Paingan, Yogyakarta</span>
                                 </div>
                             </div>
                         </div>
@@ -432,19 +428,18 @@
                         <div class="col-md-3 col-sm-6 widget">
                             <h5>Latest News</h5>
                             <ul class="blog_posts">
-                                <li><a href="blog-post.html">Live your myth in Greece</a> <small>AUGUST 13, 2017</small></li>
-                                <li><a href="blog-post.html">Hotel Zante in pictures</a> <small>AUGUST 16, 2017</small></li>
-                                <li><a href="blog-post.html">Hotel Zante family party</a> <small>SEPTEMBER 15, 2017</small></li>
+                                <li><a href="blog-post.html">EuphoriaHome Discount NewYearSale <small>DEC 31, 2022</small></li>
+                                <li><a href="blog-post.html">EuphoriaHome in pictures</a> <small>AUGUST 16, 2023</small></li>
+                                <li><a href="blog-post.html">EuphoriaHome family party</a> <small>SEPTEMBER 15, 2023</small></li>
                             </ul>
                         </div>
                         <div class="col-md-3 col-sm-6 widget">
                             <h5>Useful Links</h5>
                             <ul class="useful_links">
-                                <li><a href="#">About us</a></li>
-                                <li><a href="#">Contact us</a></li>
-                                <li><a href="#">History</a></li>
-                                <li><a href="#">Gallery</a></li>
-                                <li><a href="#">Location</a></li>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Rooms</a></li>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Sign In</a></li>
                             </ul>
                         </div>
                         <div class="col-md-3 col-sm-6 widget">
@@ -454,7 +449,7 @@
                                     <li><i class="glyphicon glyphicon-map-marker"></i> Jl. Perumnas, Ngropoh, Condongcatur, Kec. Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55281</li>
                                     <li><i class="glyphicon glyphicon-phone-alt"></i> Phone: 081234567890 </li>
                                     <li><i class="fa fa-fax"></i> Fax: 089876543210</li>
-                                    <li><i class="fa fa-envelope"></i> Email: <a href="mailto:info@site.com">EuforiaHome@site.com</a></li>
+                                    <li><i class="fa fa-envelope"></i> Email: <a href="mailto:info@site.com">EuforiaHome@gmail.com</a></li>
                                 </ul>
                             </address>
                         </div>
