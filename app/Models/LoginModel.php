@@ -6,12 +6,12 @@ use CodeIgniter\Model;
 
 class LoginModel extends Model
 {
-    protected $table = 'login';
-    protected $allowedFields = ['USERNAME', 'PASSWORD'];
+    protected $table = 'pelanggan';
+    protected $allowedFields = ['pelanggan_id', 'nama', 'alamat', 'no_hp', 'password'];
 
 
     public function ambil($usr)
     {
-        return $this->where(['username' => $usr])->first();
+        return $this->where(['pelanggan_id' => $usr])->first();
     }
 }

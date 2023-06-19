@@ -324,9 +324,9 @@
             <form action="/login/check" method="post">
                 <?= csrf_field() ?>
                 <h1>Login Page</h1>
-                <input class="usr" placeholder="Username" type="text">
+                <input name="usr" placeholder="Username" type="text">
                 <br>
-                <input id="pwd" class="pwd" placeholder="Password" type="password"><button id="bhde" onclick="show()" class="shw" type="button">show</button>
+                <input id="pwd" name="pwd" placeholder="Password" type="password"><button id="bhde" onclick="show()" class="shw" type="button">show</button>
                 <a class="pwd" href="">Forgot Password</a>
                 <input value="Login" id="btn" class="sub" type="submit">
                 <div class="lines">

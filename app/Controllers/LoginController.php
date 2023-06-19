@@ -23,7 +23,7 @@ class LoginController extends BaseController
         $post = $this->request->getPost(['usr', 'pwd']);
         $loginuser = $model->ambil($post['usr']);
 
-        if ($post['usr'] == $loginuser['USERNAME'] && $post['pwd'] == $loginuser['PASSWORD']) {
+        if ($post['usr'] == $loginuser['pelanggan_id'] && $post['pwd'] == $loginuser['password']) {
             $session = session();
             $session->set('pengguna', $post['usr']);
             return view('login/home');
