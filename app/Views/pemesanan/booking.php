@@ -41,7 +41,7 @@
 
                 </div>
                 <div class="main_title mt50">
-                    <h2>ABOUT Single Rooms</h2>
+                    <h2>ABOUT <?= esc($kamar['nama']) ?></h2>
                 </div>
                 <p>
                     <?= esc($kamar['deskripsi']) ?>

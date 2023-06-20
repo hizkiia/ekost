@@ -38,6 +38,9 @@ use App\Controllers\Pemesanan;
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->match(['get', 'post'], '/', [Home::class, 'index']);
+$routes->match(['get', 'post'], '/login', [LoginController::class, 'index']);
+$routes->match(['get', 'post'], '/login/check', [LoginController::class, 'check']);
+$routes->match(['get', 'post'], '/logout', [LoginController::class, 'logout']);
 $routes->match(['get', 'post'], '/input', [KelolaKamar::class, 'input']);
 $routes->match(['get', 'post'], '/update', [KelolaKamar::class, 'update']);
 $routes->match(['get', 'post'], '/delete', [KelolaKamar::class, 'delete']);
@@ -48,9 +51,7 @@ $routes->match(['get', 'post'], '/search', [LihatKamar::class, 'search']);
 $routes->get('/pay', 'Transaksi::pembayaran');
 $routes->match(['get', 'post'], '/(:segment)', [Pemesanan::class, 'booking']);
 
-$routes->match(['get', 'post'], '/login', [LoginController::class, 'index']);
-$routes->match(['get', 'post'], '/login/check', [LoginController::class, 'check']);
-$routes->match(['get', 'post'], '/logout', [LoginController::class, 'logout']);
+
 
 
 
