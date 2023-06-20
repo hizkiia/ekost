@@ -38,21 +38,18 @@ class LoginController extends BaseController
         if ($admin) {
             // Login as admin
             $session = session();
-            $session->set('admin_id', $admin['admin_id']);
-            $session->set('nama', $admin['nama']);
+            $session->set('admin', $username);
             $session->set('is_admin', true);
 
-            return view('layout/header', $data) . view('layout/navbarAdmin') . view('home/home') . view('layout/footer');
+            return redirect()->to('/');
         } elseif ($pelanggan) {
             // Login as pelanggan
             $session = session();
-            $session->set('pelanggan_id', $pelanggan['pelanggan_id']);
-            $session->set('nama', $pelanggan['nama']);
+            $session->set('user', $username);
             $session->set('is_admin', false);
 
-            return view('layout/header', $data) . view('layout/navbarUser') . view('home/home') . view('layout/footer');
+            return redirect()->to('/');
         } else {
-            // Invalid credentials, redirect back to login page
             return redirect()->back()->with('error', 'Invalid username or password');
         }
     }
@@ -63,7 +60,8 @@ class LoginController extends BaseController
     public function logout()
     {
         $session = session();
-        $session->remove('pengguna');
+        $session->remove('user');
+        $session->remove('admin');
         return view('login/login');
     }
 }

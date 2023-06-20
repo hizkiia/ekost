@@ -7,6 +7,16 @@ class Home extends BaseController
     public function index()
     {
         $data = ['title' => 'EuforiaHome'];
-        return view('layout/header', $data) . view('layout/navbarGuest') . view('home/home') . view('layout/footer');
+
+        $session = session();
+
+        if ($session->has('admin')) {
+            return view('layout/header', $data) . view('layout/navbarAdmin') . view('home/home') . view('layout/footer');
+        }
+        if ($session->has('user')) {
+            return view('layout/header', $data) . view('layout/navbarUser') . view('home/home') . view('layout/footer');
+        } else {
+            return view('layout/header', $data) . view('layout/navbarGuest') . view('home/home') . view('layout/footer');
+        }
     }
 }
