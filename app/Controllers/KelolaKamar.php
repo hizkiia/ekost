@@ -87,7 +87,6 @@ class KelolaKamar extends BaseController
             $post = $this->request->getPost([
                 'idKamar',
                 'namaKamar',
-                'gambar',
                 'deskripsi',
                 'fasilitas',
                 'harga'
