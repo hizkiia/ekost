@@ -48,7 +48,7 @@
                             </div>
                             <div class="col-md-3 col-sm-3 col-xs-12 room_price">
                                 <div class="room_price_inner">
-                                    <span class="room_price_number"> Rp<?= esc($l['harga']) ?> </span>
+                                    <span class="room_price_number"> Rp<?= number_format(esc($l['harga']), 0, "", ".") ?> </span>
                                     <small class="upper"> per Month </small>
                                     <a href="/<?= esc($l['kamar_id'], 'url') ?>" class="button  btn_blue btn_full upper">Book Now</a>
                                 </div>

@@ -48,52 +48,45 @@ class KelolaKamar extends BaseController
             return view('login/login');
         }
     }
-    // public function update1()
-    // {
-    //     $data = ['title' => 'Ubah Kamar'];
-
-    //     return view('layout/header', $data)
-    //         . view('kelola/update') .
-    //         view('layout/footer');
-    // }
 
     public function update()
     {
+        $db = \Config\Database::connect();
         $model = model(KamarModel::class);
         $data = [
             'list' => $model->getKamar(),
             'title' => 'Ubah Kamar'
         ];
-
+        $model = $db->table('kamar');
         $session = session();
-        if ($session->has('admin')) {
-            $db = \Config\Database::connect();
-            $Builder = $db->table('kamar');
-            
-            $nama_file = $_FILES['gambar']['name'];
-            $source = $_FILES['gambar']['tmp_name'];
-            $folder = '/images/rooms/';
 
-            move_uploaded_file($source, '.' . $folder . $nama_file);
-           
+
+        
+        if ($session->has('admin')) {
             helper('form');
+
             if (!$this->request->is('post')) {
                 return view('layout/header', $data)
                     . view('layout/navbarAdmin')
-                    . view('kelola/input')
+                    . view('kelola/update')
                     . view("layout/footer");
             }
 
-            $post = $this->request->getPost([
-                'idKamar',
-                'namaKamar',
-                'deskripsi',
-                'fasilitas',
-                'harga'
-            ]);
-            $post['nama_file'] = $nama_file;
-            $Builder->where('kamar_id', $post['idkamar']);
-            $Builder->update($post);
+            $nama_file = $_FILES['gambar']['name'];
+            $source = $_FILES['gambar']['tmp_name'];
+            $folder = '/images/rooms/';
+            move_uploaded_file($source, '.' . $folder . $nama_file);
+
+            $data = [
+                'nama' => [$this->request->getPost('namaKamar'),],
+                'deskripsi' => [$this->request->getPost('deskripsi'),],
+                'fasilitas' => [$this->request->getPost('fasilitas'),],
+                'gambar' => [$nama_file,],
+                'harga' => [$this->request->getPost('harga'),]
+            ];
+
+            $model->where('kamar_id', $this->request->getPost('idKamar'));
+            $model->update($data);
             return redirect()->to('/rooms');
         } else {
             return view('login/login');
