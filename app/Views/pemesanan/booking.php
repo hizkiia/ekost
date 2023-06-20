@@ -4,7 +4,7 @@
         <div class="inner">
             <div class="row">
                 <div class="col-md-6 col-sm-6">
-                    <h1>Single Room</h1>
+                    <h1><?= esc($kamar['nama']) ?></h1>
                     <ol class="breadcrumb">
                         <li><a href="index.html">Home</a></li>
                         <li>Rooms</li>
@@ -14,7 +14,7 @@
                 <div class="col-md-6 col-sm-6">
                     <div class="price">
                         <div class="inner">
-                            Rp500.000 <span>per months</span>
+                            Rp<?= esc($kamar['harga']) ?><span>per months</span>
                         </div>
                     </div>
                 </div>
@@ -102,7 +102,7 @@
                     <h2>ABOUT Single Rooms</h2>
                 </div>
                 <p>
-                    Single room adalah tempat tinggal yang ideal bagi individu yang menginginkan privasi dan kenyamanan pribadi. Kamar ini dilengkapi dengan tempat tidur nyaman, meja kecil, dan lemari pakaian. Beberapa single room juga memiliki fasilitas tambahan seperti meja kerja, TV, atau kulkas mini. Dalam kamar tunggal, Anda dapat menikmati ruang pribadi yang tenang dan fokus untuk bekerja, belajar, atau beristirahat. Dengan privasi yang terjaga, Anda dapat menciptakan suasana yang sesuai dengan kebutuhan Anda. Single room memberikan kebebasan dan kenyamanan dalam gaya hidup sehari-hari, menjadikannya pilihan yang populer di kalangan mahasiswa, pekerja, dan individu yang menghargai privasi.
+                    <?= esc($kamar['deskripsi']) ?>
                 </p>
                 <div class="main_title t_style a_left s_title mt50">
                     <div class="c_inner">

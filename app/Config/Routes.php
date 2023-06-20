@@ -33,6 +33,7 @@ use App\Controllers\Home;
 use App\Controllers\KelolaKamar;
 use App\Controllers\LihatKamar;
 use App\Controllers\LoginController;
+use App\Controllers\Pemesanan;
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
@@ -44,7 +45,7 @@ $routes->match(['get', 'post'], '/search', [LihatKamar::class, 'search']);
 
 $routes->get('/pay', 'Transaksi::pembayaran');
 $routes->get('/rooms', 'LihatKamar::showAll');
-$routes->get('/bookingform', 'Pemesanan::booking');
+$routes->get('bookingform/(:segment)', [Pemesanan::class, 'booking']);
 
 $routes->match(['get', 'post'], '/login', [LoginController::class, 'index']);
 $routes->match(['get', 'post'], '/login/check', [LoginController::class, 'check']);
