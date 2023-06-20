@@ -65,6 +65,8 @@
                 <aside class="widget">
                     <div class="vbf">
                         <h2 class="form_title"><i class="fa"></i>Update Kamar</h2>
+                        <form method="post" action="/input" class="inner" enctype="multipart/form-data">
+                            <?= csrf_field() ?>
                         <div class="form-group">
                                 <input class="form-control" name="idKamar" placeholder="Masukkan ID Kamar" type="text">
                             </div>
@@ -97,7 +99,7 @@
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-default" data-dismiss="modal">Tidak</button>
-                                            <button type="button" class="btn btn-primary">Ya</button>
+                                            <button type="submit" class="btn btn-primary">Ya</button>
                                         </div>
                                     </div>
                                 </div>

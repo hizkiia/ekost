@@ -91,7 +91,7 @@ class KelolaKamar extends BaseController
                 'harga'
             ]);
             $post['nama_file'] = $nama_file;
-            $Builder->where('idkamar', $this->request->getPost('idkamar'));
+            $Builder->where('idkamar', $this->request->getPost('kamar_id'));
             $Builder->update($post);
             return view('layout/header', $data)
                 . view('layout/navbarAdmin')
