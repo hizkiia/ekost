@@ -50,7 +50,7 @@ class KelolaKamar extends BaseController
             return view('login/login');
         }
     }
-    public function update()
+    public function update1()
     {
         $data = ['title' => 'Ubah Kamar'];
 
@@ -58,6 +58,52 @@ class KelolaKamar extends BaseController
             . view('kelola/update') .
             view('layout/footer');
     }
+
+    public function update()
+    {
+        $model = model(KamarModel::class);
+        $data = [
+            'list' => $model->getKamar(),
+            'title' => 'Ubah Kamar'
+        ];
+        $nama_file = $_FILES['gambar']['name'];
+        $source = $_FILES['gambar']['tmp_name'];
+        $folder = '/images/rooms/';
+
+        move_uploaded_file($source, '.' . $folder . $nama_file);
+        $session = session();
+        if ($session->has('admin')) {
+            $db = \Config\Database::connect();
+            $Builder = $db->table('kamar');
+
+            helper('form');
+            if (!$this->request->is('post')) {
+                return view('layout/header', $data)
+                    . view('layout/navbarAdmin')
+                    . view('kelola/input')
+                    . view("layout/footer");
+            }
+
+            $post = $this->request->getPost([
+                'idKamar',
+                'namaKamar',
+                'gambar',
+                'deskripsi',
+                'fasilitas',
+                'harga'
+            ]);
+            $post['nama_file'] = $nama_file;
+            $Builder->where('idkamar', $this->request->getPost('idkamar'));
+            $Builder->update($post);
+            return view('layout/header', $data)
+                . view('layout/navbarAdmin')
+                . view('home/rooms')
+                . view("layout/footer");
+        } else {
+            return view('login/login');
+        }
+    }
+
     public function delete()
     {
         $model = model(KamarModel::class);

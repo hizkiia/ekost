@@ -38,7 +38,7 @@ use App\Controllers\LoginController;
 // route since we don't have to scan directories.
 $routes->match(['get', 'post'], '/', [Home::class, 'index']);
 $routes->match(['get', 'post'], '/input', [KelolaKamar::class, 'input']);
-$routes->match(['get', 'post'], '/update', [KelolaKamar::class, 'update']);
+$routes->match(['get', 'post'], '/update', [KelolaKamar::class, 'update1']);
 $routes->match(['get', 'post'], '/delete', [KelolaKamar::class, 'delete']);
 $routes->match(['get', 'post'], '/search', [LihatKamar::class, 'search']);
 
