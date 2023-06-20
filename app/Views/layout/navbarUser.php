@@ -20,7 +20,7 @@
                         <a href="/">HOME</a>
                     </li>
                     <li>
-                        <a href="#">ROOMS</a>
+                        <a href="/rooms">ROOMS</a>
                     </li>
                     <li class="dropdown simple_menu"><a href="#" data-toggle="dropdown" class="dropdown-toggle" aria-expanded="true">Dashboard <b class="caret"></b></a>
                         <ul class="dropdown-menu">
@@ -31,7 +31,7 @@
                     </li>
                     <li><a href="contact.html">ABOUT US</a></li>
                     <li class="menu_button">
-                        <a href="booking-form.html" class="button btn_yellow">Sign Out</a>
+                        <a href="/logout" class="button btn_yellow">Sign Out</a>
                     </li>
                 </ul>
             </nav>

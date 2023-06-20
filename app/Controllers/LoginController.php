@@ -50,7 +50,7 @@ class LoginController extends BaseController
 
             return redirect()->to('/');
         } else {
-            return redirect()->back()->with('error', 'Invalid username or password');
+            return view('login/login');
         }
     }
 
@@ -60,8 +60,12 @@ class LoginController extends BaseController
     public function logout()
     {
         $session = session();
-        $session->remove('user');
-        $session->remove('admin');
-        return view('login/login');
+        if ($session->get('is_admin')) {
+            $session->remove('admin');
+            return view('login/login');
+        } else {
+            $session->remove('user');
+            return view('login/login');
+        }
     }
 }

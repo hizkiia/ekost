@@ -6,15 +6,27 @@ class LihatKamar extends BaseController
 {
     public function showAll()
     {
+        $session = session();
+
         $model = model(KamarModel::class);
         $data = [
             'list' => $model->getKamar(),
             'title' => 'EuforiaHome - Rooms List View'
         ];
-
-        return view('layout/header', $data) . view('layout/navbarGuest')
-            . view('home/rooms') .
-            view('layout/footer');
+        if ($session->has('admin')) {
+            return view('layout/header', $data)
+                . view('layout/navbarAdmin')
+                . view('home/rooms')
+                . view('layout/footer');
+        }
+        if ($session->has('user')) {
+            return view('layout/header', $data)
+                . view('layout/navbarUser')
+                . view('home/rooms')
+                . view('layout/footer');
+        } else {
+            return view('layout/header', $data) . view('layout/navbarGuest') . view('home/rooms') . view('layout/footer');
+        }
     }
     public function search()
     {

@@ -20,13 +20,13 @@
                         <a href="/">HOME</a>
                         </li>
                         <li>
-                            <a href="#">ROOMS</a>
+                            <a href="/rooms">ROOMS</a>
                         </li>
-                        <li class="dropdown mega_menu mega_menu_fullwidth"><a href="#" data-toggle="dropdown" class="" aria-expanded="true">ABOUT <b class="caret"></b></a>
-                        <li><a href="blog.html">SIGN IN</a></li>
+                        <li class="dropdown mega_menu mega_menu_fullwidth"><a href="#" data-toggle="dropdown" class="" aria-expanded="true">ABOUT US<b class="caret"></b></a>
                         <li class="menu_button">
-                            <a href="booking-form.html" class="button  btn_yellow"><i class="fa fa-calendar"></i>REGISTERS</a>
+                            <a href="/login" class="button btn_yellow">Sign In</a>
                         </li>
+
                 </ul>
             </nav>
         </div>
