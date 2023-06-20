@@ -6,7 +6,7 @@ class Home extends BaseController
 {
     public function index()
     {
-        $data = ['title' => 'Euforia Home'];
-        return view('home/home', $data);
+        $data = ['title' => 'EuforiaHome'];
+        return view('layout/header', $data) . view('layout/navbarGuest') . view('home/home') . view('layout/footer');
     }
 }

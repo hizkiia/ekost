@@ -2,6 +2,8 @@
 
 namespace App\Controllers;
 
+use App\Models\AdminModel;
+use App\Models\PelangganModel;
 
 
 class LoginController extends BaseController
@@ -15,43 +17,49 @@ class LoginController extends BaseController
 
     public function check()
     {
-        $data = ['title' => 'Euforia Home'];
+        $data = ['title' => 'EuforiaHome'];
 
-        $model = model(LoginModel::class);
-        $post = $this->request->getPost(['usr', 'pwd']);
-        $user = $model->where('pelanggan_id', $post['usr'])->first();
-        $pass = $model->where('password', $post['pwd'])->first();
-        if ($user && $pass) {
+        $username = $this->request->getPost('usr');
+        $password = $this->request->getPost('pwd');
+
+        $adminModel = new AdminModel();
+        $pelangganModel = new PelangganModel();
+
+        // Check if login credentials belong to an admin
+        $admin = $adminModel->where('admin_id', $username)
+            ->where('password', $password)
+            ->first();
+
+        // Check if login credentials belong to a pelanggan
+        $pelanggan = $pelangganModel->where('pelanggan_id', $username)
+            ->where('password', $password)
+            ->first();
+
+        if ($admin) {
+            // Login as admin
             $session = session();
-            $session->set('pengguna', $post['usr']);
-            return view('layout/header', $data)
-                . view('home/home')
-                . view("layout/footer");
-        } else {
-            return view('login/fail');
-        }
-    }
-    public function home()
-    {
-        $key = $this->request->getPost(['usr', 'pwd']);
-        $model = model(LoginModel::class);
-        $session = session();
-        if ($session->has('pengguna')) {
-            $item = $session->get('pengguna');
-            if ($item == $model->ambil($key['usr'])) {
-                return view('home/home');
-            } else {
-                return view('login/login');
-            }
-        } else {
-            return view('login/login');
-        }
-    }
-    public function login()
-    {
+            $session->set('admin_id', $admin['admin_id']);
+            $session->set('nama', $admin['nama']);
+            $session->set('is_admin', true);
 
-        return view('login/login');
+            return view('layout/header', $data) . view('layout/navbarAdmin') . view('home/home') . view('layout/footer');
+        } elseif ($pelanggan) {
+            // Login as pelanggan
+            $session = session();
+            $session->set('pelanggan_id', $pelanggan['pelanggan_id']);
+            $session->set('nama', $pelanggan['nama']);
+            $session->set('is_admin', false);
+
+            return view('layout/header', $data) . view('layout/navbarUser') . view('home/home') . view('layout/footer');
+        } else {
+            // Invalid credentials, redirect back to login page
+            return redirect()->back()->with('error', 'Invalid username or password');
+        }
     }
+
+
+
+
     public function logout()
     {
         $session = session();
