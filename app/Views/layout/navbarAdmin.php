@@ -8,7 +8,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="/">
                     <img src="images/logo.svg" height="32" alt="Logo">
                 </a>
             </div>
@@ -23,9 +23,9 @@
                     </li>
                     <li class="dropdown simple_menu"><a href="#" data-toggle="dropdown" class="dropdown-toggle" aria-expanded="true">Dashboard <b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li><a href="typography.html">Data Tagihan</a></li>
-                            <li><a href="buttons.html">Pemesanan Kamar</a></li>
-                            <li><a href="icons.html">Pembayaran</a></li>
+                            <li><a href="#">Data Tagihan</a></li>
+                            <li><a href="#">Pemesanan Kamar</a></li>
+                            <li><a href="#">Pembayaran</a></li>
                         </ul>
                     </li>
                     <li class="dropdown simple_menu"><a href="#" data-toggle="dropdown" class="dropdown-toggle" aria-expanded="true">Kelola <b class="caret"></b></a>

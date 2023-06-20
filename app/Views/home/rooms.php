@@ -4,7 +4,7 @@
         <div class="inner">
             <h1>Rooms List View</h1>
             <ol class="breadcrumb">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="/">Home</a></li>
                 <li>Room List View </li>
             </ol>
         </div>
@@ -36,7 +36,7 @@
                         <div class="room_details row-flex">
                             <div class="col-md-9 col-sm-9 col-xs-12 room_desc">
                                 <h5>No: <?= esc($l['kamar_id']) ?></h5><br>
-                                <h3><a href="/bookingform"> <?= esc($l['nama']) ?> </a></h3>
+                                <h3><a href="/<?= esc($l['kamar_id'], 'url') ?>"> <?= esc($l['nama']) ?> </a></h3>
                                 <p>
                                     <?= esc($l['deskripsi']) ?>
                                 </p>
@@ -50,7 +50,7 @@
                                 <div class="room_price_inner">
                                     <span class="room_price_number"> Rp<?= esc($l['harga']) ?> </span>
                                     <small class="upper"> per Month </small>
-                                    <a href="/bookingform/<?= esc($l['kamar_id'], 'url') ?>" class="button  btn_blue btn_full upper">Book Now</a>
+                                    <a href="/<?= esc($l['kamar_id'], 'url') ?>" class="button  btn_blue btn_full upper">Book Now</a>
                                 </div>
                             </div>
                         </div>

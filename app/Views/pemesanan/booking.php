@@ -6,9 +6,9 @@
                 <div class="col-md-6 col-sm-6">
                     <h1><?= esc($kamar['nama']) ?></h1>
                     <ol class="breadcrumb">
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="/">Home</a></li>
                         <li>Rooms</li>
-                        <li>Single Room</li>
+                        <li><?= esc($kamar['nama']) ?></li>
                     </ol>
                 </div>
                 <div class="col-md-6 col-sm-6">
@@ -32,71 +32,13 @@
                     <div id="slider-larg" class="owl-carousel image-gallery">
                         <!-- ITEM -->
                         <div class="item lightbox-image-icon">
-                            <a href="images/rooms/single-room/single-room1.jpg" class="hover_effect h_lightbox h_blue">
-                                <img class="img-responsive" src="images/rooms/single-room/single-room1.jpg" alt="Image">
+                            <a href="images/rooms/<?= esc($kamar['gambar']) ?>" class="hover_effect h_lightbox h_blue">
+                                <img class="img-responsive" src="images/rooms/<?= esc($kamar['gambar']) ?>" alt="Image">
                             </a>
                         </div>
-                        <!-- ITEM -->
-                        <div class="item lightbox-image-icon">
-                            <a href="images/rooms/single-room/single-room2.jpg" class="hover_effect h_lightbox h_blue">
-                                <img class="img-responsive" src="images/rooms/single-room/single-room2.jpg" alt="Image">
-                            </a>
-                        </div>
-                        <!-- ITEM -->
-                        <div class="item lightbox-image-icon">
-                            <a href="images/rooms/single-room/single-room3.jpg" class="hover_effect h_lightbox h_blue">
-                                <img class="img-responsive" src="images/rooms/single-room/single-room3.jpg" alt="Image">
-                            </a>
-                        </div>
-                        <!-- ITEM -->
-                        <div class="item lightbox-image-icon">
-                            <a href="images/rooms/single-room/single-room4.jpg" class="hover_effect h_lightbox h_blue">
-                                <img class="img-responsive" src="images/rooms/single-room/single-room4.jpg" alt="Image">
-                            </a>
-                        </div>
-                        <!-- ITEM -->
-                        <div class="item lightbox-image-icon">
-                            <a href="images/rooms/single-room/single-room5.jpg" class="hover_effect h_lightbox h_blue">
-                                <img class="img-responsive" src="images/rooms/single-room/single-room5.jpg" alt="Image">
-                            </a>
-                        </div>
-                        <!-- ITEM -->
-                        <div class="item lightbox-image-icon">
-                            <a href="images/rooms/single-room/single-room6.jpg" class="hover_effect h_lightbox h_blue">
-                                <img class="img-responsive" src="images/rooms/single-room/single-room6.jpg" alt="Image">
-                            </a>
-                        </div>
-                        <!-- ITEM -->
-                        <div class="item lightbox-image-icon">
-                            <a href="images/rooms/single-room/single-room7.jpg" class="hover_effect h_lightbox h_blue">
-                                <img class="img-responsive" src="images/rooms/single-room/single-room7.jpg" alt="Image">
-                            </a>
-                        </div>
-                        <!-- ITEM -->
-                        <div class="item  lightbox-image-icon">
-                            <a href="images/rooms/single-room/single-room8.jpg" class="hover_effect h_lightbox h_blue">
-                                <img class="img-responsive" src="images/rooms/single-room/single-room8.jpg" alt="Image">
-                            </a>
-                        </div>
+
                     </div>
-                    <div id="thumbs" class="owl-carousel">
-                        <!-- ITEM -->
-                        <div class="item"><img class="img-responsive" src="images/rooms/single-room/single-room-thumb1.jpg" alt="Image"></div>
-                        <!-- ITEM -->
-                        <div class="item"><img class="img-responsive" src="images/rooms/single-room/single-room-thumb2.jpg" alt="Image"></div>
-                        <!-- ITEM -->
-                        <div class="item"><img class="img-responsive" src="images/rooms/single-room/single-room-thumb3.jpg" alt="Image"></div>
-                        <!-- ITEM -->
-                        <div class="item"><img class="img-responsive" src="images/rooms/single-room/single-room-thumb4.jpg" alt="Image"></div>
-                        <!-- ITEM -->
-                        <div class="item"><img class="img-responsive" src="images/rooms/single-room/single-room-thumb5.jpg" alt="Image"></div>
-                        <!-- ITEM -->
-                        <div class="item"><img class="img-responsive" src="images/rooms/single-room/single-room-thumb6.jpg" alt="Image"></div>
-                        <!-- ITEM -->
-                        <div class="item"><img class="img-responsive" src="images/rooms/single-room/single-room-thumb7.jpg" alt="Image"></div>
-                        <!-- ITEM -->
-                        <div class="item"><img class="img-responsive" src="images/rooms/single-room/single-room-thumb8.jpg" alt="Image"></div>
-                    </div>
+
                 </div>
                 <div class="main_title mt50">
                     <h2>ABOUT Single Rooms</h2>
@@ -145,28 +87,25 @@
                             <h2 class="form_title"><i class="fa fa-calendar"></i> BOOK ONLINE </h2>
                             <form id="booking-form" class="inner">
                                 <div class="form-group">
-                                    <input class="form-control" name="booking-name" placeholder="Enter Your Name" type="text">
+                                    <input class="form-control" name="booking-name" placeholder="Masukkan Nama" type="text">
                                 </div>
                                 <div class="form-group">
-                                    <input class="form-control" name="booking-email" placeholder="Enter Your Email Address" type="email">
+                                    <input class="form-control" name="booking-email" placeholder="Masukkan email" type="email">
                                 </div>
                                 <div class="form-group">
-                                    <input class="form-control" name="booking-phone" placeholder="Enter Your Phone Number" type="text">
+                                    <input class="form-control" name="booking-phone" placeholder="Masukkan No HP" type="text">
                                 </div>
                                 <div class="form-group col-md-6 col-sm-6 col-xs-12 nopadding">
-                                    <div class="input-group">
-
-                                        <div class='input-group date' id='datetimepicker3'>
-                                            <input type='text' class="form-control" />
-                                            <span class="input-group-addon">
-                                                <span class="glyphicon glyphicon-time"></span>
-                                            </span>
-                                        </div>
+                                    <div class="input-group date" id="datetimepicker3">
+                                        <input type="text" class="form-control" name="booking-date" placeholder="Pilih tanggal awal" />
+                                        <span class="input-group-addon">
+                                            <span class="glyphicon glyphicon-calendar"></span>
+                                        </span>
                                     </div>
                                 </div>
                                 <div class="form-group col-md-6 col-sm-6 col-xs-12 nopadding">
                                     <div class="form_select">
-                                        <select name="booking-roomdate" class="form-control" title="Select Room Date" data-header="Room Date" enabled>
+                                        <select name="booking-roomdate" class="form-control" title="Pilih Lama Kost" data-header="Room Date" enabled>
                                             <option value="1 Month">1 Month</option>
                                             <option value="6 Month">6 Month</option>
                                             <option value="1 Year">1 Year</option>

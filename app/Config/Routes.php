@@ -41,11 +41,12 @@ $routes->match(['get', 'post'], '/', [Home::class, 'index']);
 $routes->match(['get', 'post'], '/input', [KelolaKamar::class, 'input']);
 $routes->match(['get', 'post'], '/update', [KelolaKamar::class, 'update']);
 $routes->match(['get', 'post'], '/delete', [KelolaKamar::class, 'delete']);
+$routes->match(['get', 'post'], '/rooms', [LihatKamar::class, 'showAll']);
+
 $routes->match(['get', 'post'], '/search', [LihatKamar::class, 'search']);
 
 $routes->get('/pay', 'Transaksi::pembayaran');
-$routes->get('/rooms', 'LihatKamar::showAll');
-$routes->get('bookingform/(:segment)', [Pemesanan::class, 'booking']);
+$routes->match(['get', 'post'], '/(:segment)', [Pemesanan::class, 'booking']);
 
 $routes->match(['get', 'post'], '/login', [LoginController::class, 'index']);
 $routes->match(['get', 'post'], '/login/check', [LoginController::class, 'check']);
