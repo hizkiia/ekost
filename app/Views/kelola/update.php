@@ -67,7 +67,8 @@
                         <h2 class="form_title"><i class="fa"></i>Update Kamar</h2>
                         <form method="post" action="/input" class="inner" enctype="multipart/form-data">
                             <?= csrf_field() ?>
-                        <div class="form-group">
+                            
+                            <div class="form-group">
                                 <input class="form-control" name="idKamar" placeholder="Masukkan ID Kamar" type="text">
                             </div>
                             <div class="form-group">

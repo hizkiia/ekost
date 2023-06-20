@@ -48,14 +48,14 @@ class KelolaKamar extends BaseController
             return view('login/login');
         }
     }
-    public function update1()
-    {
-        $data = ['title' => 'Ubah Kamar'];
+    // public function update1()
+    // {
+    //     $data = ['title' => 'Ubah Kamar'];
 
-        return view('layout/header', $data)
-            . view('kelola/update') .
-            view('layout/footer');
-    }
+    //     return view('layout/header', $data)
+    //         . view('kelola/update') .
+    //         view('layout/footer');
+    // }
 
     public function update()
     {
@@ -64,16 +64,19 @@ class KelolaKamar extends BaseController
             'list' => $model->getKamar(),
             'title' => 'Ubah Kamar'
         ];
-        $nama_file = $_FILES['gambar']['name'];
-        $source = $_FILES['gambar']['tmp_name'];
-        $folder = '/images/rooms/';
 
-        move_uploaded_file($source, '.' . $folder . $nama_file);
+
+
         $session = session();
         if ($session->has('admin')) {
             $db = \Config\Database::connect();
             $Builder = $db->table('kamar');
-
+            
+            $nama_file = $_FILES['gambar']['name'];
+            $source = $_FILES['gambar']['tmp_name'];
+            $folder = '/images/rooms/';
+            move_uploaded_file($source, '.' . $folder . $nama_file);
+           
             helper('form');
             if (!$this->request->is('post')) {
                 return view('layout/header', $data)
@@ -91,12 +94,9 @@ class KelolaKamar extends BaseController
                 'harga'
             ]);
             $post['nama_file'] = $nama_file;
-            $Builder->where('idkamar', $this->request->getPost('kamar_id'));
+            $Builder->where('kamar_id', $post);
             $Builder->update($post);
-            return view('layout/header', $data)
-                . view('layout/navbarAdmin')
-                . view('home/rooms')
-                . view("layout/footer");
+            return redirect()->to('/rooms');
         } else {
             return view('login/login');
         }
