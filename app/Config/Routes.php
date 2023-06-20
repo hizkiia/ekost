@@ -46,6 +46,8 @@ $routes->match(['get', 'post'], '/update', [KelolaKamar::class, 'update']);
 $routes->match(['get', 'post'], '/delete', [KelolaKamar::class, 'delete']);
 $routes->match(['get', 'post'], '/rooms', [LihatKamar::class, 'showAll']);
 
+// $routes->match(['get', 'post'], '/booking', [KelolaKamar::class, 'delete']);
+
 $routes->match(['get', 'post'], '/search', [LihatKamar::class, 'search']);
 
 $routes->get('/pay', 'Transaksi::pembayaran');
