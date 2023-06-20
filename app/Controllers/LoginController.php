@@ -15,18 +15,18 @@ class LoginController extends BaseController
 
     public function check()
     {
-        if (!$this->request->is('post')) {
-            return view('/login/login');
-        }
+        $data = ['title' => 'Euforia Home'];
 
         $model = model(LoginModel::class);
         $post = $this->request->getPost(['usr', 'pwd']);
-        $loginuser = $model->ambil($post['usr']);
-
-        if ($post['usr'] == $loginuser['pelanggan_id'] && $post['pwd'] == $loginuser['password']) {
+        $user = $model->where('pelanggan_id', $post['usr'])->first();
+        $pass = $model->where('password', $post['pwd'])->first();
+        if ($user && $pass) {
             $session = session();
             $session->set('pengguna', $post['usr']);
-            return view('home/home');
+            return view('layout/header', $data)
+                . view('home/home')
+                . view("layout/footer");
         } else {
             return view('login/fail');
         }

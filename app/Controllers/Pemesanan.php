@@ -7,6 +7,7 @@ class Pemesanan extends BaseController
     public function booking()
     {
         $data = ['title' => 'EuforiaHome - Register Form'];
-        return view('pemesanan/booking');
+        return view('layout/header', $data) . view('layout/navbarUser')
+            . view('pemesanan/booking') . view('layout/footer');
     }
 }
