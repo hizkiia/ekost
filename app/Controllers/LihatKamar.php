@@ -30,8 +30,7 @@ class LihatKamar extends BaseController
     }
     public function search()
     {
-        // $session = session();
-        // if ($session->has('pengguna')) {
+
         if (!$this->request->is('post')) {
             return view('home/rooms');
         }
@@ -44,8 +43,5 @@ class LihatKamar extends BaseController
         return view('layout/header', $data) . view('layout/navbarGuest')
             . view('home/search')
             . view("layout/footer");
-        // } else {
-        //     return view('login/loginpage');
-        // }
     }
 }

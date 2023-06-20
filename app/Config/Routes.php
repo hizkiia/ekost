@@ -29,13 +29,14 @@ $routes->set404Override();
  * --------------------------------------------------------------------
  */
 
+use App\Controllers\Home;
 use App\Controllers\KelolaKamar;
 use App\Controllers\LihatKamar;
 use App\Controllers\LoginController;
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/', 'Home::index');
+$routes->match(['get', 'post'], '/', [Home::class, 'index']);
 $routes->match(['get', 'post'], '/input', [KelolaKamar::class, 'input']);
 $routes->match(['get', 'post'], '/update', [KelolaKamar::class, 'update']);
 $routes->match(['get', 'post'], '/delete', [KelolaKamar::class, 'delete']);
