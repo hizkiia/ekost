@@ -11,9 +11,13 @@ class KamarModel extends Model
     protected $allowedFields = ['kamar_id', 'nama', 'deskripsi', 'fasilitas', 'gambar', 'harga'];
 
 
-    public function getKamar()
+    public function getKamar($slug = false)
     {
-        return $this->findAll();
+        if ($slug === false) {
+            return $this->findAll();
+        }
+
+        return $this->where(['kamar_id' => $slug])->first();
     }
 
     public function simpan($record)

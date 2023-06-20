@@ -43,9 +43,7 @@ class KelolaKamar extends BaseController
             // Mengakses Model untuk menyimpan data
             $model = model(KamarModel::class);
             $model->simpan($post);
-            return view('layout/header', $data) . view('layout/navbarAdmin')
-                . view('home/rooms')
-                . view("layout/footer");
+            return redirect()->to('/rooms');
         } else {
             return view('login/login');
         }
@@ -127,10 +125,7 @@ class KelolaKamar extends BaseController
             ]);
             $builder->where('kamar_id', $post);
             $builder->delete();
-            return view('layout/header', $data)
-                . view('layout/navbarAdmin')
-                . view('home/rooms')
-                . view("layout/footer");
+            return redirect()->to('/rooms');
         } else {
             return view('login/login');
         }

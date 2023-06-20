@@ -50,7 +50,7 @@
                                 <div class="room_price_inner">
                                     <span class="room_price_number"> Rp<?= esc($l['harga']) ?> </span>
                                     <small class="upper"> per Month </small>
-                                    <a href="room.html" class="button  btn_blue btn_full upper">Book Now</a>
+                                    <a href="/bookingform/<?= esc($l['kamar_id'], 'url') ?>" class="button  btn_blue btn_full upper">Book Now</a>
                                 </div>
                             </div>
                         </div>
