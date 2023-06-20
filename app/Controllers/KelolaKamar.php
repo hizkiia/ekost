@@ -65,8 +65,6 @@ class KelolaKamar extends BaseController
             'title' => 'Ubah Kamar'
         ];
 
-
-
         $session = session();
         if ($session->has('admin')) {
             $db = \Config\Database::connect();
@@ -75,6 +73,7 @@ class KelolaKamar extends BaseController
             $nama_file = $_FILES['gambar']['name'];
             $source = $_FILES['gambar']['tmp_name'];
             $folder = '/images/rooms/';
+
             move_uploaded_file($source, '.' . $folder . $nama_file);
            
             helper('form');
@@ -94,7 +93,7 @@ class KelolaKamar extends BaseController
                 'harga'
             ]);
             $post['nama_file'] = $nama_file;
-            $Builder->where('kamar_id', $post);
+            $Builder->where('kamar_id', $post['idkamar']);
             $Builder->update($post);
             return redirect()->to('/rooms');
         } else {
