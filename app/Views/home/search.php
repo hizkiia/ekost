@@ -23,9 +23,9 @@
                 </div>
                 <div class="col-md-3 col-sm-3 col-xs-12 room_price">
                     <div class="room_price_inner">
-                        <span class="room_price_number"> Rp<?= esc($hasil['harga']) ?> </span>
+                        <span class="room_price_number"> Rp<?= number_format(esc($hasil['harga']), 0, "", ".") ?> </span>
                         <small class="upper"> per Month </small>
-                        <a href="room.html" class="button  btn_blue btn_full upper">Book Now</a>
+                        <a href="/<?= esc($hasil['kamar_id'], 'url') ?>" class="button  btn_blue btn_full upper">Book Now</a>
                     </div>
                 </div>
             </div>

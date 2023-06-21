@@ -85,7 +85,7 @@
                     <aside class="widget">
                         <div class="vbf">
                             <h2 class="form_title"><i class="fa fa-calendar"></i> BOOK ONLINE </h2>
-                            <form id="booking-form" class="inner">
+                            <form id="booking-form" class="inner" method="/payment" action="post">
                                 <div class="form-group">
                                     <input class="form-control" name="booking-name" placeholder="Masukkan Nama" type="text">
                                 </div>
@@ -96,7 +96,7 @@
                                     <input class="form-control" name="booking-phone" placeholder="Masukkan No HP" type="text">
                                 </div>
                                 <div class="form-group col-md-6 col-sm-6 col-xs-12 nopadding">
-                                    <div class="input-group date" id="datetimepicker3">
+                                    <div class="input-group date" id="datetimepicker1">
                                         <input type="text" class="form-control" name="booking-date" placeholder="Pilih tanggal awal" />
                                         <span class="input-group-addon">
                                             <span class="glyphicon glyphicon-calendar"></span>
@@ -115,7 +115,6 @@
 
                                 </div>
                                 <button class="button btn_lg btn_blue btn_full" type="submit">BOOK A ROOM NOW</button>
-
                             </form>
                         </div>
                     </aside>

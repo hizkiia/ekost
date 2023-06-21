@@ -25,8 +25,8 @@
                     <li class="dropdown simple_menu"><a href="#" data-toggle="dropdown" class="dropdown-toggle" aria-expanded="true">Dashboard <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li><a href="#">Data Tagihan</a></li>
-                            <li><a href="/booking">Pemesanan Kamar</a></li>
-                            <li><a href="/pay">Pembayaran</a></li>
+                            <li><a href="/rooms">Pemesanan Kamar</a></li>
+                            <li><a href="/payment">Pembayaran</a></li>
                         </ul>
                     </li>
                     <li><a href="contact.html">ABOUT US</a></li>

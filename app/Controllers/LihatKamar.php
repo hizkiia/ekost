@@ -30,7 +30,7 @@ class LihatKamar extends BaseController
     }
     public function search()
     {
-
+        $session = session();
         if (!$this->request->is('post')) {
             return view('home/rooms');
         }
@@ -40,8 +40,22 @@ class LihatKamar extends BaseController
         $kamar = $model->ambil($id['key']);
 
         $data = ['hasil' => $kamar, 'title' => 'Cari Kamar'];
-        return view('layout/header', $data) . view('layout/navbarGuest')
-            . view('home/search')
-            . view("layout/footer");
+        if ($session->has('admin')) {
+            return view('layout/header', $data)
+                . view('layout/navbarAdmin')
+                . view('home/search')
+                . view('layout/footer');
+        }
+        if ($session->has('user')) {
+            return view('layout/header', $data)
+                . view('layout/navbarUser')
+                . view('home/search')
+                . view('layout/footer');
+        } else {
+            return view('layout/header', $data)
+                . view('layout/navbarGuest')
+                . view('home/search')
+                . view('layout/footer');
+        }
     }
 }

@@ -5,7 +5,7 @@
             <h1>Rooms List View</h1>
             <ol class="breadcrumb">
                 <li><a href="/">Home</a></li>
-                <li>Room List View </li>
+                <li>Rooms</li>
             </ol>
         </div>
     </div>
@@ -17,13 +17,13 @@
         <div class="text-center ">
             <form action="/search" method="post">
                 <?= csrf_field() ?>
-                <input type="text" name="key" placeholder="Masukkan No Kamar" class=" form-control "><br>
-                <input type="submit" name="submit" value="Search" class="btn btn-primary">
+                <input type="text" name="key" placeholder="Masukkan No Kamar" class="form-control "><br>
+                <input type="submit" name="submit" value="Search" class="button btn_yellow upper">
             </form>
-        </div>
+        </div><br>
         <!-- ITEM -->
         <?php foreach ($list as $l) : ?>
-            <article class="room_list">
+            <article class="room_list" cl>
                 <div class="row row-flex">
                     <div class="col-lg-4 col-md-5 col-sm-12">
                         <figure>
