@@ -2,6 +2,7 @@
 
 namespace Config;
 
+
 use Config\Services;
 
 // Create a new instance of our RouteCollection class.
@@ -35,6 +36,7 @@ use App\Controllers\LihatKamar;
 use App\Controllers\LoginController;
 use App\Controllers\Pemesanan;
 use App\Controllers\Transaksi;
+use App\Controllers\DataTagihan;
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
@@ -50,8 +52,8 @@ $routes->match(['get', 'post'], '/search', [LihatKamar::class, 'search']);
 $routes->match(['get', 'post'], '/payment', [Transaksi::class, 'pembayaran']);
 $routes->match(['get', 'post'], '/paymentconfirm', [Transaksi::class, 'konfirmasiPembayaran']);
 // $routes->match(['get', 'post'], '/booking', [KelolaKamar::class, 'delete']);
+$routes->match(['get', 'post'], '/bills', [DataTagihan::class, 'tagihan']);
 $routes->match(['get', 'post'], '/(:segment)', [Pemesanan::class, 'booking']);
-
 
 
 
