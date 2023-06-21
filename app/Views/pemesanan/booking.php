@@ -14,7 +14,7 @@
                 <div class="col-md-6 col-sm-6">
                     <div class="price">
                         <div class="inner">
-                            Rp<?= esc($kamar['harga']) ?><span>per months</span>
+                            Rp<?= esc($kamar['harga']) ?><span>monthly</span>
                         </div>
                     </div>
                 </div>

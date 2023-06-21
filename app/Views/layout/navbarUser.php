@@ -24,7 +24,7 @@
                     </li>
                     <li class="dropdown simple_menu"><a href="#" data-toggle="dropdown" class="dropdown-toggle" aria-expanded="true">Dashboard <b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">Data Tagihan</a></li>
+                            <li><a href="/bills">Data Tagihan</a></li>
                             <li><a href="/rooms">Pemesanan Kamar</a></li>
                             <li><a href="/payment">Pembayaran</a></li>
                         </ul>
