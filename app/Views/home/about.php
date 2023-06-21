@@ -123,7 +123,6 @@
                         Salam,
                         </p>
                         Tim EuforiaHome</p>
-                        <a class="button btn_blue " href="blog-post.html"><i class="fa fa-angle-double-right"></i> Read More </a>
                     </div>
                 </article>
             </div>

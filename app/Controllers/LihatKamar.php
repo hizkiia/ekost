@@ -58,4 +58,8 @@ class LihatKamar extends BaseController
                 . view('layout/footer');
         }
     }
+    public function about()
+    {
+        return view('home/about');
+    }
 }
