@@ -339,17 +339,17 @@
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- ========== FOOTER ========== -->
-        <footer class="dark">
-            <div class="inner">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-3 col-sm-6 widget">
-                            <div class="about">
-                                <a href="index.html"><img class="logo" src="images/logo_light.svg" height="32" alt="Logo"></a>
-                                <p>EuforiaHome adalah salah satu gedung kost murah di Yogyakarta yang berlokasi di Jalan Perumnas, Cadong catur, Depok, Sleman dimana merupakan kawasan bisnis dan kuliner terkemuka di Yogyakarta. Dengan jarak tempuh sekitar 10 menit menuju area Kampus, Perkantoran dan Mall ternama di Yogyakarta, menjadikan D’Paragon Perumnas sebagai sebuah pilihan yang sangat tepat bagi para mahasiswa maupun profesional muda yang mencari tempat hunian yang berkelas dan strategis</p>
-                            </div>
+        </div>
+    </section>
+    <!-- ========== FOOTER ========== -->
+    <footer class="dark">
+        <div class="inner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 widget">
+                        <div class="about">
+                            <a href="/"><img class="logo" src="images/logo_light.svg" height="32" alt="Logo"></a>
+                            <p class="text-justify">EuforiaHome adalah salah satu gedung kost murah di Yogyakarta yang berlokasi di Jalan Perumnas, Cadong catur, Depok, Sleman dimana merupakan kawasan bisnis dan kuliner terkemuka di Yogyakarta. Dengan jarak tempuh sekitar 10 menit menuju area Kampus, Perkantoran dan Mall ternama di Yogyakarta, menjadikan D’Paragon Perumnas sebagai sebuah pilihan yang sangat tepat bagi para mahasiswa maupun profesional muda yang mencari tempat hunian yang berkelas dan strategis</p>
                         </div>
                         <div class="col-md-3 col-sm-6 widget">
                             <h5>Latest News</h5>
