@@ -36,7 +36,7 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td>1223</td>
+                            <td>1</td>
                             <td>hizkia</td>
                             <td>2</td>
                             <td>Hizkia Pratama</td>
