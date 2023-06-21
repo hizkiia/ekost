@@ -54,7 +54,7 @@
         </table>
         <br>
         <div class="text-right">
-            <button class="button btn_lg btn_yellow" type="button">Bayar Sekarang</button>
+        <a href="/payment" class="button  btn_blue btn_full upper">Bayar Sekarang</a>
         </div>
     </div>
     </div>
