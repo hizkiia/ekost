@@ -16,7 +16,6 @@ class DataTagihan extends BaseController
             'list' => $model->getTagihan(),
             'title' => 'EuforiaHome - Rooms List View'
         ];
-        # $data['sewa_id'] = $model->getTagihan($slug);
 
         if ($session->has('admin')) {
             return view('layout/header', $data) . view('layout/navbarAdmin')
