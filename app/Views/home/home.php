@@ -119,8 +119,8 @@
                         <div class="main_title mt_wave a_left">
                             <h2>TENTANG EUFORIAHOME</h2>
                         </div>
-                        <p class="main_description a_left">Kost "EuphoriaHome" adalah tempat tinggal eksklusif yang menawarkan pengalaman hunian yang luar biasa. Dengan desain modern dan fasilitas berkualitas, EuphoriaHome memadukan kenyamanan, gaya hidup mewah, dan kesenangan dalam satu tempat.</p>
-                        <p> Di EuphoriaHome, Anda akan menemukan kamar-kamar yang dirancang dengan sempurna untuk memberikan ruang pribadi yang nyaman. Setiap kamar dilengkapi dengan furnitur berkualitas tinggi, tempat tidur yang nyaman, meja kerja, dan area penyimpanan yang luas. Desain interior yang elegan menciptakan suasana yang menyenangkan dan menenangkan bagi para penghuni.</p>
+                        <p class="main_description  text-justify">Kost "EuphoriaHome" adalah tempat tinggal eksklusif yang menawarkan pengalaman hunian yang luar biasa. Dengan desain modern dan fasilitas berkualitas, EuphoriaHome memadukan kenyamanan, gaya hidup mewah, dan kesenangan dalam satu tempat.</p>
+                        <p class="text-justify"> Di EuphoriaHome, Anda akan menemukan kamar-kamar yang dirancang dengan sempurna untuk memberikan ruang pribadi yang nyaman. Setiap kamar dilengkapi dengan furnitur berkualitas tinggi, tempat tidur yang nyaman, meja kerja, dan area penyimpanan yang luas. Desain interior yang elegan menciptakan suasana yang menyenangkan dan menenangkan bagi para penghuni.</p>
                     </div>
                 </div>
 
@@ -129,7 +129,7 @@
                         <div class="main_title mt_wave a_left">
                             <h2>KAMAR FAVORIT KAMI</h2>
                         </div>
-                        <p class="main_description">
+                        <p class="main_description text-justify">
                             Kamar favorit kami menawarkan tiga tipe kamar yang berbeda untuk memenuhi kebutuhan dan preferensi tamu. Pertama, kami memiliki single room yang ideal untuk tamu yang menginap sendirian. Dengan desain yang efisien, kamar ini memberikan privasi dan kenyamanan dengan luas yang cukup untuk beristirahat. Tempat tidur tunggal yang nyaman, meja kerja, dan lemari yang memadai akan memenuhi kebutuhan tamu. Kamar mandi pribadi dengan perlengkapan modern juga tersedia, memberikan kenyamanan ekstra.
                             Kemudian, kami juga memiliki double room yang luas dan sempurna untuk tamu yang datang berdua. Dengan desain elegan dan modern, kamar ini menawarkan tempat tidur ganda yang lembut dan nyaman sebagai pusat perhatian. Selain itu, ada juga meja kerja yang luas, sofa nyaman, dan ruang penyimpanan yang mencukupi. Kamar mandi pribadi dengan shower dan perlengkapan mandi lengkap menambahkan kenyamanan tamu.
                             Terakhir, kami memiliki full facilities room yang menyediakan pengalaman menginap mewah dan lengkap. Ruangan ini dilengkapi dengan fasilitas terbaik dan luas, mencakup tempat tidur nyaman, area duduk yang luas, dan meja kerja lengkap dengan perlengkapan modern. Kamar mandi pribadi yang luas dilengkapi dengan bak mandi jacuzzi, shower terpisah, dan perlengkapan mandi mewah. Tamu juga dapat menikmati fasilitas tambahan seperti mini bar, televisi layar datar, akses Wi-Fi gratis, dan layanan kamar 24 jam.
@@ -139,12 +139,12 @@
                             <div class="col-md-4">
                                 <article class="room">
                                     <figure>
-                                        <div class="price">500K <span>/ Mothly</span></div>
-                                        <a class="hover_effect h_blue h_link" href="room.html">
+                                        <div class="price">500K <span>/ Monthly</span></div>
+                                        <a class="hover_effect h_blue h_link" href="/rooms">
                                             <img src="images/single.jpg" class="img-responsive" alt="Image">
                                         </a>
                                         <figcaption>
-                                            <h5><a href="room.html">Single Room</a></h5>
+                                            <h5><a href="/rooms">Single Room</a></h5>
                                             <span class="f_right"><a href="rooms-list.html" class="button btn_xs btn_blue">VIEW DETAILS</a></span>
                                         </figcaption>
                                     </figure>
@@ -154,11 +154,11 @@
                                 <article class="room">
                                     <figure>
                                         <div class="price">900K <span>/ Monthly</span></div>
-                                        <a class="hover_effect h_blue h_link" href="room.html">
+                                        <a class="hover_effect h_blue h_link" href="/rooms">
                                             <img src="images/double1.jpg" class="img-responsive" alt="Image">
                                         </a>
                                         <figcaption>
-                                            <h5><a href="room.html">Double Room</a></h5>
+                                            <h5><a href="/rooms">Double Room</a></h5>
                                             <span class="f_right"><a href="room.html" class="button btn_xs btn_blue">VIEW DETAILS</a></span>
                                         </figcaption>
                                     </figure>
@@ -168,11 +168,11 @@
                                 <article class="room">
                                     <figure>
                                         <div class="price">1300k<span>/ Monthly</span></div>
-                                        <a class="hover_effect h_blue h_link" href="room.html">
+                                        <a class="hover_effect h_blue h_link" href="/rooms">
                                             <img src="images/delux.jpg" class="img-responsive" alt="Image">
                                         </a>
                                         <figcaption>
-                                            <h5><a href="room.html">Air Conditioned Room</a></h5>
+                                            <h5><a href="/rooms">Air Conditioned Room</a></h5>
                                             <span class="f_right"><a href="room.html" class="button btn_xs btn_blue">VIEW DETAILS</a></span>
                                         </figcaption>
                                     </figure>
@@ -347,25 +347,25 @@
                 <div class="row">
                     <div class="col-md-3 col-sm-6 widget">
                         <div class="about">
-                            <a href="index.html"><img class="logo" src="images/logo_light.svg" height="32" alt="Logo"></a>
-                            <p>EuforiaHome adalah salah satu gedung kost murah di Yogyakarta yang berlokasi di Jalan Perumnas, Cadong catur, Depok, Sleman dimana merupakan kawasan bisnis dan kuliner terkemuka di Yogyakarta. Dengan jarak tempuh sekitar 10 menit menuju area Kampus, Perkantoran dan Mall ternama di Yogyakarta, menjadikan D’Paragon Perumnas sebagai sebuah pilihan yang sangat tepat bagi para mahasiswa maupun profesional muda yang mencari tempat hunian yang berkelas dan strategis</p>
+                            <a href="/"><img class="logo" src="images/logo_light.svg" height="32" alt="Logo"></a>
+                            <p class="text-justify">EuforiaHome adalah salah satu gedung kost murah di Yogyakarta yang berlokasi di Jalan Perumnas, Cadong catur, Depok, Sleman dimana merupakan kawasan bisnis dan kuliner terkemuka di Yogyakarta. Dengan jarak tempuh sekitar 10 menit menuju area Kampus, Perkantoran dan Mall ternama di Yogyakarta, menjadikan D’Paragon Perumnas sebagai sebuah pilihan yang sangat tepat bagi para mahasiswa maupun profesional muda yang mencari tempat hunian yang berkelas dan strategis</p>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6 widget">
                         <h5>Latest News</h5>
                         <ul class="blog_posts">
-                            <li><a href="blog-post.html">EuphoriaHome Discount NewYearSale <small>DEC 31, 2022</small></li>
-                            <li><a href="blog-post.html">EuphoriaHome in pictures</a> <small>AUGUST 16, 2023</small></li>
-                            <li><a href="blog-post.html">EuphoriaHome family party</a> <small>SEPTEMBER 15, 2023</small></li>
+                            <li><a href="#">EuforiaHome Discount NewYearSale <small>DEC 31, 2022</small></li>
+                            <li><a href="#">EuforiaHome in pictures</a> <small>AUGUST 16, 2023</small></li>
+                            <li><a href="#">EuforiaHome family party</a> <small>SEPTEMBER 15, 2023</small></li>
                         </ul>
                     </div>
                     <div class="col-md-3 col-sm-6 widget">
                         <h5>Useful Links</h5>
                         <ul class="useful_links">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Rooms</a></li>
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/rooms">Rooms</a></li>
                             <li><a href="#">About Us</a></li>
-                            <li><a href="#">Sign In</a></li>
+                            <li><a href="/login">Sign In</a></li>
                         </ul>
                     </div>
                     <div class="col-md-3 col-sm-6 widget">
