@@ -7,7 +7,7 @@
                     <h1><?= esc($kamar['nama']) ?></h1>
                     <ol class="breadcrumb">
                         <li><a href="/">Home</a></li>
-                        <li>Rooms</li>
+                        <li><a href="/rooms">Rooms</a></li>
                         <li><?= esc($kamar['nama']) ?></li>
                     </ol>
                 </div>

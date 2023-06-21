@@ -10,8 +10,8 @@
     <title><?= $title; ?></title>
 
     <!-- ========== FAVICON ========== -->
-    <link rel="apple-touch-icon-precomposed" href="images/favicon-apple.png" />
-    <link rel="icon" href="images/favicon.png">
+    <link rel="apple-touch-icon-precomposed" href="images/logo.png" />
+    <link rel="icon" href="images/logo.png">
 
     <!-- ========== STYLESHEETS ========== -->
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
