@@ -36,7 +36,7 @@
                 </tr>
             </thead>
             <tbody>
-                <?php $i = 1 ?>
+                <?php $l = 1 ?>
                 <?php foreach ($list as $l) : ?>
                     <tr>
                         <td><?= esc($l['sewa_id']); ?></td>

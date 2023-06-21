@@ -15,6 +15,6 @@ class SewaModel extends Model
             return $this->findAll();
         }
 
-        return $this->where(['pelanggan_id' => $slug])->first();
+        return $this->where(['sewa_id' => $slug])->first();
     }
 }
