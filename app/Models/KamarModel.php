@@ -7,8 +7,7 @@ use CodeIgniter\Model;
 class KamarModel extends Model
 {
     protected $table = 'kamar';
-    // protected $primaryKey = 'NIM';
-    protected $allowedFields = ['kamar_id', 'nama', 'deskripsi', 'fasilitas', 'gambar', 'harga'];
+    protected $allowedFields = ['kamar_id', 'nama', 'deskripsi', 'fasilitas', 'gambar', 'harga', 'status'];
 
 
     public function getKamar($slug = false)
@@ -29,6 +28,7 @@ class KamarModel extends Model
             'fasilitas' => $record['fasilitas'],
             'gambar' => $record['nama_file'],
             'harga' => $record['harga'],
+            'status' => 'Tersedia'
         ]);
     }
 
