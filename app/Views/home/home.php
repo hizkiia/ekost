@@ -349,61 +349,62 @@
                     <div class="col-md-3 col-sm-6 widget">
                         <div class="about">
                             <a href="/"><img class="logo" src="images/logo_light.svg" height="32" alt="Logo"></a>
-                            <p class="text-justify">EuforiaHome adalah salah satu gedung kost murah di Yogyakarta yang berlokasi di Jalan Perumnas, Cadong catur, Depok, Sleman dimana merupakan kawasan bisnis dan kuliner terkemuka di Yogyakarta. Dengan jarak tempuh sekitar 10 menit menuju area Kampus, Perkantoran dan Mall ternama di Yogyakarta, menjadikan D’Paragon Perumnas sebagai sebuah pilihan yang sangat tepat bagi para mahasiswa maupun profesional muda yang mencari tempat hunian yang berkelas dan strategis</p>
+                            <p class="text-justify">EuforiaHome adalah salah satu gedung kost murah di Yogyakarta yang berlokasi di Jalan Perumnas, Cadong catur, Depok, Sleman dimana merupakan kawasan bisnis dan kuliner terkemuka di Yogyakarta. Dengan jarak tempuh sekitar 10 menit menuju area Kampus, Perkantoran dan Mall ternama di Yogyakarta, menjadikan EuforiaHome Perumnas sebagai sebuah pilihan yang sangat tepat bagi para mahasiswa maupun profesional muda yang mencari tempat hunian yang berkelas dan strategis</p>
                         </div>
-                        <div class="col-md-3 col-sm-6 widget">
-                            <h5>Latest News</h5>
-                            <ul class="blog_posts">
-                                <li><a href="blog-post.html">EuforiaHome in pictures</a> <small>AUGUST 16, 2017</small></li>
-                                <li><a href="blog-post.html">EuforiaHome family party</a> <small>SEPTEMBER 15, 2017</small></li>
+                    </div>
+                    <div class="col-md-3 col-sm-6 widget">
+                        <h5>Latest News</h5>
+                        <ul class="blog_posts">
+                            <li><a href="#">EuforiaHome Discount NewYearSale <small>DEC 31, 2022</small></li>
+                            <li><a href="#">EuforiaHome in pictures</a> <small>AUGUST 16, 2023</small></li>
+                            <li><a href="#">EuforiaHome family party</a> <small>SEPTEMBER 15, 2023</small></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-6 widget">
+                        <h5>Useful Links</h5>
+                        <ul class="useful_links">
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/rooms">Rooms</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="/login">Sign In</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-6 widget">
+                        <h5>Contact Us</h5>
+                        <address>
+                            <ul class="address_details">
+                                <li><i class="glyphicon glyphicon-map-marker"></i> Jl. Perumnas, Ngropoh, Condongcatur, Kec. Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55281</li>
+                                <li><i class="glyphicon glyphicon-phone-alt"></i> Phone: 081234567890 </li>
+                                <li><i class="fa fa-fax"></i> Fax: 089876543210</li>
+                                <li><i class="fa fa-envelope"></i> Email: <a href="mailto:info@site.com">EuforiaHome@gmail.com</a></li>
                             </ul>
+                        </address>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="subfooter">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <div class="copyrights">
+                            Copyright 2021 <a href="index.html">EUFORIAHOME</a> All Rights Reserved.
                         </div>
-                        <div class="col-md-3 col-sm-6 widget">
-                            <h5>Useful Links</h5>
-                            <ul class="useful_links">
-                                <li><a href="#">About us</a></li>
-                                <li><a href="#">Contact us</a></li>
-                                <li><a href="#">History</a></li>
-                                <li><a href="#">Gallery</a></li>
-                                <li><a href="#">Location</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-md-3 col-sm-6 widget">
-                            <h5>Contact Us</h5>
-                            <address>
-                                <ul class="address_details">
-                                    <li><i class="glyphicon glyphicon-map-marker"></i> Jl. Perumnas, Ngropoh, Condongcatur, Kec. Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55281</li>
-                                    <li><i class="glyphicon glyphicon-phone-alt"></i> Phone: 081234567890 </li>
-                                    <li><i class="fa fa-fax"></i> Fax: 089876543210</li>
-                                    <li><i class="fa fa-envelope"></i> Email: <a href="mailto:info@site.com">EuforiaHome@site.com</a></li>
-                                </ul>
-                            </address>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <div class="social_media">
+                            <a class="facebook" data-original-title="Facebook" data-toggle="tooltip" href="#"><i class="fa fa-facebook"></i></a>
+                            <a class="twitter" data-original-title="Twitter" data-toggle="tooltip" href="#"><i class="fa fa-twitter"></i></a>
+                            <a class="googleplus" data-original-title="Google Plus" data-toggle="tooltip" href="#"><i class="fa fa-google-plus"></i></a>
+                            <a class="pinterest" data-original-title="Pinterest" data-toggle="tooltip" href="#"><i class="fa fa-pinterest"></i></a>
+                            <a class="linkedin" data-original-title="Linkedin" data-toggle="tooltip" href="#"><i class="fa fa-linkedin"></i></a>
+                            <a class="instagram" data-original-title="Instagram" data-toggle="tooltip" href="#"><i class="fa fa-instagram"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="subfooter">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6">
-                            <div class="copyrights">
-                                Copyright 2021 <a href="index.html">EUFORIAHOME</a> All Rights Reserved.
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-6">
-                            <div class="social_media">
-                                <a class="facebook" data-original-title="Facebook" data-toggle="tooltip" href="#"><i class="fa fa-facebook"></i></a>
-                                <a class="twitter" data-original-title="Twitter" data-toggle="tooltip" href="#"><i class="fa fa-twitter"></i></a>
-                                <a class="googleplus" data-original-title="Google Plus" data-toggle="tooltip" href="#"><i class="fa fa-google-plus"></i></a>
-                                <a class="pinterest" data-original-title="Pinterest" data-toggle="tooltip" href="#"><i class="fa fa-pinterest"></i></a>
-                                <a class="linkedin" data-original-title="Linkedin" data-toggle="tooltip" href="#"><i class="fa fa-linkedin"></i></a>
-                                <a class="instagram" data-original-title="Instagram" data-toggle="tooltip" href="#"><i class="fa fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
+        </div>
+    </footer>
 
     </div>
 
