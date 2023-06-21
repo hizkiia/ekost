@@ -7,13 +7,16 @@ use CodeIgniter\Model;
 class KamarModel extends Model
 {
     protected $table = 'kamar';
-    // protected $primaryKey = 'NIM';
-    protected $allowedFields = ['kamar_id', 'nama', 'deskripsi', 'fasilitas', 'gambar', 'harga'];
+    protected $allowedFields = ['kamar_id', 'nama', 'deskripsi', 'fasilitas', 'gambar', 'harga', 'status'];
 
 
-    public function getKamar()
+    public function getKamar($slug = false)
     {
-        return $this->findAll();
+        if ($slug === false) {
+            return $this->findAll();
+        }
+
+        return $this->where(['kamar_id' => $slug])->first();
     }
 
     public function simpan($record)
@@ -25,11 +28,12 @@ class KamarModel extends Model
             'fasilitas' => $record['fasilitas'],
             'gambar' => $record['nama_file'],
             'harga' => $record['harga'],
+            'status' => 'Tersedia'
         ]);
     }
 
-    // public function ambil($nim)
-    // {
-    //     return $this->where(['NIM' => $nim])->first();
-    // }
+    public function ambil($id)
+    {
+        return $this->where(['kamar_id' => $id])->first();
+    }
 }

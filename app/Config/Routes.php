@@ -2,6 +2,9 @@
 
 namespace Config;
 
+
+use Config\Services;
+
 // Create a new instance of our RouteCollection class.
 $routes = Services::routes();
 
@@ -27,17 +30,39 @@ $routes->set404Override();
  * --------------------------------------------------------------------
  */
 
+use App\Controllers\Home;
 use App\Controllers\KelolaKamar;
+use App\Controllers\LihatKamar;
+use App\Controllers\LoginController;
+use App\Controllers\Pemesanan;
+use App\Controllers\RegisterController;
+use App\Controllers\Transaksi;
+use App\Controllers\DataTagihan;
+
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/', 'Home::index');
+$routes->match(['get', 'post'], '/', [Home::class, 'index']);
+$routes->match(['get', 'post'], '/login', [LoginController::class, 'index']);
+$routes->match(['get', 'post'], '/register', [RegisterController::class, 'index']);
+$routes->match(['get', 'post'], '/login/check', [LoginController::class, 'check']);
+$routes->match(['get', 'post'], '/logout', [LoginController::class, 'logout']);
 $routes->match(['get', 'post'], '/input', [KelolaKamar::class, 'input']);
-$routes->get('/update', 'KelolaKamar::update');
-$routes->get('/delete', 'KelolaKamar::delete');
-$routes->get('/pay', 'Transaksi::pembayaran');
-$routes->get('/rooms', 'LihatKamar::showAll');
-$routes->get('/bookingform', 'Pemesanan::booking');
-$routes->get('/login', 'LoginControl::index');
+$routes->match(['get', 'post'], '/update', [KelolaKamar::class, 'update']);
+$routes->match(['get', 'post'], '/delete', [KelolaKamar::class, 'delete']);
+$routes->match(['get', 'post'], '/rooms', [LihatKamar::class, 'showAll']);
+$routes->match(['get', 'post'], '/search', [LihatKamar::class, 'search']);
+$routes->match(['get', 'post'], '/payment', [Transaksi::class, 'pembayaran']);
+$routes->match(['get', 'post'], '/paymentconfirm', [Transaksi::class, 'konfirmasiPembayaran']);
+// $routes->match(['get', 'post'], '/booking', [KelolaKamar::class, 'delete']);
+$routes->match(['get', 'post'], '/bills', [DataTagihan::class, 'tagihan']);
+$routes->match(['get', 'post'], '/billsUser', [DataTagihan::class, 'tagihanUser']);
+$routes->match(['get', 'post'], '/(:segment)', [Pemesanan::class, 'booking']);
+
+
+
+
+
+
 
 /*
  * --------------------------------------------------------------------

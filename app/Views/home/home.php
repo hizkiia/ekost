@@ -1,341 +1,263 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta content="IE=edge" http-equiv="X-UA-Compatible">
-    <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
-
-    <!-- ========== SEO ========== -->
-    <title>EuforiaHome</title>
-    <meta content="" name="description">
-    <meta content="" name="keywords">
-    <meta content="" name="author">
-
-    <!-- ========== FAVICON ========== -->
-    <link rel="apple-touch-icon-precomposed" href="images/favicon-apple.png" />
-    <link rel="icon" href="images/favicon.png">
-
-    <!-- ========== STYLESHEETS ========== -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <link href="revolution/css/layers.css" rel="stylesheet" type="text/css" />
-    <link href="revolution/css/settings.css" rel="stylesheet" type="text/css" />
-    <link href="revolution/css/navigation.css" rel="stylesheet" type="text/css" />
-    <link href="css/bootstrap-select.min.css" rel="stylesheet" type="text/css">
-    <link href="css/animate.min.css" rel="stylesheet" type="text/css">
-    <link href="css/famfamfam-flags.css" rel="stylesheet" type="text/css">
-    <link href="css/magnific-popup.css" rel="stylesheet" type="text/css">
-    <link href="css/owl.carousel.min.css" rel="stylesheet" type="text/css">
-    <link href="css/style.css" rel="stylesheet" type="text/css">
-    <link href="css/responsive.css" rel="stylesheet" type="text/css">
-
-    <!-- ========== ICON FONTS ========== -->
-    <link href="fonts/font-awesome.min.css" rel="stylesheet">
-    <link href="fonts/flaticon.css" rel="stylesheet">
-
-    <!-- ========== GOOGLE FONTS ========== -->
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900%7cRaleway:400,500,600,700" rel="stylesheet">
-
-</head>
-
-<body>
-
-    <!-- ========== PRELOADER ========== -->
-    <div id="loading">
-        <div class="inner">
-            <div class="loading_effect">
-                <div class="object" id="object_one"></div>
-                <div class="object" id="object_two"></div>
-                <div class="object" id="object_three"></div>
-            </div>
+<!-- ========== PRELOADER ========== -->
+<div id="loading">
+    <div class="inner">
+        <div class="loading_effect">
+            <div class="object" id="object_one"></div>
+            <div class="object" id="object_two"></div>
+            <div class="object" id="object_three"></div>
         </div>
     </div>
+</div>
 
-    <div class="wrapper">
+<div class="wrapper">
 
-        <!-- ========== HEADER ========== -->
-        <header>
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle mobile_menu_btn" data-toggle="collapse" data-target=".mobile_menu" aria-expanded="false">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="index2.html">
-                        <img src="images/logo.svg" height="32" alt="Logo">
-                    </a>
+
+
+    <!-- ========== REVOLUTION SLIDER ========== -->
+    <div id="classic_slider" class="rev_slider" style="display:none" data-version="5.4.1">
+        <ul>
+            <!-- SLIDE NR. 1 -->
+            <li data-transition="crossfade">
+                <!-- MAIN IMAGE -->
+                <img src="images/slider/slider-1.jpg" alt="Image" title="slider_bg2" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina="">
+                <!-- LAYER NR. 1 -->
+                <div class="tp-caption tp-resizeme" data-x="center" data-hoffset="" data-y="320" data-voffset="" data-responsive_offset="on" data-fontsize="['60','50','40','30']" data-lineheight="['60','50','40','30']" data-whitespace="nowrap" data-frames='[{"delay":1000,"speed":1500,"frame":"0","from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":500,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' style="z-index: 5; color: #fff; font-weight: 900;"> WELCOME TO EUFORIAHOME </div>
+                <!-- LAYER NR. 2 -->
+                <div class="tp-caption tp-resizeme" data-x="center" data-hoffset="" data-y="410" data-voffset="" data-responsive_offset="on" data-fontsize="16" data-lineheight="16" data-whitespace="nowrap" data-frames='[{"delay":1500,"speed":1500,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeInOut"},{"delay":"wait","speed":500,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' style="z-index: 6; color: #fff;">Life Balance in Perfection</div>
+                <!-- LAYER NR. 3 -->
+                <div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme" data-x="center" data-hoffset="-170" data-y="414" data-voffset="" data-responsive_offset="on" data-width="['100']" data-height="['4']" data-transform_idle="o:1;" data-transform_in="x:[175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;s:1500;e:Power3.easeOut;" data-transform_out="opacity:0;s:500;" data-mask_in="x:[-100%];y:0;s:inherit;e:inherit;" data-start="2000" style="z-index: 7;background: url(images/icons/wave_white.svg);">
                 </div>
-                <nav id="main_menu" class="mobile_menu navbar-collapse">
-                    <ul class="nav navbar-nav">
-                        <li class="mobile_menu_title" style="display:none;">MENU</li>
-                        <li class="dropdown simple_menu active">
-                            <a href="home/home.php" class="" data-toggle="dropdown">HOME <b class="caret"></b></a>
-                            <a href=""></a>
+                <!-- LAYER NR. 4 -->
+                <div class="tp-caption tp-shape tp-shapewrapper tp-resizeme" data-x="center" data-hoffset="-170" data-y="418" data-voffset="" data-responsive_offset="on" data-width="['100']" data-height="['4']" data-transform_idle="o:1;" data-transform_in="x:[175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;s:1500;e:Power3.easeOut;" data-transform_out="opacity:0;s:500;" data-mask_in="x:[-100%];y:0;s:inherit;e:inherit;" data-start="2100" style="z-index: 7;background: url(images/icons/wave_white.svg);"> </div>
+                <!-- LAYER NR. 5 -->
+                <div class="tp-caption tp-shape tp-shapewrapper tp-resizeme" data-x="center" data-hoffset="170" data-y="414" data-voffset="" data-responsive_offset="on" data-width="['100']" data-height="['4']" data-transform_idle="o:1;" data-transform_in="x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;s:1500;e:Power3.easeOut;" data-transform_out="opacity:0;s:500;" data-mask_in="x:[100%];y:0;s:inherit;e:inherit;" data-start="2000" style="z-index: 7;background: url(images/icons/wave_white.svg);">
+                </div>
+                <!-- LAYER NR. 6 -->
+                <div class="tp-caption tp-shape tp-shapewrapper tp-resizeme" data-x="center" data-hoffset="170" data-y="418" data-voffset="" data-responsive_offset="on" data-width="['100']" data-height="['4']" data-transform_idle="o:1;" data-transform_in="x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;s:1500;e:Power3.easeOut;" data-transform_out="opacity:0;s:500;" data-mask_in="x:[100%];y:0;s:inherit;e:inherit;" data-start="2100" style="z-index: 7;background: url(images/icons/wave_white.svg);">
+                </div>
+                <!-- LAYER NR. 7 -->
+                <a class="tp-caption button btn_blue" href="booking-form.html" data-x="center" data-hoffset="0" data-y="480" data-voffset="" data-responsive_offset="on" data-fontsize="14" data-whitespace="nowrap" data-frames='[{"delay":2400,"speed":1500,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeInOut"},{"delay":"wait","speed":500,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' style="z-index: 11;"><i class="fa fa-calendar"></i>REGISTERS
+                </a>
+                <!-- LAYER NR. 8 -->
+                <div class="tp-caption tp_m_title tp-resizeme" data-x="center" data-hoffset="" data-y="200" data-voffset="" data-responsive_offset="on" data-fontsize="['18','18','16','16']" data-lineheight="['18','18','16','16']" data-whitespace="nowrap" data-frames='[{"delay":1800,"speed":1500,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeInOut"},{"delay":"wait","speed":500,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <!-- LAYER NR. 10 -->
+                <div class="tp-caption tp_m_title tp-resizeme" data-x="center" data-hoffset="" data-y="240" data-voffset="" data-responsive_offset="on" data-fontsize="['25','25','18','18']" data-lineheight="['25','25','18','18']" data-whitespace="nowrap" data-frames='[{"delay":1800,"speed":1500,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeInOut"},{"delay":"wait","speed":500,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'>
+                    Eksklusif Kost
+                </div>
+            </li>
 
-                        </li>
-                        <li class="dropdown simple_menu">
-                            <a href="home/rooms.php" class="" data-toggle="dropdown">ROOMS <b class="caret"></b></a>
-                        </li>
-                        <li class="dropdown mega_menu mega_menu_fullwidth"><a href="#" data-toggle="dropdown" class="" aria-expanded="true">ABOUT <b class="caret"></b></a>
-                        <li><a href="contact.html">CONTACT US</a></li>
-                        <li><a href="blog.html">SIGN IN</a></li>
-                        <li class="menu_button">
-                            <a href="booking-form.html" class="button  btn_yellow"><i class="fa fa-calendar"></i>REGISTERS</a>
-                        </li>
-                    </ul>
-                </nav>
+            <!-- SLIDE NR. 2 -->
+            <li data-transition="crossfade">
+                <!-- MAIN IMAGE -->
+                <img src="images/slider/slider-2.jpg" alt="Image" title="slider_bg2" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina="">
+                <!-- LAYER NR. 1 -->
+                <div class="tp-caption tp-resizeme" data-x="center" data-hoffset="" data-y="320" data-voffset="" data-responsive_offset="on" data-fontsize="['60','50','40','25']" data-lineheight="['60','50','40','25']" data-whitespace="nowrap" data-frames='[{"delay":1000,"speed":1500,"frame":"0","from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":500,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' style="z-index: 5; color: #fff; font-weight: 900;">
+                </div>
+                <!-- LAYER NR. 2 -->
+                <div class="tp-caption tp-resizeme" data-x="center" data-hoffset="" data-y="410" data-voffset="" data-responsive_offset="on" data-fontsize="12" data-lineheight="12" data-whitespace="nowrap" data-frames='[{"delay":1500,"speed":1500,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeInOut"},{"delay":"wait","speed":500,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' style="z-index: 6; color: #fff;">Private Space for Your Freedom
+                </div>
+                <!-- LAYER NR. 3 -->
+                <div class="tp-caption tp-shape tp-shapewrapper tp-resizeme" data-x="center" data-hoffset="-134" data-y="414" data-voffset="" data-width="['100']" data-height="['4']" data-transform_idle="o:1;" data-transform_in="x:[175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;s:1500;e:Power3.easeOut;" data-transform_out="opacity:0;s:300;" data-mask_in="x:[-100%];y:0;s:inherit;e:inherit;" data-start="2000" data-responsive_offset="on" style="z-index: 7;background: url(images/icons/wave_white.svg);">
+                </div>
+                <!-- LAYER NR. 4 -->
+                <div class="tp-caption tp-shape tp-shapewrapper tp-resizeme" data-x="center" data-hoffset="-134" data-y="418" data-voffset="" data-width="['100']" data-height="['4']" data-transform_idle="o:1;" data-transform_in="x:[175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;s:1500;e:Power3.easeOut;" data-transform_out="opacity:0;s:300;" data-mask_in="x:[-100%];y:0;s:inherit;e:inherit;" data-start="2100" data-responsive_offset="on" style="z-index: 8;background: url(images/icons/wave_white.svg);">
+                </div>
+                <!-- LAYER NR. 5 -->
+                <div class="tp-caption tp-shape tp-shapewrapper tp-resizeme" data-x="center" data-hoffset="134" data-y="414" data-voffset="" data-responsive_offset="on" data-width="['100']" data-height="['4']" data-transform_idle="o:1;" data-transform_in="x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;s:1500;e:Power3.easeOut;" data-transform_out="opacity:0;s:300;" data-mask_in="x:[100%];y:0;s:inherit;e:inherit;" data-start="2000" style="z-index: 9;background: url(images/icons/wave_white.svg);">
+                </div>
+                <!-- LAYER NR. 6 -->
+                <div class="tp-caption tp-shape tp-shapewrapper tp-resizeme" data-x="center" data-hoffset="134" data-y="418" data-voffset="" data-width="['100']" data-height="['4']" data-transform_idle="o:1;" data-transform_in="x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;s:1500;e:Power3.easeOut;" data-transform_out="opacity:0;s:300;" data-mask_in="x:[100%];y:0;s:inherit;e:inherit;" data-start="2100" data-responsive_offset="on" style="z-index: 10;background: url(images/icons/wave_white.svg);">
+                </div>
+                <!-- LAYER NR. 7 -->
+                <a class="tp-caption button btn_blue" href="booking-form.html" data-x="center" data-hoffset="0" data-y="480" data-voffset="" data-responsive_offset="on" data-fontsize="14" data-whitespace="nowrap" data-frames='[{"delay":2400,"speed":1500,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeInOut"},{"delay":"wait","speed":500,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' style="z-index: 11;"><i class="fa fa-calendar"></i>REGISTERS
+                </a>
+                <!-- LAYER NR. 9 -->
+                <div class="tp-caption tp-resizeme" data-x="center" data-hoffset="" data-y="200" data-voffset="" data-responsive_offset="on" data-frames='[{"delay":1800,"speed":1500,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeInOut"},{"delay":"wait","speed":500,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' style="z-index: 12;"><img src="images/logo_light.svg" width="200" alt="Image">
+                </div>
+            </li>
+
+            <!-- SLIDE NR. 3 -->
+            <li data-transition="crossfade">
+                <!-- MAIN IMAGE -->
+                <img src="images/slider/slider-3.jpg" alt="Image" title="slider_bg3" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina="">
+                <!-- LAYER NR. 1 -->
+                <div class="tp-caption tp-resizeme" data-x="center" data-hoffset="" data-y="305" data-voffset="" data-responsive_offset="on" data-fontsize="['40','70','60','40']" data-lineheight="['80','70','60','40']" data-whitespace="nowrap" data-frames='[{"delay":1000,"speed":1500,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeInOut"},{"delay":"wait","speed":500,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' style="z-index: 5; color: #fff; font-weight: 900;">Exclusive Kost: The Comfort of Staying Like Home
+                </div>
+                <!-- LAYER NR. 2 -->
+                <div class="tp-caption tp-resizeme" data-x="center" data-hoffset="" data-y="410" data-voffset="" data-responsive_offset="on" data-fontsize="16" data-lineheight="16" data-whitespace="nowrap" data-frames='[{"delay":1500,"speed":1500,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeInOut"},{"delay":"wait","speed":500,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' style="z-index: 6; color: #fff;">starting from 500k thousand rupiah
+                </div>
+                <!-- LAYER NR. 3 -->
+                <div class="tp-caption tp-shape tp-shapewrapper tp-resizeme" data-x="center" data-hoffset="-180" data-y="414" data-voffset="" data-width="['100']" data-height="['4']" data-transform_idle="o:1;" data-transform_in="x:[175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;s:1000;e:Power3.easeOut;" data-transform_out="opacity:0;s:300;" data-mask_in="x:[-100%];y:0;s:inherit;e:inherit;" data-start="2300" data-responsive_offset="on" style="z-index: 7;background: url(images/icons/wave_white.svg);">
+                </div>
+                <!-- LAYER NR. 4 -->
+                <div class="tp-caption tp-shape tp-shapewrapper tp-resizeme" data-x="center" data-hoffset="-180" data-y="418" data-voffset="" data-width="['100']" data-height="['4']" data-transform_idle="o:1;" data-transform_in="x:[175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;s:1000;e:Power3.easeOut;" data-transform_out="opacity:0;s:300;" data-mask_in="x:[-100%];y:0;s:inherit;e:inherit;" data-start="2400" data-responsive_offset="on" style="z-index: 8;background: url(images/icons/wave_white.svg);">
+                </div>
+                <!-- LAYER NR. 5 -->
+                <div class="tp-caption tp-shape tp-shapewrapper tp-resizeme" data-x="center" data-hoffset="180" data-y="414" data-voffset="" data-width="['100']" data-height="['4']" data-transform_idle="o:1;" data-transform_in="x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;s:1000;e:Power3.easeOut;" data-transform_out="opacity:0;s:300;" data-mask_in="x:[100%];y:0;s:inherit;e:inherit;" data-start="2300" data-responsive_offset="on" style="z-index: 9;background: url(images/icons/wave_white.svg);">
+                </div>
+                <!-- LAYER NR. 6 -->
+                <div class="tp-caption tp-shape tp-shapewrapper tp-resizeme" data-x="center" data-hoffset="180" data-y="418" data-voffset="" data-width="['100']" data-height="['4']" data-transform_idle="o:1;" data-transform_in="x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;s:1000;e:Power3.easeOut;" data-transform_out="opacity:0;s:300;" data-mask_in="x:[100%];y:0;s:inherit;e:inherit;" data-start="2400" data-responsive_offset="on" style="z-index: 10;background: url(images/icons/wave_white.svg);">
+                </div>
+            </li>
+
+        </ul>
+    </div>
+
+    <!-- ========== ABOUT & ROOMS ========== -->
+    <section id="about_rooms">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-4">
+                    <div id="about">
+                        <div class="main_title mt_wave a_left">
+                            <h2>TENTANG EUFORIAHOME</h2>
+                        </div>
+                        <p class="main_description  text-justify">Kost "EuphoriaHome" adalah tempat tinggal eksklusif yang menawarkan pengalaman hunian yang luar biasa. Dengan desain modern dan fasilitas berkualitas, EuphoriaHome memadukan kenyamanan, gaya hidup mewah, dan kesenangan dalam satu tempat.</p>
+                        <p class="text-justify"> Di EuphoriaHome, Anda akan menemukan kamar-kamar yang dirancang dengan sempurna untuk memberikan ruang pribadi yang nyaman. Setiap kamar dilengkapi dengan furnitur berkualitas tinggi, tempat tidur yang nyaman, meja kerja, dan area penyimpanan yang luas. Desain interior yang elegan menciptakan suasana yang menyenangkan dan menenangkan bagi para penghuni.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-8">
+                    <div id="rooms">
+                        <div class="main_title mt_wave a_left">
+                            <h2>KAMAR FAVORIT KAMI</h2>
+                        </div>
+                        <p class="main_description text-justify">
+                            Kamar favorit kami menawarkan tiga tipe kamar yang berbeda untuk memenuhi kebutuhan dan preferensi tamu. Pertama, kami memiliki single room yang ideal untuk tamu yang menginap sendirian. Dengan desain yang efisien, kamar ini memberikan privasi dan kenyamanan dengan luas yang cukup untuk beristirahat. Tempat tidur tunggal yang nyaman, meja kerja, dan lemari yang memadai akan memenuhi kebutuhan tamu. Kamar mandi pribadi dengan perlengkapan modern juga tersedia, memberikan kenyamanan ekstra.
+                            Kemudian, kami juga memiliki double room yang luas dan sempurna untuk tamu yang datang berdua. Dengan desain elegan dan modern, kamar ini menawarkan tempat tidur ganda yang lembut dan nyaman sebagai pusat perhatian. Selain itu, ada juga meja kerja yang luas, sofa nyaman, dan ruang penyimpanan yang mencukupi. Kamar mandi pribadi dengan shower dan perlengkapan mandi lengkap menambahkan kenyamanan tamu.
+                            Terakhir, kami memiliki full facilities room yang menyediakan pengalaman menginap mewah dan lengkap. Ruangan ini dilengkapi dengan fasilitas terbaik dan luas, mencakup tempat tidur nyaman, area duduk yang luas, dan meja kerja lengkap dengan perlengkapan modern. Kamar mandi pribadi yang luas dilengkapi dengan bak mandi jacuzzi, shower terpisah, dan perlengkapan mandi mewah. Tamu juga dapat menikmati fasilitas tambahan seperti mini bar, televisi layar datar, akses Wi-Fi gratis, dan layanan kamar 24 jam.
+                            Kamar-kamar favorit kami menawarkan pengalaman menginap yang nyaman dan memenuhi kebutuhan setiap tamu. Dari ruang pribadi untuk tamu yang bepergian sendirian, hingga ruangan yang luas untuk tamu yang datang berdua, dan pengalaman mewah dengan fasilitas lengkap, kami berkomitmen untuk memberikan kenyamanan dan layanan terbaik kepada tamu kami.
+                        </p>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <article class="room">
+                                    <figure>
+                                        <div class="price">500K <span>/ Monthly</span></div>
+                                        <a class="hover_effect h_blue h_link" href="/rooms">
+                                            <img src="images/single.jpg" class="img-responsive" alt="Image">
+                                        </a>
+                                        <figcaption>
+                                            <h5><a href="/rooms">Single Room</a></h5>
+                                            <span class="f_right"><a href="rooms-list.html" class="button btn_xs btn_blue">VIEW DETAILS</a></span>
+                                        </figcaption>
+                                    </figure>
+                                </article>
+                            </div>
+                            <div class="col-md-4">
+                                <article class="room">
+                                    <figure>
+                                        <div class="price">900K <span>/ Monthly</span></div>
+                                        <a class="hover_effect h_blue h_link" href="/rooms">
+                                            <img src="images/double1.jpg" class="img-responsive" alt="Image">
+                                        </a>
+                                        <figcaption>
+                                            <h5><a href="/rooms">Double Room</a></h5>
+                                            <span class="f_right"><a href="room.html" class="button btn_xs btn_blue">VIEW DETAILS</a></span>
+                                        </figcaption>
+                                    </figure>
+                                </article>
+                            </div>
+                            <div class="col-md-4">
+                                <article class="room">
+                                    <figure>
+                                        <div class="price">1300k<span>/ Monthly</span></div>
+                                        <a class="hover_effect h_blue h_link" href="/rooms">
+                                            <img src="images/delux.jpg" class="img-responsive" alt="Image">
+                                        </a>
+                                        <figcaption>
+                                            <h5><a href="/rooms">Air Conditioned Room</a></h5>
+                                            <span class="f_right"><a href="room.html" class="button btn_xs btn_blue">VIEW DETAILS</a></span>
+                                        </figcaption>
+                                    </figure>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-        </header>
-
-        <!-- ========== REVOLUTION SLIDER ========== -->
-        <div id="classic_slider" class="rev_slider" style="display:none" data-version="5.4.1">
-            <ul>
-                <!-- SLIDE NR. 1 -->
-                <li data-transition="crossfade">
-                    <!-- MAIN IMAGE -->
-                    <img src="images/slider/slider-1.jpg" alt="Image" title="slider_bg2" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina="">
-                    <!-- LAYER NR. 1 -->
-                    <div class="tp-caption tp-resizeme" data-x="center" data-hoffset="" data-y="320" data-voffset="" data-responsive_offset="on" data-fontsize="['60','50','40','30']" data-lineheight="['60','50','40','30']" data-whitespace="nowrap" data-frames='[{"delay":1000,"speed":1500,"frame":"0","from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":500,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' style="z-index: 5; color: #fff; font-weight: 900;"> WELCOME TO EUFORIAHOME </div>
-                    <!-- LAYER NR. 2 -->
-                    <div class="tp-caption tp-resizeme" data-x="center" data-hoffset="" data-y="410" data-voffset="" data-responsive_offset="on" data-fontsize="16" data-lineheight="16" data-whitespace="nowrap" data-frames='[{"delay":1500,"speed":1500,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeInOut"},{"delay":"wait","speed":500,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' style="z-index: 6; color: #fff;">Life Balance in Perfection</div>
-                    <!-- LAYER NR. 3 -->
-                    <div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme" data-x="center" data-hoffset="-170" data-y="414" data-voffset="" data-responsive_offset="on" data-width="['100']" data-height="['4']" data-transform_idle="o:1;" data-transform_in="x:[175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;s:1500;e:Power3.easeOut;" data-transform_out="opacity:0;s:500;" data-mask_in="x:[-100%];y:0;s:inherit;e:inherit;" data-start="2000" style="z-index: 7;background: url(images/icons/wave_white.svg);">
-                    </div>
-                    <!-- LAYER NR. 4 -->
-                    <div class="tp-caption tp-shape tp-shapewrapper tp-resizeme" data-x="center" data-hoffset="-170" data-y="418" data-voffset="" data-responsive_offset="on" data-width="['100']" data-height="['4']" data-transform_idle="o:1;" data-transform_in="x:[175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;s:1500;e:Power3.easeOut;" data-transform_out="opacity:0;s:500;" data-mask_in="x:[-100%];y:0;s:inherit;e:inherit;" data-start="2100" style="z-index: 7;background: url(images/icons/wave_white.svg);"> </div>
-                    <!-- LAYER NR. 5 -->
-                    <div class="tp-caption tp-shape tp-shapewrapper tp-resizeme" data-x="center" data-hoffset="170" data-y="414" data-voffset="" data-responsive_offset="on" data-width="['100']" data-height="['4']" data-transform_idle="o:1;" data-transform_in="x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;s:1500;e:Power3.easeOut;" data-transform_out="opacity:0;s:500;" data-mask_in="x:[100%];y:0;s:inherit;e:inherit;" data-start="2000" style="z-index: 7;background: url(images/icons/wave_white.svg);">
-                    </div>
-                    <!-- LAYER NR. 6 -->
-                    <div class="tp-caption tp-shape tp-shapewrapper tp-resizeme" data-x="center" data-hoffset="170" data-y="418" data-voffset="" data-responsive_offset="on" data-width="['100']" data-height="['4']" data-transform_idle="o:1;" data-transform_in="x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;s:1500;e:Power3.easeOut;" data-transform_out="opacity:0;s:500;" data-mask_in="x:[100%];y:0;s:inherit;e:inherit;" data-start="2100" style="z-index: 7;background: url(images/icons/wave_white.svg);">
-                    </div>
-                    <!-- LAYER NR. 7 -->
-                    <a class="tp-caption button btn_blue" href="booking-form.html" data-x="center" data-hoffset="0" data-y="480" data-voffset="" data-responsive_offset="on" data-fontsize="14" data-whitespace="nowrap" data-frames='[{"delay":2400,"speed":1500,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeInOut"},{"delay":"wait","speed":500,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' style="z-index: 11;"><i class="fa fa-calendar"></i>REGISTERS
-                    </a>
-                    <!-- LAYER NR. 8 -->
-                    <div class="tp-caption tp_m_title tp-resizeme" data-x="center" data-hoffset="" data-y="200" data-voffset="" data-responsive_offset="on" data-fontsize="['18','18','16','16']" data-lineheight="['18','18','16','16']" data-whitespace="nowrap" data-frames='[{"delay":1800,"speed":1500,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeInOut"},{"delay":"wait","speed":500,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'>
-                        <i class="fa fa-star-o"></i>
-                        <i class="fa fa-star-o"></i>
-                        <i class="fa fa-star-o"></i>
-                        <i class="fa fa-star-o"></i>
-                        <i class="fa fa-star-o"></i>
-                    </div>
-                    <!-- LAYER NR. 10 -->
-                    <div class="tp-caption tp_m_title tp-resizeme" data-x="center" data-hoffset="" data-y="240" data-voffset="" data-responsive_offset="on" data-fontsize="['25','25','18','18']" data-lineheight="['25','25','18','18']" data-whitespace="nowrap" data-frames='[{"delay":1800,"speed":1500,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeInOut"},{"delay":"wait","speed":500,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'>
-                        Eksklusif Kost
-                    </div>
-                </li>
-
-                <!-- SLIDE NR. 2 -->
-                <li data-transition="crossfade">
-                    <!-- MAIN IMAGE -->
-                    <img src="images/slider/slider-2.jpg" alt="Image" title="slider_bg2" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina="">
-                    <!-- LAYER NR. 1 -->
-                    <div class="tp-caption tp-resizeme" data-x="center" data-hoffset="" data-y="320" data-voffset="" data-responsive_offset="on" data-fontsize="['60','50','40','25']" data-lineheight="['60','50','40','25']" data-whitespace="nowrap" data-frames='[{"delay":1000,"speed":1500,"frame":"0","from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":500,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' style="z-index: 5; color: #fff; font-weight: 900;">
-                    </div>
-                    <!-- LAYER NR. 2 -->
-                    <div class="tp-caption tp-resizeme" data-x="center" data-hoffset="" data-y="410" data-voffset="" data-responsive_offset="on" data-fontsize="12" data-lineheight="12" data-whitespace="nowrap" data-frames='[{"delay":1500,"speed":1500,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeInOut"},{"delay":"wait","speed":500,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' style="z-index: 6; color: #fff;">Private Space for Your Freedom
-                    </div>
-                    <!-- LAYER NR. 3 -->
-                    <div class="tp-caption tp-shape tp-shapewrapper tp-resizeme" data-x="center" data-hoffset="-134" data-y="414" data-voffset="" data-width="['100']" data-height="['4']" data-transform_idle="o:1;" data-transform_in="x:[175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;s:1500;e:Power3.easeOut;" data-transform_out="opacity:0;s:300;" data-mask_in="x:[-100%];y:0;s:inherit;e:inherit;" data-start="2000" data-responsive_offset="on" style="z-index: 7;background: url(images/icons/wave_white.svg);">
-                    </div>
-                    <!-- LAYER NR. 4 -->
-                    <div class="tp-caption tp-shape tp-shapewrapper tp-resizeme" data-x="center" data-hoffset="-134" data-y="418" data-voffset="" data-width="['100']" data-height="['4']" data-transform_idle="o:1;" data-transform_in="x:[175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;s:1500;e:Power3.easeOut;" data-transform_out="opacity:0;s:300;" data-mask_in="x:[-100%];y:0;s:inherit;e:inherit;" data-start="2100" data-responsive_offset="on" style="z-index: 8;background: url(images/icons/wave_white.svg);">
-                    </div>
-                    <!-- LAYER NR. 5 -->
-                    <div class="tp-caption tp-shape tp-shapewrapper tp-resizeme" data-x="center" data-hoffset="134" data-y="414" data-voffset="" data-responsive_offset="on" data-width="['100']" data-height="['4']" data-transform_idle="o:1;" data-transform_in="x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;s:1500;e:Power3.easeOut;" data-transform_out="opacity:0;s:300;" data-mask_in="x:[100%];y:0;s:inherit;e:inherit;" data-start="2000" style="z-index: 9;background: url(images/icons/wave_white.svg);">
-                    </div>
-                    <!-- LAYER NR. 6 -->
-                    <div class="tp-caption tp-shape tp-shapewrapper tp-resizeme" data-x="center" data-hoffset="134" data-y="418" data-voffset="" data-width="['100']" data-height="['4']" data-transform_idle="o:1;" data-transform_in="x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;s:1500;e:Power3.easeOut;" data-transform_out="opacity:0;s:300;" data-mask_in="x:[100%];y:0;s:inherit;e:inherit;" data-start="2100" data-responsive_offset="on" style="z-index: 10;background: url(images/icons/wave_white.svg);">
-                    </div>
-                    <!-- LAYER NR. 7 -->
-                    <a class="tp-caption button btn_yellow" href="booking-form.html" data-x="center" data-hoffset="-100" data-y="480" data-voffset="" data-responsive_offset="on" data-fontsize="14" data-whitespace="nowrap" data-frames='[{"delay":2400,"speed":1500,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeInOut"},{"delay":"wait","speed":500,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' style="z-index: 11;"><i class="fa fa-calendar"></i>REGISTERS
-                    </a>
-                    <!-- LAYER NR. 8 -->
-                    <a class="tp-caption button btn_yellow " href="contact.html" data-x="center" data-hoffset="108" data-y="480" data-voffset="" data-responsive_offset="on" data-fontsize="14" data-frames='[{"delay":2400,"speed":1500,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeInOut"},{"delay":"wait","speed":500,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' style="z-index: 11;"><i class="fa fa-envelope-o" aria-hidden="true"></i>CONTACT US NOW
-                    </a>
-                    <!-- LAYER NR. 9 -->
-                    <div class="tp-caption tp-resizeme" data-x="center" data-hoffset="" data-y="200" data-voffset="" data-responsive_offset="on" data-frames='[{"delay":1800,"speed":1500,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeInOut"},{"delay":"wait","speed":500,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' style="z-index: 12;"><img src="images/logo_light.svg" width="200" alt="Image">
-                    </div>
-                </li>
-
-                <!-- SLIDE NR. 3 -->
-                <li data-transition="crossfade">
-                    <!-- MAIN IMAGE -->
-                    <img src="images/slider/slider-3.jpg" alt="Image" title="slider_bg3" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina="">
-                    <!-- LAYER NR. 1 -->
-                    <div class="tp-caption tp-resizeme" data-x="center" data-hoffset="" data-y="305" data-voffset="" data-responsive_offset="on" data-fontsize="['40','70','60','40']" data-lineheight="['80','70','60','40']" data-whitespace="nowrap" data-frames='[{"delay":1000,"speed":1500,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeInOut"},{"delay":"wait","speed":500,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' style="z-index: 5; color: #fff; font-weight: 900;">Exclusive Kost: The Comfort of Staying Like Home
-                    </div>
-                    <!-- LAYER NR. 2 -->
-                    <div class="tp-caption tp-resizeme" data-x="center" data-hoffset="" data-y="410" data-voffset="" data-responsive_offset="on" data-fontsize="16" data-lineheight="16" data-whitespace="nowrap" data-frames='[{"delay":1500,"speed":1500,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeInOut"},{"delay":"wait","speed":500,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' style="z-index: 6; color: #fff;">starting from 500k thousand rupiah
-                    </div>
-                    <!-- LAYER NR. 3 -->
-                    <div class="tp-caption tp-shape tp-shapewrapper tp-resizeme" data-x="center" data-hoffset="-180" data-y="414" data-voffset="" data-width="['100']" data-height="['4']" data-transform_idle="o:1;" data-transform_in="x:[175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;s:1000;e:Power3.easeOut;" data-transform_out="opacity:0;s:300;" data-mask_in="x:[-100%];y:0;s:inherit;e:inherit;" data-start="2300" data-responsive_offset="on" style="z-index: 7;background: url(images/icons/wave_white.svg);">
-                    </div>
-                    <!-- LAYER NR. 4 -->
-                    <div class="tp-caption tp-shape tp-shapewrapper tp-resizeme" data-x="center" data-hoffset="-180" data-y="418" data-voffset="" data-width="['100']" data-height="['4']" data-transform_idle="o:1;" data-transform_in="x:[175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;s:1000;e:Power3.easeOut;" data-transform_out="opacity:0;s:300;" data-mask_in="x:[-100%];y:0;s:inherit;e:inherit;" data-start="2400" data-responsive_offset="on" style="z-index: 8;background: url(images/icons/wave_white.svg);">
-                    </div>
-                    <!-- LAYER NR. 5 -->
-                    <div class="tp-caption tp-shape tp-shapewrapper tp-resizeme" data-x="center" data-hoffset="180" data-y="414" data-voffset="" data-width="['100']" data-height="['4']" data-transform_idle="o:1;" data-transform_in="x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;s:1000;e:Power3.easeOut;" data-transform_out="opacity:0;s:300;" data-mask_in="x:[100%];y:0;s:inherit;e:inherit;" data-start="2300" data-responsive_offset="on" style="z-index: 9;background: url(images/icons/wave_white.svg);">
-                    </div>
-                    <!-- LAYER NR. 6 -->
-                    <div class="tp-caption tp-shape tp-shapewrapper tp-resizeme" data-x="center" data-hoffset="180" data-y="418" data-voffset="" data-width="['100']" data-height="['4']" data-transform_idle="o:1;" data-transform_in="x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;s:1000;e:Power3.easeOut;" data-transform_out="opacity:0;s:300;" data-mask_in="x:[100%];y:0;s:inherit;e:inherit;" data-start="2400" data-responsive_offset="on" style="z-index: 10;background: url(images/icons/wave_white.svg);">
-                    </div>
-                </li>
-
-            </ul>
         </div>
+    </section>
 
-        <!-- ========== ABOUT & ROOMS ========== -->
-        <section id="about_rooms">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-md-4">
-                        <div id="about">
-                            <div class="main_title mt_wave a_left">
-                                <h2>TENTANG EUFORIAHOME</h2>
-                            </div>
-                            <p class="main_description a_left">Kost "EuphoriaHome" adalah tempat tinggal eksklusif yang menawarkan pengalaman hunian yang luar biasa. Dengan desain modern dan fasilitas berkualitas, EuphoriaHome memadukan kenyamanan, gaya hidup mewah, dan kesenangan dalam satu tempat.</p>
-                            <p> Di EuphoriaHome, Anda akan menemukan kamar-kamar yang dirancang dengan sempurna untuk memberikan ruang pribadi yang nyaman. Setiap kamar dilengkapi dengan furnitur berkualitas tinggi, tempat tidur yang nyaman, meja kerja, dan area penyimpanan yang luas. Desain interior yang elegan menciptakan suasana yang menyenangkan dan menenangkan bagi para penghuni.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-md-8">
-                        <div id="rooms">
-                            <div class="main_title mt_wave a_left">
-                                <h2>KAMAR FAVORIT KAMI</h2>
-                            </div>
-                            <p class="main_description">
-                                Kamar favorit kami menawarkan tiga tipe kamar yang berbeda untuk memenuhi kebutuhan dan preferensi tamu. Pertama, kami memiliki single room yang ideal untuk tamu yang menginap sendirian. Dengan desain yang efisien, kamar ini memberikan privasi dan kenyamanan dengan luas yang cukup untuk beristirahat. Tempat tidur tunggal yang nyaman, meja kerja, dan lemari yang memadai akan memenuhi kebutuhan tamu. Kamar mandi pribadi dengan perlengkapan modern juga tersedia, memberikan kenyamanan ekstra.
-                                Kemudian, kami juga memiliki double room yang luas dan sempurna untuk tamu yang datang berdua. Dengan desain elegan dan modern, kamar ini menawarkan tempat tidur ganda yang lembut dan nyaman sebagai pusat perhatian. Selain itu, ada juga meja kerja yang luas, sofa nyaman, dan ruang penyimpanan yang mencukupi. Kamar mandi pribadi dengan shower dan perlengkapan mandi lengkap menambahkan kenyamanan tamu.
-                                Terakhir, kami memiliki full facilities room yang menyediakan pengalaman menginap mewah dan lengkap. Ruangan ini dilengkapi dengan fasilitas terbaik dan luas, mencakup tempat tidur nyaman, area duduk yang luas, dan meja kerja lengkap dengan perlengkapan modern. Kamar mandi pribadi yang luas dilengkapi dengan bak mandi jacuzzi, shower terpisah, dan perlengkapan mandi mewah. Tamu juga dapat menikmati fasilitas tambahan seperti mini bar, televisi layar datar, akses Wi-Fi gratis, dan layanan kamar 24 jam.
-                                Kamar-kamar favorit kami menawarkan pengalaman menginap yang nyaman dan memenuhi kebutuhan setiap tamu. Dari ruang pribadi untuk tamu yang bepergian sendirian, hingga ruangan yang luas untuk tamu yang datang berdua, dan pengalaman mewah dengan fasilitas lengkap, kami berkomitmen untuk memberikan kenyamanan dan layanan terbaik kepada tamu kami.
-                            </p>
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <article class="room">
-                                        <figure>
-                                            <div class="price">500K <span>/ Mothly</span></div>
-                                            <a class="hover_effect h_blue h_link" href="room.html">
-                                                <img src="images/single.jpg" class="img-responsive" alt="Image">
-                                            </a>
-                                            <figcaption>
-                                                <h5><a href="room.html">Single Room</a></h5>
-                                                <span class="f_right"><a href="rooms-list.html" class="button btn_xs btn_blue">VIEW DETAILS</a></span>
-                                            </figcaption>
-                                        </figure>
-                                    </article>
-                                </div>
-                                <div class="col-md-4">
-                                    <article class="room">
-                                        <figure>
-                                            <div class="price">900K <span>/ Monthly</span></div>
-                                            <a class="hover_effect h_blue h_link" href="room.html">
-                                                <img src="images/double1.jpg" class="img-responsive" alt="Image">
-                                            </a>
-                                            <figcaption>
-                                                <h5><a href="room.html">Double Room</a></h5>
-                                                <span class="f_right"><a href="room.html" class="button btn_xs btn_blue">VIEW DETAILS</a></span>
-                                            </figcaption>
-                                        </figure>
-                                    </article>
-                                </div>
-                                <div class="col-md-4">
-                                    <article class="room">
-                                        <figure>
-                                            <div class="price">1300k<span>/ Monthly</span></div>
-                                            <a class="hover_effect h_blue h_link" href="room.html">
-                                                <img src="images/delux.jpg" class="img-responsive" alt="Image">
-                                            </a>
-                                            <figcaption>
-                                                <h5><a href="room.html">Air Conditioned Room</a></h5>
-                                                <span class="f_right"><a href="room.html" class="button btn_xs btn_blue">VIEW DETAILS</a></span>
-                                            </figcaption>
-                                        </figure>
-                                    </article>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
+    <!-- ========== GALLERY ========== -->
+    <section id="gallery" class="blue_bg">
+        <div class="container">
+            <div class="main_title mt_wave mt_white a_center">
+                <h2>EUFORIAHOME GALLERY PHOTOS</h2>
+            </div>
+            <p class="main_description md_white a_center">Ini merupakan beberapa foto dari fasilitas yang kami tawarkan dari kost kami</p>
+        </div>
+        <div id="gallery_slider" class="owl-carousel image-gallery">
+            <!-- ITEM -->
+            <div class="item">
+                <a class="hover_effect h_yellow h_lightbox" href="images/gallery/gallery1.jpg">
+                    <img src="images/single.jpg" alt="Image">
+                </a>
+                <div class="gallery_item_info">
+                    <h4>Single</h4>
+                    <p></p>
                 </div>
             </div>
-        </section>
-
-        <!-- ========== GALLERY ========== -->
-        <section id="gallery" class="blue_bg">
-            <div class="container">
-                <div class="main_title mt_wave mt_white a_center">
-                    <h2>EUFORIAHOME GALLERY PHOTOS</h2>
+            <!-- ITEM -->
+            <div class="item">
+                <a class="hover_effect h_yellow h_lightbox" href="images/gallery/gallery2.jpg">
+                    <img src="images/double1.jpg" alt="Image">
+                </a>
+                <div class="gallery_item_info">
+                    <h4>Double</h4>
+                    <p></p>
                 </div>
-                <p class="main_description md_white a_center">Ini merupakan beberapa foto dari fasilitas yang kami tawarkan dari kost kami</p>
             </div>
-            <div id="gallery_slider" class="owl-carousel image-gallery">
-                <!-- ITEM -->
-                <div class="item">
-                    <a class="hover_effect h_yellow h_lightbox" href="images/gallery/gallery1.jpg">
-                        <img src="images/single.jpg" alt="Image">
-                    </a>
-                    <div class="gallery_item_info">
-                        <h4>Single</h4>
-                        <p></p>
-                    </div>
+            <!-- ITEM -->
+            <div class="item">
+                <a class="hover_effect h_yellow h_lightbox" href="images/gallery/gallery3.jpg">
+                    <img src="images/delux.jpg" alt="Image">
+                </a>
+                <div class="gallery_item_info">
+                    <h4>AC Room</h4>
+                    <p></p>
                 </div>
-                <!-- ITEM -->
-                <div class="item">
-                    <a class="hover_effect h_yellow h_lightbox" href="images/gallery/gallery2.jpg">
-                        <img src="images/double1.jpg" alt="Image">
-                    </a>
-                    <div class="gallery_item_info">
-                        <h4>Double</h4>
-                        <p></p>
-                    </div>
+            </div>
+            <!-- ITEM -->
+            <div class="item">
+                <a class="hover_effect h_yellow h_lightbox" href="images/gallery/gallery4.jpg">
+                    <img src="images/family.jpg" alt="Image">
+                </a>
+                <div class="gallery_item_info">
+                    <h4>Full facilities Room</h4>
+                    <p></p>
                 </div>
-                <!-- ITEM -->
-                <div class="item">
-                    <a class="hover_effect h_yellow h_lightbox" href="images/gallery/gallery3.jpg">
-                        <img src="images/delux.jpg" alt="Image">
-                    </a>
-                    <div class="gallery_item_info">
-                        <h4>AC Room</h4>
-                        <p></p>
-                    </div>
+            </div>
+            <!-- ITEM -->
+            <div class="item">
+                <a class="hover_effect h_yellow h_lightbox" href="images/gallery/gallery5.jpg">
+                    <img src="images/honeymoon.jpg" alt="Image">
+                </a>
+                <div class="gallery_item_info">
+                    <h4>Non-AC Room</h4>
+                    <p></p>
                 </div>
-                <!-- ITEM -->
-                <div class="item">
-                    <a class="hover_effect h_yellow h_lightbox" href="images/gallery/gallery4.jpg">
-                        <img src="images/family.jpg" alt="Image">
-                    </a>
-                    <div class="gallery_item_info">
-                        <h4>Full facilities Room</h4>
-                        <p></p>
-                    </div>
+            </div>
+            <!-- ITEM -->
+            <div class="item">
+                <a class="hover_effect h_yellow h_lightbox" href="images/gallery/gallery6.jpg">
+                    <img src="images/gallery/gallery6.jpg" alt="Image">
+                </a>
+                <div class="gallery_item_info">
+                    <h4>Inside Bathroom</h4>
+                    <p></p>
                 </div>
-                <!-- ITEM -->
-                <div class="item">
-                    <a class="hover_effect h_yellow h_lightbox" href="images/gallery/gallery5.jpg">
-                        <img src="images/honeymoon.jpg" alt="Image">
-                    </a>
-                    <div class="gallery_item_info">
-                        <h4>Non-AC Room</h4>
-                        <p></p>
-                    </div>
-                </div>
-                <!-- ITEM -->
-                <div class="item">
-                    <a class="hover_effect h_yellow h_lightbox" href="images/gallery/gallery6.jpg">
-                        <img src="images/gallery/gallery6.jpg" alt="Image">
-                    </a>
-                    <div class="gallery_item_info">
-                        <h4>Inside Bathroom</h4>
-                        <p></p>
-                    </div>
-                </div>
-                
-                <!-- END ITEM -->
-        </section>
+            </div>
+
+            <!-- END ITEM -->
+    </section>
 
         <!-- ========== TESTIMONIALS ========== -->
         <section id="testimonials_style_2" class="grey_bg">
@@ -426,7 +348,7 @@
                         <div class="col-md-3 col-sm-6 widget">
                             <div class="about">
                                 <a href="index.html"><img class="logo" src="images/logo_light.svg" height="32" alt="Logo"></a>
-                                <p>EuforiaHome adalah salah satu gedung kost murah di Yogyakarta yang berlokasi di Jalan Perumnas, Cadong catur, Depok, Sleman dimana merupakan kawasan bisnis dan kuliner terkemuka di Yogyakarta. Dengan jarak tempuh sekitar 10 menit menuju area Kampus, Perkantoran dan Mall ternama di Yogyakarta, menjadikan EuforiaHome sebagai sebuah pilihan yang sangat tepat bagi para mahasiswa maupun profesional muda yang mencari tempat hunian yang berkelas dan strategis</p>
+                                <p>EuforiaHome adalah salah satu gedung kost murah di Yogyakarta yang berlokasi di Jalan Perumnas, Cadong catur, Depok, Sleman dimana merupakan kawasan bisnis dan kuliner terkemuka di Yogyakarta. Dengan jarak tempuh sekitar 10 menit menuju area Kampus, Perkantoran dan Mall ternama di Yogyakarta, menjadikan D’Paragon Perumnas sebagai sebuah pilihan yang sangat tepat bagi para mahasiswa maupun profesional muda yang mencari tempat hunian yang berkelas dan strategis</p>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6 widget">
