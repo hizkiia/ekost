@@ -52,10 +52,6 @@
                 <?php endforeach; ?>
             </tbody>
         </table>
-        <div class="text-right">
-            <button class="button btn_lg btn_grey" type="button">Batal</button>
-            <button class="button btn_lg btn_yellow" type="button">Bayar Sekarang</button>
-        </div>
     </div>
     </div>
     </div>
