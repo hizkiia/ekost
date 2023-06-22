@@ -75,7 +75,7 @@
                 <div class="tp-caption tp-shape tp-shapewrapper tp-resizeme" data-x="center" data-hoffset="134" data-y="418" data-voffset="" data-width="['100']" data-height="['4']" data-transform_idle="o:1;" data-transform_in="x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;s:1500;e:Power3.easeOut;" data-transform_out="opacity:0;s:300;" data-mask_in="x:[100%];y:0;s:inherit;e:inherit;" data-start="2100" data-responsive_offset="on" style="z-index: 10;background: url(images/icons/wave_white.svg);">
                 </div>
                 <!-- LAYER NR. 7 -->
-                <a class="tp-caption button btn_blue" href="booking-form.html" data-x="center" data-hoffset="0" data-y="480" data-voffset="" data-responsive_offset="on" data-fontsize="14" data-whitespace="nowrap" data-frames='[{"delay":2400,"speed":1500,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeInOut"},{"delay":"wait","speed":500,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' style="z-index: 11;"><i class="fa fa-calendar"></i>REGISTERS
+                <a class="tp-caption button btn_blue" href="/register" data-x="center" data-hoffset="0" data-y="480" data-voffset="" data-responsive_offset="on" data-fontsize="14" data-whitespace="nowrap" data-frames='[{"delay":2400,"speed":1500,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeInOut"},{"delay":"wait","speed":500,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' style="z-index: 11;"><i class="fa fa-calendar"></i>REGISTERS
                 </a>
                 <!-- LAYER NR. 9 -->
                 <div class="tp-caption tp-resizeme" data-x="center" data-hoffset="" data-y="200" data-voffset="" data-responsive_offset="on" data-frames='[{"delay":1800,"speed":1500,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeInOut"},{"delay":"wait","speed":500,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' style="z-index: 12;"><img src="images/logo_light.svg" width="200" alt="Image">
@@ -341,70 +341,7 @@
         </div>
 </div>
 </section>
-<!-- ========== FOOTER ========== -->
-<footer class="dark">
-    <div class="inner">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3 col-sm-6 widget">
-                    <div class="about">
-                        <a href="/"><img class="logo" src="images/logo_light.svg" height="32" alt="Logo"></a>
-                        <p class="text-justify">EuforiaHome adalah salah satu gedung kost murah di Yogyakarta yang berlokasi di Jalan Perumnas, Cadong catur, Depok, Sleman dimana merupakan kawasan bisnis dan kuliner terkemuka di Yogyakarta. Dengan jarak tempuh sekitar 10 menit menuju area Kampus, Perkantoran dan Mall ternama di Yogyakarta, menjadikan EuforiaHome Perumnas sebagai sebuah pilihan yang sangat tepat bagi para mahasiswa maupun profesional muda yang mencari tempat hunian yang berkelas dan strategis</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 widget">
-                    <h5>Latest News</h5>
-                    <ul class="blog_posts">
-                        <li><a href="#">EuforiaHome Discount NewYearSale <small>DEC 31, 2022</small></li>
-                        <li><a href="#">EuforiaHome in pictures</a> <small>AUGUST 16, 2023</small></li>
-                        <li><a href="#">EuforiaHome family party</a> <small>SEPTEMBER 15, 2023</small></li>
-                    </ul>
-                </div>
-                <div class="col-md-3 col-sm-6 widget">
-                    <h5>Useful Links</h5>
-                    <ul class="useful_links">
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/rooms">Rooms</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="/login">Sign In</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-3 col-sm-6 widget">
-                    <h5>Contact Us</h5>
-                    <address>
-                        <ul class="address_details">
-                            <li><i class="glyphicon glyphicon-map-marker"></i> Jl. Perumnas, Ngropoh, Condongcatur, Kec. Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55281</li>
-                            <li><i class="glyphicon glyphicon-phone-alt"></i> Phone: 081234567890 </li>
-                            <li><i class="fa fa-fax"></i> Fax: 089876543210</li>
-                            <li><i class="fa fa-envelope"></i> Email: <a href="mailto:info@site.com">EuforiaHome@gmail.com</a></li>
-                        </ul>
-                    </address>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="subfooter">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-sm-6">
-                    <div class="copyrights">
-                        Copyright 2021 <a href="index.html">EUFORIAHOME</a> All Rights Reserved.
-                    </div>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                    <div class="social_media">
-                        <a class="facebook" data-original-title="Facebook" data-toggle="tooltip" href="#"><i class="fa fa-facebook"></i></a>
-                        <a class="twitter" data-original-title="Twitter" data-toggle="tooltip" href="#"><i class="fa fa-twitter"></i></a>
-                        <a class="googleplus" data-original-title="Google Plus" data-toggle="tooltip" href="#"><i class="fa fa-google-plus"></i></a>
-                        <a class="pinterest" data-original-title="Pinterest" data-toggle="tooltip" href="#"><i class="fa fa-pinterest"></i></a>
-                        <a class="linkedin" data-original-title="Linkedin" data-toggle="tooltip" href="#"><i class="fa fa-linkedin"></i></a>
-                        <a class="instagram" data-original-title="Instagram" data-toggle="tooltip" href="#"><i class="fa fa-instagram"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
+
 
 </div>
 
