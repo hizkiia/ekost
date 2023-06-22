@@ -356,7 +356,7 @@
                     <div class="line"></div>
                 </div>
                 <p class="pp">Dont have an account don't worry</p>
-                <button class="main-btn">Sign Up today</button>
+                <button class="main-btn"> <a href="/register">Sign Up today</a> </button>
             </div>
         </div>
     </main>

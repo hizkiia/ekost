@@ -9,7 +9,9 @@ class RegisterController extends BaseController
 
     public function index()
     {
-        return view('register/register');
+        $data = ['title' => 'EuforiaHome|Register'];
+        return view('layout/header', $data)
+            . view('layout/navbarGuest') . view('register/register') . view('layout/footer');
     }
 
 

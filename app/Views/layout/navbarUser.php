@@ -29,7 +29,7 @@
                             <li><a href="/payment">Pembayaran</a></li>
                         </ul>
                     </li>
-                    <li><a href="contact.html">ABOUT US</a></li>
+                    <li><a href="/about">ABOUT US</a></li>
                     <li class="menu_button">
                         <a href="/logout" class="button btn_yellow">Sign Out</a>
                     </li>
