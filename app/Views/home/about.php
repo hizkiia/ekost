@@ -26,8 +26,8 @@
                     <div class="details">
                         <h2><a href="blog-post.html">Tentang Kami </a></h2>
                         <div class="info">
-                            <span class="meta_part"><a href="#"><i class="fa fa-user"></i>Teddy </a></span>
-                            <span class="meta_part"><a href="#"><i class="fa fa-calendar"></i>February 15, 2017</a></span>
+                            <span class="meta_part"><a href="#"><i class="fa fa-user"></i>Richardo Teddy </a></span>
+                            <span class="meta_part"><a href="#"><i class="fa fa-calendar"></i>June 25, 2023</a></span>
                             <span class="meta_part"><a href="#"><i class="fa fa-comment-o"></i>68 Comments</a></span>
                             <span class="meta_part"><i class="fa fa-folder-open-o"></i><a href="#">News</a>, <a href="#">Events</a></span>
                         </div>
