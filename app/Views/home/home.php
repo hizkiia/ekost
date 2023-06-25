@@ -295,7 +295,7 @@
                 <div class="col-md-4">
                     <div class="review_item">
                         <div class="review_content">
-                            <h3>Excellent! </h3>
+                            <h3>Great! </h3>
                             <div class="review_rating">
                                 <i class="fa fa-star" aria-hidden="true"></i>
                                 <i class="fa fa-star" aria-hidden="true"></i>
@@ -318,7 +318,7 @@
                 <div class="col-md-4">
                     <div class="review_item">
                         <div class="review_content">
-                            <h3>Excellent! </h3>
+                            <h3>Perfect! </h3>
                             <div class="review_rating">
                                 <i class="fa fa-star" aria-hidden="true"></i>
                                 <i class="fa fa-star" aria-hidden="true"></i>
