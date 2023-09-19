@@ -6,7 +6,7 @@ use App\Models\SewaModel;
 
 class DataTagihan extends BaseController
 {
-///
+
     public function tagihan($slug = null)
     {
         $session = session();
