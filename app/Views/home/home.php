@@ -286,7 +286,7 @@
                             <img src="images/Hizkia.png" alt="Image">
                             <div class="author_info">
                                 <h5>Hizkia</h5>
-                                <span class="place">Perumnas, Yogyakarta</span>
+                                <span class="place">Kulonprogo, Yogyakarta</span>
                             </div>
                         </div>
                     </div>
@@ -309,7 +309,7 @@
                             <img src="images/Geri.png" alt="Image">
                             <div class="author_info">
                                 <h5>Geri</h5>
-                                <span class="place">Perumnas, Yogyakarta</span>
+                                <span class="place">Atambua, Nusa Tenggara Timur</span>
                             </div>
                         </div>
                     </div>
@@ -332,7 +332,7 @@
                             <img src="images/Teddy.png" alt="Image">
                             <div class="author_info">
                                 <h5>Teddy</h5>
-                                <span class="place">Perumnas, Yogyakarta</span>
+                                <span class="place">Jakarta Selatan, Jakarta</span>
                             </div>
                         </div>
                     </div>
