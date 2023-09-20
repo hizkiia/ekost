@@ -32,6 +32,12 @@
                         <!-- ========== BOOKING FORM ========== -->
                         <div class="row">
                             <form id="booking_form_advanced">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label>Email</label>
+                                        <input name="booking-username" type="text" class="form-control" placeholder="Email">
+                                    </div>
+                                </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <label>Username</label>
