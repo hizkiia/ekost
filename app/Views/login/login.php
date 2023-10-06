@@ -325,23 +325,15 @@
 
             <form action="/login/check" method="post">
                 <?= csrf_field() ?>
+                <br><br><br><br><br>
                 <h1>Login Page</h1>
                 <input class="usr put" name="usr" placeholder="Username" type="text">
                 <br>
                 <input id="pass" name="pwd" class="pss put" placeholder="Password" type="password"><button id="bhde" onclick="show()" class="shw" type="button">show</button>
                 <a class="pass" href="">Forgot Password</a>
                 <input value="Login" id="btn" class="sub" type="submit" name="submit">
-                <div class="lines">
-                    <div style="background-color: #a5a5a5;" class="line"></div>
-                    <p style="color: #a5a5a5;" class="p-b">or</p>
-                    <div style="background-color: #a5a5a5;" class="line"></div>
-                </div>
-                <button style="border: 2px solid;" id="btn" class="sub pic facebook" type="submit">
-                    <div class="logo2"></div>Sign in with Facebook
-                </button>
-                <button style="border: 2px solid;" id="btn" class="sub pic google" type="submit">
-                    <div class="logo"></div>Sign in with Google
-                </button>
+
+
         </div>
         </form>
         <div class="banner">
