@@ -19,7 +19,7 @@
             <!-- SLIDE NR. 1 -->
             <li data-transition="crossfade">
                 <!-- MAIN IMAGE -->
-                <img src="images/slider/slider-1.jpg" alt="Image" title="slider_bg2" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina="">
+                <img src="images/slider/slider-1.png" alt="Image" title="slider_bg2" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina="">
                 <!-- LAYER NR. 1 -->
                 <div class="tp-caption tp-resizeme" data-x="center" data-hoffset="" data-y="320" data-voffset="" data-responsive_offset="on" data-fontsize="['60','50','40','30']" data-lineheight="['60','50','40','30']" data-whitespace="nowrap" data-frames='[{"delay":1000,"speed":1500,"frame":"0","from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":500,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' style="z-index: 5; color: #fff; font-weight: 900;"> WELCOME TO EUFORIAHOME </div>
                 <!-- LAYER NR. 2 -->
@@ -55,7 +55,7 @@
             <!-- SLIDE NR. 2 -->
             <li data-transition="crossfade">
                 <!-- MAIN IMAGE -->
-                <img src="images/slider/slider-2.jpg" alt="Image" title="slider_bg2" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina="">
+                <img src="images/slider/slider-2.png" alt="Image" title="slider_bg2" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina="">
                 <!-- LAYER NR. 1 -->
                 <div class="tp-caption tp-resizeme" data-x="center" data-hoffset="" data-y="320" data-voffset="" data-responsive_offset="on" data-fontsize="['60','50','40','25']" data-lineheight="['60','50','40','25']" data-whitespace="nowrap" data-frames='[{"delay":1000,"speed":1500,"frame":"0","from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":500,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' style="z-index: 5; color: #fff; font-weight: 900;">
                 </div>
@@ -85,7 +85,7 @@
             <!-- SLIDE NR. 3 -->
             <li data-transition="crossfade">
                 <!-- MAIN IMAGE -->
-                <img src="images/slider/slider-3.jpg" alt="Image" title="slider_bg3" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina="">
+                <img src="images/slider/slider-3.png" alt="Image" title="slider_bg3" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina="">
                 <!-- LAYER NR. 1 -->
                 <div class="tp-caption tp-resizeme" data-x="center" data-hoffset="" data-y="305" data-voffset="" data-responsive_offset="on" data-fontsize="['40','70','60','40']" data-lineheight="['80','70','60','40']" data-whitespace="nowrap" data-frames='[{"delay":1000,"speed":1500,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeInOut"},{"delay":"wait","speed":500,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' style="z-index: 5; color: #fff; font-weight: 900;">Exclusive Kost: The Comfort of Staying Like Home
                 </div>
