@@ -35,37 +35,37 @@
                                 <div class="col-md-12">
                                     <div class="form-group">
                                         <label>Email</label>
-                                        <input name="booking-username" type="text" class="form-control" placeholder="Email">
+                                        <input name="email" type="text" class="form-control" placeholder="Email">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <label>Username</label>
-                                        <input name="booking-username" type="text" class="form-control" placeholder="Username">
+                                        <input name="username" type="text" class="form-control" placeholder="Username">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <label>Nama</label>
-                                        <input class="form-control" name="booking-nama" type="email" placeholder="Nama">
+                                        <input class="form-control" name="name" type="email" placeholder="Nama">
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="form-group">
                                         <label>Alamat</label>
-                                        <textarea class="form-control" name="booking-alamat" placeholder="Masukan Alamat"></textarea>
+                                        <textarea class="form-control" name="address" placeholder="Masukan Alamat"></textarea>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <label>No Handphone</label>
-                                        <input name="booking-phone" type="text" class="form-control" placeholder="No Handphone">
+                                        <input name="phone" type="text" class="form-control" placeholder="No Handphone">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <label>Password</label>
-                                        <input name="booking-password" type="password" class="form-control" placeholder="Password">
+                                        <input name="password" type="password" class="form-control" placeholder="Password">
                                     </div>
                                 </div>
                                 <div class="col-md-12">
