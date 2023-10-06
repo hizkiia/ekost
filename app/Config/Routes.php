@@ -65,6 +65,8 @@ $routes->match(['get', 'post'], '/(:segment)', [Pemesanan::class, 'booking']);
 
 
 
+
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing
