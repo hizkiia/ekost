@@ -58,6 +58,8 @@ $routes->match(['get', 'post'], '/booking', [KelolaKamar::class, 'delete']);
 $routes->match(['get', 'post'], '/bills', [DataTagihan::class, 'tagihan']);
 $routes->match(['get', 'post'], '/billsUser', [DataTagihan::class, 'tagihanUser']);
 $routes->match(['get', 'post'], '/(:segment)', [Pemesanan::class, 'booking']);
+$routes->match(['get', 'post'], '/registerr', [RegisterController::class, 'input']);
+
 
 
 

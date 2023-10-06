@@ -66,7 +66,7 @@
                                 </div>
                             </div>
                             <div class="a_center mt10">
-                                <a href="booking-form.html" class="a_b_f"></a>
+                                <a href="" class="a_b_f"></a>
                             </div>
                         </form>
                     </div>
