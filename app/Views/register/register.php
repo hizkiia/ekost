@@ -31,11 +31,13 @@
                         </div>
                         <!-- ========== BOOKING FORM ========== -->
                         <div class="row">
-                            <form id="booking_form_advanced">
+                            <form action="/registerr" method="post">
+                                <?= csrf_field() ?>
+
                                 <div class="col-md-12">
                                     <div class="form-group">
                                         <label>Email</label>
-                                        <input name="email" type="text" class="form-control" placeholder="Email">
+                                        <input name="email" type="email" class="form-control" placeholder="Email">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
@@ -47,13 +49,13 @@
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <label>Nama</label>
-                                        <input class="form-control" name="name" type="email" placeholder="Nama">
+                                        <input class="form-control" name="name" type="text" placeholder="Nama">
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="form-group">
                                         <label>Alamat</label>
-                                        <textarea class="form-control" name="address" placeholder="Masukan Alamat"></textarea>
+                                        <textarea class="form-control" name="address" placeholder="Masukan Alamat" type="text"></textarea>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
@@ -68,8 +70,26 @@
                                         <input name="password" type="password" class="form-control" placeholder="Password">
                                     </div>
                                 </div>
-                                <div class="col-md-12">
-                                    <button type="submit" class="button btn_blue pull-right"> <i class="fa fa-calendar-check-o" aria-hidden="true"></i> Register </button>
+                                <button class="button btn_lg btn_blue btn_full" type="button" data-toggle="modal" data-target="#myModal">Register</button>
+                                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                <h4 class="modal-title" id="myModalLabel">PERINGATAN!</h4>
+                                            </div>
+                                            <div class="modal-body">
+                                                Apa Anda Yakin Ingin Mendaftar?
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-default" data-dismiss="modal">Tidak</button>
+                                                <button type="submit" class="btn btn-primary">Ya</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="a_center mt10">
+                                    <a href="" class="a_b_f"></a>
                                 </div>
                             </form>
                         </div>
