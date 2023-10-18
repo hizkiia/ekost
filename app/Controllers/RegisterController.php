@@ -24,6 +24,7 @@ class RegisterController extends BaseController
             'title' => 'Register'
         ];
 
+
         // Memeriksa apakah melakukan submit data atau tidak.
         // if (!$this->request->is('post')) {
         //     return view('layout/header', $data) . view('layout/navbarGuest')
@@ -42,7 +43,6 @@ class RegisterController extends BaseController
         ]);
 
         // Mengakses Model untuk menyimpan data
-        $model = model(PelangganModel::class);
         $model->simpan($post);
         return redirect()->to('/login');
     }

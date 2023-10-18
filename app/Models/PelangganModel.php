@@ -26,7 +26,7 @@ class PelangganModel extends Model
             'alamat' => $record['address'],
             'no_hp' => $record['phone'],
             'password' => $record['password'],
-            'email' => $record['email'],
+            'email' => $record['email']
         ]);
     }
 }
