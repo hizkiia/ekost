@@ -1685,7 +1685,7 @@ button {
 #back_to_top {
     height: 55px;
     width: 55px;
-    background: #deb666;
+    background:  rgb(45, 160, 200);
     border-radius: 3px;
     right: -100px;
     bottom: 15px;
@@ -1897,7 +1897,7 @@ button {
 /* ---------- 4.1 Header ---------- */
 header {
     width: 100%;
-    background: #ffffff;
+    background:  #fff;
     border-bottom: 1px solid #e6eff2;
     z-index: 9999;
 }
@@ -1914,7 +1914,7 @@ header.transparent {
 }
 
 header.nav_bg {
-    background: #fff;
+    background:  rgb(45, 160, 200);
 }
 
 header.transparent.fixed {
@@ -2359,7 +2359,7 @@ section .main_title {
     background: -webkit-gradient(left top, right bottom, color-stop(0, rgba(0, 147, 140, 0.5)), color-stop(100%, rgba(86, 85, 87, 0.5)));
     background: -webkit-linear-gradient(145deg, rgba(0, 147, 140, 0.5) 0, rgba(86, 85, 87, 0.5) 100%);
     background: -webkit-linear-gradient(315deg, rgba(0, 147, 140, 0.5) 0, rgba(86, 85, 87, 0.5) 100%);
-    background: linear-gradient(135deg, rgba(0, 147, 140, 0.5) 0, rgba(86, 85, 87, 0.5) 100%);
+    background: linear-gradient(135deg,  rgb(45, 160, 200) 0, #8f99ac 100%);
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#930011', endColorstr='#561493', GradientType=1);
 }
 
@@ -3635,7 +3635,7 @@ footer.dark .subfooter .social_media a {
 
 .page_title .price .inner {
     margin: -5px;
-    background-color: #deb666;
+    background-color: rgb(45, 160, 200);
     width: 70px;
     height: 70px;
     border-radius: 4px;
@@ -3677,7 +3677,7 @@ footer.dark .subfooter .social_media a {
 .page_title .breadcrumb li:last-child {
     padding: 5px 5px;
     border-radius: 2px;
-    color: #deb666;
+    color:  #363a3b;
 }
 
 .page_title .breadcrumb li:last-child:after {
@@ -4803,12 +4803,12 @@ figure:hover .room_list_slider .owl-nav .owl-next {
 }
 
 .room_list .room_details .room_services i {
-    background: #deb666;
+    background:  rgb(45, 160, 200);
     padding: 5px 14px;
     font-size: 1.2em;
     color: #fff;
     margin: 5px;
-    border: 1px solid #deb666;
+    border: 1px solid #fff;
     border-radius: 2px;
     cursor: pointer;
 }
