@@ -912,8 +912,8 @@ button {
 }
 
 .button.btn_blue {
-    background: #deb666;
-    border-color: #deb666;
+    background: rgb(45, 160, 200);
+    border-color: rgb(45, 160, 200);
     color: #fff;
 }
 .button.btn_grey {
@@ -922,19 +922,19 @@ button {
     color: #000000;
 }
 .button.btn_yellow {
-    background: #deb666;
-    border-color: #deb666;
+    background: rgb(45, 160, 200);
+    border-color: #fff;
     color: #fff;
 }
 
 .button.btn_gold {
-    background: #c7ba88;
-    border-color: #c7ba88;
+    background: rgb(45, 160, 200);
+    border-color: #fff;
     color: #fff;
 }
 
 .button.btn_dark {
-    background: #5e6667;
+    background: rgb(45, 160, 200);
     border-color: #5e6667;
     color: #fff;
 }
@@ -949,8 +949,8 @@ button {
 .button.btn_blue:hover,
 .button.btn_blue:active,
 .button.btn_blue:focus {
-    background: #b69854;
-    border-color: #b69854;
+    background: rgb(45, 160, 200);
+    border-color: rgb(45, 160, 200);
 }
 
 .button.btn_yellow:hover,
@@ -1897,7 +1897,7 @@ button {
 /* ---------- 4.1 Header ---------- */
 header {
     width: 100%;
-    background: #fff;
+    background: #ffffff;
     border-bottom: 1px solid #e6eff2;
     z-index: 9999;
 }
