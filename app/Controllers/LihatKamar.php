@@ -16,7 +16,7 @@ class LihatKamar extends BaseController
         if ($session->has('admin')) {
             return view('layout/header', $data)
                 . view('layout/navbarAdmin')
-                . view('home/rooms')
+                . view('home/roomsAdmin')
                 . view('layout/footer');
         }
         if ($session->has('user')) {
@@ -43,7 +43,7 @@ class LihatKamar extends BaseController
         if ($session->has('admin')) {
             return view('layout/header', $data)
                 . view('layout/navbarAdmin')
-                . view('home/search')
+                . view('home/searchAdmin')
                 . view('layout/footer');
         }
         if ($session->has('user')) {
