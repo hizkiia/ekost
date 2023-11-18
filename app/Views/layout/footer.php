@@ -105,7 +105,13 @@
 <script type="text/javascript" src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
 <script type="text/javascript" src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
 <script type="text/javascript" src="revolution/js/extensions/revolution.extension.video.min.js"></script>
-
+<script type="text/javascript">
+    $(function() {
+        $('#datetimepicker9').datetimepicker({
+            viewMode: 'years'
+        });
+    });
+</script>
 </body>
 
 </html>

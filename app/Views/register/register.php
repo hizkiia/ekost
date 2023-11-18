@@ -29,7 +29,6 @@
                         <div class="main_title a_left upper">
                             <h2>REGISTER</h2>
                         </div>
-                        <!-- ========== BOOKING FORM ========== -->
                         <div class="row">
                             <form action="/registerr" method="post">
                                 <?= csrf_field() ?>

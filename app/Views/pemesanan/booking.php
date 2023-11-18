@@ -85,7 +85,8 @@
                     <aside class="widget">
                         <div class="vbf">
                             <h2 class="form_title"><i class="fa fa-calendar"></i> BOOK ONLINE </h2>
-                            <form id="booking-form" class="inner" method="/payment" action="post">
+                            <form id="booking-form" class="inner" method="/inputSewa" action="post">
+                                <?= csrf_field() ?>
                                 <div class="form-group col-md-6 col-sm-6 col-xs-12 nopadding">
                                     <div class="input-group date" id="datetimepicker1">
                                         <input type="text" class="form-control" name="booking-date" placeholder="Pilih tanggal awal" />
@@ -94,13 +95,14 @@
                                         </span>
                                     </div>
                                 </div>
+
                                 <div class="form-group col-md-6 col-sm-6 col-xs-12 nopadding">
                                     <div class="form_select">
-                                        <select name="booking-roomdate" class="form-control" title="Pilih Lama Kost" data-header="Room Date" enabled>
-                                            <option value="1 Month">1 Month</option>
-                                            <option value="6 Month">6 Month</option>
-                                            <option value="1 Year">1 Year</option>
-                                            <option value="2 Year">2 Year</option>
+                                        <select name="booking-time" class="form-control" title="Pilih Lama Kost" data-header="Room Date" enabled>
+                                            <option value="1">1 Month</option>
+                                            <option value="6">6 Month</option>
+                                            <option value="12">12 Month</option>
+                                            <option value="24">24 Month</option>
                                         </select>
                                     </div>
 
@@ -121,4 +123,9 @@
             </div>
         </div>
     </div>
+    <script type="text/javascript">
+        $(function() {
+            $('#datetimepicker1').datetimepicker();
+        });
+    </script>
 </main>

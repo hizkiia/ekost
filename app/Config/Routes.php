@@ -53,6 +53,7 @@ $routes->match(['get', 'post'], '/update', [KelolaKamar::class, 'update']);
 $routes->match(['get', 'post'], '/delete', [KelolaKamar::class, 'delete']);
 $routes->match(['get', 'post'], '/rooms', [LihatKamar::class, 'showAll']);
 $routes->match(['get', 'post'], '/roomsAdmin', [LihatKamar::class, 'showAll']);
+$routes->match(['get', 'post'], '/inputSewa', [Pemesanan::class, 'inputSewa']);
 $routes->match(['get', 'post'], '/search', [LihatKamar::class, 'search']);
 $routes->match(['get', 'post'], '/searchAdmin', [LihatKamar::class, 'search']);
 $routes->match(['get', 'post'], '/payment', [Transaksi::class, 'pembayaran']);
