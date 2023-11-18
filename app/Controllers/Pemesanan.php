@@ -31,27 +31,24 @@ class Pemesanan extends BaseController
     public function inputSewa($slug = null)
     {
         $model = model(SewaModel::class);
-        $model2 = model(KamarModel::class);
-
-
-        // Assuming you have 'pelanggan_id' stored in the session during login
+        $data = ['title' => 'Pemesanan Selesai'];
+        // Get pelanggan_id from session
         $pelanggan_id = session()->get('pelanggan_id');
-        $kamarData = $model2->getKamar($slug);
 
+        // Add pelanggan_id to the post data
+        $post['pelanggan_id'] = $pelanggan_id;
         // Get form input
         $post = $this->request->getPost([
+            'kamar_id',
             'booking-date',
             'booking-time',
+            'harga'
         ]);
-
-        $post['pelanggan_id'] = $pelanggan_id;
-
-        $post['kamar_id'] = $kamarData->kamar_id;
-        $biaya = $kamarData->harga * $post['booking-time'];
-
+        $biaya = $post['harga'] * $post['booking-time'];
         $post['biaya'] = $biaya;
         $model->simpan($post);
 
-        return redirect()->to('/payment');
+        return view('layout/header', $data) . view('layout/navbarUser')
+            . view('pembayaran/pembayaran') . view('layout/footer');
     }
 }

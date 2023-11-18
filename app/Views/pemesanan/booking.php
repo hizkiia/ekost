@@ -109,7 +109,13 @@
                                 </div>
                                 <button class="button btn_lg btn_blue btn_full" type="submit">BOOK A ROOM NOW</button>
                             </form> -->
-                            <form action="post" method="/inputSewa">
+                            <form method="post" action="/inputSewa">
+                                <?= csrf_field() ?>
+
+                                <div>
+                                    <input name="kamar_id" value=<?= esc($kamar['kamar_id']) ?> hidden>
+                                    </p>Kamar No <?= esc($kamar['kamar_id']) ?></p>
+                                </div>
                                 <div>
                                     <input type="date" name="booking-date" class="form-control">
                                 </div>
@@ -121,7 +127,10 @@
                                         <option value="24">24 Month</option>
                                     </select>
                                 </div>
-                                <input type="submit" value="Book Now" class="button btn_lg btn_blue">
+                                <div>
+                                    <input name="harga" value=<?= esc($kamar['harga']) ?> hidden>
+                                </div>
+                                <button class="button btn_lg btn_blue btn_full" type="submit">BOOK A ROOM NOW</button>
                             </form>
                         </div>
                     </aside>
@@ -137,9 +146,5 @@
             </div>
         </div>
     </div>
-    <script type="text/javascript">
-        $(function() {
-            $('#datetimepicker1').datetimepicker();
-        });
-    </script>
+
 </main>
