@@ -3,7 +3,6 @@
 namespace App\Controllers;
 
 use App\Models\KamarModel;
-use App\Models\PelangganModel;
 use App\Models\SewaModel;
 
 class Pemesanan extends BaseController
@@ -30,13 +29,12 @@ class Pemesanan extends BaseController
 
     public function inputSewa($slug = null)
     {
+
         $model = model(SewaModel::class);
         $data = ['title' => 'Pemesanan Selesai'];
         // Get pelanggan_id from session
-        $pelanggan_id = session()->get('pelanggan_id');
 
         // Add pelanggan_id to the post data
-        $post['pelanggan_id'] = $pelanggan_id;
         // Get form input
         $post = $this->request->getPost([
             'kamar_id',
@@ -44,6 +42,7 @@ class Pemesanan extends BaseController
             'booking-time',
             'harga'
         ]);
+        $post['pelanggan_id'] = "hizkia";
         $biaya = $post['harga'] * $post['booking-time'];
         $post['biaya'] = $biaya;
         $model->simpan($post);
