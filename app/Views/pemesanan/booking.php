@@ -85,6 +85,7 @@
                     <aside class="widget">
                         <div class="vbf">
                             <h2 class="form_title"><i class="fa fa-calendar"></i> BOOK ONLINE </h2>
+                            <!-- Mending dibikin form sendiri aja soalnya susah. -->
                             <form id="booking-form" class="inner" method="/inputSewa" action="post">
                                 <?= csrf_field() ?>
                                 <div class="form-group col-md-6 col-sm-6 col-xs-12 nopadding">
