@@ -3626,7 +3626,7 @@ footer.dark .subfooter .social_media a {
 }
 .page_title .price {
     float: right;
-    width: 70px;
+    width: 140px;
     height: 70px;
     margin-top: 10px;
     border-radius: 4px;
@@ -3636,7 +3636,7 @@ footer.dark .subfooter .social_media a {
 .page_title .price .inner {
     margin: -5px;
     background-color: rgb(45, 160, 200);
-    width: 70px;
+    width: 140px;
     height: 70px;
     border-radius: 4px;
     font-size: 1.5em;
