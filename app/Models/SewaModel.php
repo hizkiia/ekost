@@ -20,11 +20,7 @@ class SewaModel extends Model
 
     public function simpan($record)
     {
-
-        // Get the admin information (you may need to modify this based on how your admin data is stored)
-        $adminId = "admin"; // Assuming admin ID is 1, replace it with the actual admin ID retrieval logic
-
-
+        $adminId = "admin";
         $this->save([
             'masa_berlaku' => $record['booking-time'],
             'tanggal_awal' => $record['booking-date'],

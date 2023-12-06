@@ -25,16 +25,16 @@
             <tbody>
                 <tr>
                     <td>ID Transaksi</td>
-                    <td>1223</td>
+                    <td><?= esc($list['sewa_id']) ?></td>
 
                 </tr>
                 <tr>
                     <td>No Kamar</td>
-                    <td>18</td>
+                    <td><?= esc($list['kamar_id']) ?></td>
                 </tr>
                 <tr>
                     <td>Nama</td>
-                    <td>Hizkia Pratama</td>
+                    <td><?= esc($list['pelanggan_id']) ?></td>
                 </tr>
                 <tr>
                     <td>Email</td>
@@ -46,7 +46,7 @@
                 </tr>
                 <tr>
                     <td>Masa Berlaku</td>
-                    <td></td>
+                    <td><?= esc($list['masa_berlaku']) ?> Bulan</td>
                 </tr>
                 <tr>
                     <td>Metode Pembayaran</td>
@@ -62,7 +62,7 @@
                         <h3>Total Pembayaran</h3>
                     </td>
                     <td>
-                        <h3>Rp300.000</h3>
+                        <h3><?= esc($list['biaya']) ?></h3>
                     </td>
                 </tr>
             </tbody>

@@ -2,13 +2,21 @@
 
 namespace App\Controllers;
 
+use App\Models\SewaModel;
+
 class Transaksi extends BaseController
 {
     public function pembayaran()
     {
-        $session = session();;
+
+        $session = session();
+        $model = model(SewaModel::class);
+
         if ($session->has('user')) {
-            $data = ['title' => 'EuforiaHome|Pembayaran'];
+            $data = [
+                'list' => $model->getSewa(), 
+                'title' => 'EuforiaHome|Pembayaran'
+            ];
             return view('layout/header', $data)
                 . view('layout/navbarUser')
                 . view('pembayaran/pembayaran')

@@ -31,11 +31,7 @@ class Pemesanan extends BaseController
     {
 
         $model = model(SewaModel::class);
-        $data = ['title' => 'Pemesanan Selesai'];
-        // Get pelanggan_id from session
 
-        // Add pelanggan_id to the post data
-        // Get form input
         $post = $this->request->getPost([
             'kamar_id',
             'booking-date',
@@ -47,7 +43,6 @@ class Pemesanan extends BaseController
         $post['biaya'] = $biaya;
         $model->simpan($post);
 
-        return view('layout/header', $data) . view('layout/navbarUser')
-            . view('pembayaran/pembayaran') . view('layout/footer');
+        return redirect()->to('/payment');
     }
 }
