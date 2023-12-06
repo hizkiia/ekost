@@ -12,9 +12,12 @@ class Transaksi extends BaseController
         $session = session();
         $model = model(SewaModel::class);
 
+
         if ($session->has('user')) {
+            $latestSewaId = $model->getLatestSewaId();
+
             $data = [
-                'list' => $model->getSewa(), 
+                'list' => $model->getSewa($latestSewaId),
                 'title' => 'EuforiaHome|Pembayaran'
             ];
             return view('layout/header', $data)

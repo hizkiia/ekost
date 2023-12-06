@@ -18,13 +18,22 @@ class SewaModel extends Model
         return $this->where(['sewa_id' => $slug])->first();
     }
 
+    public function getLatestSewaId()
+    {
+        $this->orderBy('sewa_id', 'DESC');
+        $result = $this->first();
+
+        return $result ? $result['sewa_id'] : null;
+    }
+
+
     public function simpan($record)
     {
         $adminId = "admin";
         $this->save([
             'masa_berlaku' => $record['booking-time'],
             'tanggal_awal' => $record['booking-date'],
-            'kamar_id' => $record['kamar_id'], // Set the selected room ID
+            'kamar_id' => $record['kamar_id'],
             'pelanggan_id' => $record['pelanggan_id'],
             'admin_id' => $adminId,
             'biaya' => $record['biaya'],
