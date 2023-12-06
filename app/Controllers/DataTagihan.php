@@ -11,30 +11,13 @@ class DataTagihan extends BaseController
     {
         $session = session();
         $model = model(SewaModel::class);
+        $latestSewaId = $model->getLatestSewaId();
+
         $data = [
-            'list' => $model->getSewa(),
+            'list' => $model->getSewa($latestSewaId),
+            'list2' => $model->getSewa(),
             'title' => 'EuforiaHome - Rooms List View'
         ];
-
-        if ($session->has('admin')) {
-            return view('layout/header', $data) . view('layout/navbarAdmin')
-                . view('dataTagihan/tagihan') . view('layout/footer');
-        }
-        if ($session->has('user')) {
-            return view('layout/header', $data) . view('layout/navbarUser')
-                . view('dataTagihan/tagihan') . view('layout/footer');
-        } else {
-            return view('login/login');
-        }
-    }
-
-    public function tagihanUser($slug = null)
-    {
-        $session = session();
-        $model = model(SewaModel::class);
-
-        $data = ['title' => 'EuforiaHome - Booking Form'];
-        $data['sewa_id'] = $model->getSewa($slug);
 
         if ($session->has('admin')) {
             return view('layout/header', $data) . view('layout/navbarAdmin')
@@ -47,4 +30,24 @@ class DataTagihan extends BaseController
             return view('login/login');
         }
     }
+
+    // public function tagihanUser($slug = null)
+    // {
+    //     $session = session();
+    //     $model = model(SewaModel::class);
+
+    //     $data = ['title' => 'EuforiaHome - Booking Form'];
+    //     $data['sewa_id'] = $model->getSewa(10);
+
+    //     if ($session->has('admin')) {
+    //         return view('layout/header', $data) . view('layout/navbarAdmin')
+    //             . view('dataTagihan/tagihan') . view('layout/footer');
+    //     }
+    //     if ($session->has('user')) {
+    //         return view('layout/header', $data) . view('layout/navbarUser')
+    //             . view('dataTagihan/tagihanUser') . view('layout/footer');
+    //     } else {
+    //         return view('login/login');
+    //     }
+    // }
 }

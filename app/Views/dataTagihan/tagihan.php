@@ -25,28 +25,22 @@
             <thead>
                 <tr>
                     <th>ID Sewa</th>
-                    <th>Nama</th>
-                    <th>Email</th>
-                    <th>No HP</th>
+                    <th>No Kamar</th>
+                    <th>Username</th>
                     <th>Masa Berlaku</th>
                     <th>Tanggal Awal</th>
-                    <th>ID Kamar</th>
-                    <th>ID Pelanggan</th>
                     <th>Total Tagihan</th>
                 </tr>
             </thead>
             <tbody>
                 <?php $l = 1 ?>
-                <?php foreach ($list as $l) : ?>
+                <?php foreach ($list2 as $l) : ?>
                     <tr>
                         <td><?= esc($l['sewa_id']); ?></td>
-                        <td><?= esc($l['nama']); ?></td>
-                        <td><?= esc($l['email']); ?></td>
-                        <td><?= esc($l['no_hp']); ?></td>
-                        <td><?= esc($l['masa_berlaku']); ?></td>
-                        <td><?= esc($l['tanggal_awal']); ?></td>
                         <td><?= esc($l['kamar_id']); ?></td>
                         <td><?= esc($l['pelanggan_id']); ?></td>
+                        <td><?= esc($l['masa_berlaku']); ?></td>
+                        <td><?= esc($l['tanggal_awal']); ?></td>
                         <td><?= esc($l['biaya']); ?></td>
                     </tr>
                 <?php endforeach; ?>
