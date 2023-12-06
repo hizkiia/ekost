@@ -25,12 +25,12 @@
             <tbody>
                 <tr>
                     <td>ID Transaksi</td>
-                    <td><?= esc($list['sewa_id']) ?></td>
+                    <td>1</td>
 
                 </tr>
                 <tr>
                     <td>No Kamar</td>
-                    <td><?= esc($list['kamar_id']) ?></td>
+                    <td>3</td>
                 </tr>
                 <tr>
                     <td>Nama</td>
@@ -38,15 +38,15 @@
                 </tr>
                 <tr>
                     <td>Email</td>
-                    <td></td>
+                    <td>cahyohizkia@gmail.com</td>
                 </tr>
                 <tr>
                     <td>No HP</td>
-                    <td></td>
+                    <td>087645677564</td>
                 </tr>
                 <tr>
                     <td>Masa Berlaku</td>
-                    <td><?= esc($list['masa_berlaku']) ?> Bulan</td>
+                    <td>6 bulan</td>
                 </tr>
                 <tr>
                     <td>Metode Pembayaran</td>
@@ -67,9 +67,57 @@
                 </tr>
             </tbody>
         </table>
+
+        <!-- Add Bootstrap and jQuery JavaScript -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
         <div class="text-right">
             <button class="button btn_lg btn_grey" type="button">Batal</button>
             <button class="button btn_lg btn_yellow" type="button">Bayar Sekarang</button>
+        </div>
+        <!-- JavaScript for the QRIS pop-up -->
+        <script>
+            $(document).ready(function() {
+                function showQrPopUp() {
+                    $('#qrisModal').modal('show');
+                }
+
+                function hideQrPopUp() {
+                    $('#qrisModal').modal('hide');
+                }
+
+                $('.btn_yellow').click(function() {
+                    showQrPopUp();
+                });
+
+                $('.btn_grey').click(function() {
+                    hideQrPopUp();
+                });
+            });
+        </script>
+
+        <!-- QRIS Pop-up Modal -->
+        <div class="modal fade" id="qrisModal" tabindex="-1" role="dialog" aria-labelledby="qrisModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="qrisModalLabel">QRIS Pembayaran</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <!-- Your QR code or QRIS-related content goes here -->
+
+                        <img src="DANA.jpg">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Tutup</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     </div>

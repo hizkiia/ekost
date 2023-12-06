@@ -25,7 +25,8 @@
         body {
             width: 100vw;
             height: 100vh;
-            background: linear-gradient(to right, #DD58D6, #9336B4);
+            background: linear-gradient(135deg, rgb(45, 160, 200) 0, #8f99ac 100%);
+
         }
 
         .login {
@@ -98,7 +99,7 @@
         }
 
         .main-login h1 {
-            color: #55be9b;
+            color: rgb(45, 160, 200);
         }
 
         .put {
@@ -153,7 +154,7 @@
             font-family: Arial, Helvetica, sans-serif;
             font-weight: 500;
             font-size: 15px;
-            color: #9336B4;
+            color: rgb(45, 160, 200);
             text-decoration: none;
             display: flex;
             width: fit-content;
@@ -178,7 +179,7 @@
             color: aliceblue;
             border-bottom-right-radius: 5px;
             border-top-right-radius: 5px;
-            background-color: #DD58D6;
+            background-color: rgba(22, 147, 230, 0.75);
             /* background-color: rgb(255, 189, 127); */
         }
 
@@ -260,7 +261,7 @@
             width: 130px;
             padding: 10px;
             margin-top: 15px;
-            color: aliceblue;
+            color: rgb(45, 160, 200);
             cursor: pointer;
             border-radius: 50px;
             border: 2px solid aliceblue;
@@ -269,7 +270,7 @@
         }
 
         .main-btn:hover {
-            background-color: #9336B4;
+            background-color: #8f99ac;
         }
 
         .top {
@@ -304,7 +305,7 @@
             height: 200px;
             z-index: 1;
             border-top-left-radius: 100%;
-            background-color: #9336B4;
+            background-color: #8f99ac;
         }
 
         .blob:nth-child(2) {
@@ -314,7 +315,7 @@
             height: 100px;
             z-index: 1;
             border-bottom-right-radius: 100%;
-            background-color: #9336B4;
+            background-color: #8f99ac;
         }
     </style>
 </head>
