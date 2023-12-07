@@ -35,70 +35,23 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <?php
-                            $database = "ekost";
-                            $username = "root";
-                            $password = "";
-                            $hostname = "localhost";
-                            $conn = new mysqli($hostname, $username, $password, $database);
-                            if ($conn->connect_error) {
-                                die("Connection failed : " . $conn->connect_error);
-                            }
+                        <?php $l = 1 ?>
+                        <?php foreach ($list as $l) : ?>
+                            <tr>
+                                <td><?= esc($l['sewa_id']); ?></td>
+                                <td><?= esc($l['tanggal_awal']); ?></td>
+                                <td><?= esc($l['masa_berlaku']); ?></td>
+                                <td><?= esc($l['pelanggan_id']); ?></td>
+                                <td><?= esc($l['kamar_id']); ?></td>
+                                <td><?= esc($l['biaya']); ?></td>
+                                <td>
+                                    <a href="/transaksi/<?= esc($l['sewa_id'], 'url') ?>">Selesai</a>
+                                </td>
+                            </tr>
+                        <?php endforeach; ?>
 
-                            // Update task status to done
-                            if (isset($_GET['selesai'])) {
-                                $id = $_GET['selesai'];
-                                $sql = "UPDATE sewa SET status='selesai' WHERE sewa_id=$id";
-                                if ($conn->query($sql) === TRUE) {
-                                    header("Location: " . $_SERVER['PHP_SELF']);
-                                    exit();
-                                } else {
-                                    echo "Error updating record: " . $conn->error;
-                                }
-                            }
-
-                            // Delete task from database
-                            if (isset($_GET['hapus'])) {
-                                $id = $_GET['hapus'];
-                                $sql = "DELETE FROM sewa WHERE sewa_id=$id";
-                                if ($conn->query($sql) === TRUE) {
-                                    header("Location: " . $_SERVER['PHP_SELF']);
-                                    exit();
-                                } else {
-                                    echo "Error deleting record: " . $conn->error;
-                                }
-                            }
-
-                            ?>
-                            <?php
-                            $sql = "SELECT * FROM sewa";
-                            $result = $conn->query($sql);
-                            if ($result->num_rows > 0) {
-                                while ($row = $result->fetch_assoc()) {
-                                    echo "<tr><td>" . $row["sewa_id"] .
-                                        "</td><td>" . $row["tanggal_awal"] .
-                                        "</td><td>" . $row["masa_berlaku"] .
-                                        "</td><td>" . $row["pelanggan_id"] .
-                                        "</td><td>" . $row["kamar_id"] .
-                                        "</td><td>" . $row["biaya"] .
-                                        "</td><td>";
-                                    if ($row["status"] == "aktif") {
-                                        echo "<a href='" . $_SERVER['PHP_SELF'] . "?selesai=" . $row["sewa_id"] . "'>Selesai</a> ";
-                                    }
-                                    echo "<a href='" . $_SERVER['PHP_SELF'] . "?hapus=" . $row["sewa_id"] . "'>Hapus</a>";
-                                    echo "</td></tr>";
-                                }
-                                echo "</tbody></table>";
-                            } else {
-                                echo "Tidak ada kegiatan yang tersimpan.";
-                                $sql = "ALTER TABLE sewa AUTO_INCREMENT=1";
-                                $query = mysqli_query($conn, $sql);
-                            }
-                            ?>
                     </tbody>
                 </table>
-
         </div>
     </div>
 

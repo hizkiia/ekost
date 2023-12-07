@@ -18,6 +18,11 @@ class SewaModel extends Model
         return $this->where(['sewa_id' => $slug])->first();
     }
 
+    public function getSewaCost()
+    {
+        return $this->where('biaya >', 0)->findAll();
+    }
+
     public function getLatestSewaId()
     {
         $this->orderBy('sewa_id', 'DESC');
@@ -26,6 +31,12 @@ class SewaModel extends Model
         return $result ? $result['sewa_id'] : null;
     }
 
+
+    public function markAsSelesai($sewaId)
+    {
+        $data = ['biaya' => 0];
+        $this->where('sewa_id', $sewaId)->update($data);
+    }
 
     public function simpan($record)
     {

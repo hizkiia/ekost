@@ -88,6 +88,8 @@
                             <form method="post" action="/inputSewa">
                                 <?= csrf_field() ?>
 
+                                <input name="sewa_id" value=<?= esc($kamar['kamar_id']) ?> hidden>
+
                                 <div>
                                     <input name="kamar_id" value=<?= esc($kamar['kamar_id']) ?> hidden>
                                     </p>Kamar No <?= esc($kamar['kamar_id']) ?></p>
