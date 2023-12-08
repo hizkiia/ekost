@@ -108,7 +108,24 @@
                                 <div>
                                     <input name="harga" value=<?= esc($kamar['harga']) ?> hidden>
                                 </div>
-                                <button class="button btn_lg btn_blue btn_full" type="submit">BOOK A ROOM NOW</button>
+                                <button class="button btn_lg btn_blue btn_full" type="button" data-toggle="modal" data-target="#myModal">BOOK A ROOM NOW</button>
+                                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                <h4 class="modal-title" id="myModalLabel">PERINGATAN!</h4>
+                                            </div>
+                                            <div class="modal-body">
+                                                Apa Anda Yakin Ingin Booking kamar ini?
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-default" data-dismiss="modal">Tidak</button>
+                                                <button type="submit" class="btn btn-primary">Ya</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </form>
                         </div>
                     </aside>
