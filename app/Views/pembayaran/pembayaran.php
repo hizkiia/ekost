@@ -42,13 +42,17 @@
                 </tr>
                 <tr>
                     <td>Metode Pembayaran</td>
-                    <td><select class="form-control" id="sel1">
-                            <option>Dana</option>
-                            <option>Ovo</option>
-                            <option>Gopay</option>
-                            <option>Transfer Bank</option>
-                        </select></td>
+                    <td>
+                        <select id="payment_method" class="form-control">
+                            <option value="">Pilih Metode Pembayaran</option>
+                            <option value="dana">Dana</option>
+                            <option value="ovo">Ovo</option>
+                            <option value="gopay">Gopay</option>
+                            <option value="transfer_bank">Transfer Bank</option>
+                        </select>
+                    </td>
                 </tr>
+
                 <tr>
                     <td>
                         <h3>Total Pembayaran</h3>
@@ -71,21 +75,42 @@
         </div>
         <!-- JavaScript for the QRIS pop-up -->
         <script>
+            const qrisImages = {
+                dana: "images/dana.jpg",
+                ovo: "images/ovo.jpg",
+                gopay: "images/gopay.jpg",
+                transfer_bank: "images/transfer.jpg",
+            };
+
+            function updateQrCodeImage() {
+                const selectedPaymentMethod = $("#payment_method").val();
+                const qrisImageElement = document.getElementById("qris_image");
+
+                if (qrisImages.hasOwnProperty(selectedPaymentMethod)) {
+                    qrisImageElement.src = qrisImages[selectedPaymentMethod];
+                } else {
+                    qrisImageElement.src = "";
+                }
+            }
+
             $(document).ready(function() {
-                function showQrPopUp() {
-                    $('#qrisModal').modal('show');
-                }
-
-                function hideQrPopUp() {
-                    $('#qrisModal').modal('hide');
-                }
-
-                $('.btn_yellow').click(function() {
-                    showQrPopUp();
+                $("#payment_method").on("change", function() {
+                    // Update QR code image
+                    updateQrCodeImage();
+                    // Close the option menu
+                    $(this).blur();
                 });
 
-                $('.btn_grey').click(function() {
-                    hideQrPopUp();
+
+                // Show QRIS modal on "Bayar Sekarang" button click
+                $(".btn_yellow").click(function() {
+                    updateQrCodeImage();
+                    $("#qrisModal").modal("show");
+                });
+
+                // Close QRIS modal on "Tutup" button click
+                $("#qrisModal .btn-secondary").click(function() {
+                    $("#qrisModal").modal("hide");
                 });
             });
         </script>
@@ -101,10 +126,9 @@
                         </button>
                     </div>
                     <div class="modal-body">
-                        <!-- Your QR code or QRIS-related content goes here -->
-
-                        <img src="DANA.jpg">
+                        <img id="qris_image" src="images/dana.jpg" alt="Image" width="400" height="400">
                     </div>
+
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Tutup</button>
                     </div>
