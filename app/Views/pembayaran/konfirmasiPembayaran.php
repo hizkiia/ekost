@@ -20,40 +20,39 @@
 <main id="room_page">
     <div class="container">
         <div class="table-responsive">
-            <table class="table table-hover ">
-                <h2>List Pembayaran</h2><br>
-                <table class="table table-striped">
-                    <thead>
+            <h2>List Pembayaran</h2><br>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>ID Transaksi</th>
+                        <th>Tanggal Awal</th>
+                        <th>Masa Berlaku</th>
+                        <th>Nama Pelanggan</th>
+                        <th>ID Kamar</th>
+                        <th>Total Tagihan</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <?php foreach ($list as $l) : ?>
                         <tr>
-                            <th>ID Transaksi</th>
-                            <th>Tanggal Awal</th>
-                            <th>Masa Berlaku</th>
-                            <th>Nama Pelanggan</th>
-                            <th>ID Kamar</th>
-                            <th>Biaya</th>
-                            <th>Status</th>
+                            <td><?= esc($l['sewa_id']); ?></td>
+                            <td><?= esc($l['tanggal_awal']); ?></td>
+                            <td><?= esc($l['masa_berlaku']); ?></td>
+                            <td><?= esc($l['pelanggan_id']); ?></td>
+                            <td><?= esc($l['kamar_id']); ?></td>
+                            <td><?= esc($l['biaya']); ?></td>
+                            <td>
+                                <form action="/transaksi/selesai" method="post">
+                                    <input type="hidden" name="sewa_id" value="<?= esc($l['sewa_id']); ?>">
+                                    <button type="submit">Selesai</button>
+                                </form>
+                            </td>
                         </tr>
-                    </thead>
-                    <tbody>
-                        <?php $l = 1 ?>
-                        <?php foreach ($list as $l) : ?>
-                            <tr>
-                                <td><?= esc($l['sewa_id']); ?></td>
-                                <td><?= esc($l['tanggal_awal']); ?></td>
-                                <td><?= esc($l['masa_berlaku']); ?></td>
-                                <td><?= esc($l['pelanggan_id']); ?></td>
-                                <td><?= esc($l['kamar_id']); ?></td>
-                                <td><?= esc($l['biaya']); ?></td>
-                                <td>
-                                    <a href="/transaksi/<?= esc($l['sewa_id'], 'url') ?>">Selesai</a>
-                                </td>
-                            </tr>
-                        <?php endforeach; ?>
+                    <?php endforeach; ?>
+                </tbody>
 
-                    </tbody>
-                </table>
+            </table>
         </div>
     </div>
-
-
 </main>

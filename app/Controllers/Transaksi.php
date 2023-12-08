@@ -44,16 +44,25 @@ class Transaksi extends BaseController
         }
     }
 
-    public function markAsSelesai($sewaId)
+    public function markAsSelesai()
     {
-
         $session = session();
+        $db = \Config\Database::connect();
         $model = model(SewaModel::class);
+        $model = $db->table('sewa');
 
         if ($session->has('admin')) {
-            $data = ['biaya' => 0];
+            $sewaId = $this->request->getPost('sewa_id');
+
+            // Update kolom 'biaya' menjadi 0
+            $data = [
+
+                'biaya' => 0,
+            ];
+
             $model->where('sewa_id', $sewaId)->update($data);
-            return redirect()->to('/paymentconfirm');
+
+            return redirect()->to('/paymentconfirm'); // Ganti sesuai kebutuhan
         } else {
             return redirect()->to('/');
         }
