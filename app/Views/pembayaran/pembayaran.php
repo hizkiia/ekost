@@ -94,12 +94,12 @@
             }
 
             $(document).ready(function() {
+                // Add the `onchange` event listener to the `#payment_method` element
                 $("#payment_method").on("change", function() {
-                    // Update QR code image
-                    updateQrCodeImage();
                     // Close the option menu
                     $(this).blur();
                 });
+
 
 
                 // Show QRIS modal on "Bayar Sekarang" button click
