@@ -10,7 +10,7 @@ Sistem e-Kost adalah sebuah platform berbasis web yang memungkinkan pengguna unt
 - **Manajemen Kost**: Admin dapat menambahkan, mengedit, dan menghapus data kost.
 - **Autentikasi Pengguna**: Sistem login dan registrasi untuk pengguna dan admin.
 
-## Teknologi yang Digunakan
+## Teknologi
 
 - **Frontend**: HTML, CSS, JavaScript
 - **Backend**: PHP dengan framework CodeIgniter 4
